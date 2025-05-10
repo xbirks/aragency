@@ -1,0 +1,103 @@
+@import url("https://use.typekit.net/cbv1cvv.css");
+
+/* VARIABLES */
+
+$black: #161616;
+$white: #ffffff;
+$grey-light: #EEEEEE;
+$grey-dark: #666666;
+$aktiv: "aktiv-grotesk", Arial, Helvetica, sans-serif;
+$fuente-p: 14pt;
+$transition-short: 0.2s;
+
+
+
+
+//MIXINS RESPONSIVE
+
+@mixin media2200px {
+    @media only screen and (max-width: 2200px) {
+      @content;
+    }
+  }
+  
+  
+  @mixin media1730px {
+    @media only screen and (max-width: 1730px) {
+      @content;
+    }
+  }
+  
+  @mixin media1458px {
+    @media only screen and (max-width: 1458px) {
+      @content;
+    }
+  }
+  
+  @mixin media1390px {
+    @media only screen and (max-width: 1390px) {
+      @content;
+    }
+  }
+  
+  @mixin media1200px {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin media990px {
+    @media only screen and (max-width: 990px) {
+      @content;
+    }
+  }
+  
+  @mixin media800px {
+    @media only screen and (max-width: 800px) {
+      @content;
+    }
+  }
+  
+  @mixin media700px {
+    @media only screen and (max-width: 700px) {
+      @content;
+    }
+  }
+  
+  @mixin media600px {
+      @media only screen and (max-width: 600px) {
+        @content;
+      }
+    }
+  
+    @mixin media450px {
+      @media only screen and (max-width: 450px) {
+        @content;
+      }
+    }
+  
+    @mixin media390px {
+      @media only screen and (max-width: 390px) {
+        @content;
+      }
+    }
+  
+    @mixin media300px {
+      @media only screen and (max-width: 300px) {
+        @content;
+      }
+    }
+    
+
+
+
+
+//FRAMER MOTION SPECS
+
+body.fondo-index {
+  background: $black;
+}
+
+body.fondo-feed {
+  background: $white;
+}
