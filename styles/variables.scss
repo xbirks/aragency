@@ -87,6 +87,26 @@ $transition-short: 0.2s;
         @content;
       }
     }
+
+
+      //VERTICAL MIXIN
+      @mixin alto900px {
+      @media screen and (orientation: landscape) and (max-height: 900px) {
+        @content;
+      }
+    }
+
+      @mixin alto700px {
+      @media screen and (orientation: landscape) and (max-height: 700px) {
+        @content;
+      }
+    }
+
+          @mixin alto400px {
+      @media screen and (orientation: landscape) and (max-height: 700px) {
+        @content;
+      }
+    }
     
 
 
@@ -101,3 +121,4 @@ body.fondo-index {
 body.fondo-feed {
   background: $white;
 }
+

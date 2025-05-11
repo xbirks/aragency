@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useRouter } from 'next/router';
 import useNavigationDirection from '@/hooks/useNavigationDirection';
 import Header from '@/components/header';
+import Footer from '@/components/footer';
 import '@/styles/style.scss';
 
 export default function App({ Component, pageProps }) {
@@ -31,11 +32,12 @@ export default function App({ Component, pageProps }) {
           animate={variants[direction].animate}
           exit={variants[direction].exit}
           transition={{ duration: 0.6, ease: 'easeInOut' }}
-          style={{ position: 'absolute', width: '100%', minHeight: '100vh' }}
+          style={{ position: 'relative', width: '100%', minHeight: '100vh',  }}
         >
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
+      <Footer></Footer>
     </>
   );
 }

@@ -1,6 +1,6 @@
-import Head from 'next/head';
 import { useState } from 'react';
 import IndexSlider from '../components/index_slider';
+import SeoHead from '../components/SeoHead';
 
 export default function Home() {
   const [activo, setActivo] = useState(null);
@@ -8,15 +8,18 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>AR ACADEMY</title>
-        <meta name="description" content="Agencia de modelos" />
-      </Head>
+        <SeoHead
+        title="AR ACADEMY - Agencia de modelos"
+        description="Descubre modelos y creativos emergentes en España y Estados Unidos."
+        image="https://aragency.vercel.app/seo/index-cover.jpg"
+        url="https://aragency.vercel.app"
+        keywords="modelos en España, agencia de modelos, moda, talento, pasarela, fotografía"
+      />
 
       <div
         className="menu__master"
         style={{
-          backgroundColor: '#000',
+          backgroundColor: '#161616',
           minHeight: '100vh',
         }}
       >
