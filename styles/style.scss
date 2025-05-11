@@ -68,6 +68,12 @@ table {
 		text-decoration: none;
 		margin-left: 5vw;
 	}
+
+	.menu__hamburger{
+		position: absolute;
+		right: 3vw;
+		top: 40px;
+	}
 }
 
 
@@ -82,6 +88,7 @@ table {
     .menu__logo{
 
     }
+
 
 	button{
 		all: unset;
@@ -175,6 +182,15 @@ table {
 .model__feed-master{
 	margin-top: 380px;
 	position: relative;
+	transition: 0.6s ease-in-out;
+
+		@include media1000px {
+		margin-top: 280px;
+		}
+
+		@include media600px {
+		margin-top: 180px;
+		}
 
 	.model__feed {
 		display: grid;
@@ -198,7 +214,6 @@ table {
 		right: 40px;
 		z-index: 100;
 
-		
 		font-size: 16px;
 		text-transform: uppercase;
 		width: 40vw;
@@ -210,6 +225,18 @@ table {
 		background: transparent;
 		outline: none;
 		color: $black;
+		transition: 0.3s ease-in-out;
+
+			@include media1000px {
+			top: -190px;
+			}
+
+			@include media600px {
+			position: relative;
+			top: -50px;
+			left: 3vw;
+			width: 93%;
+			}
 	}
 
 	.model__tarjeta{

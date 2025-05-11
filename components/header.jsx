@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import ar_logo_white from '@/public/assets/AR_Vector_White.svg';
@@ -10,34 +11,37 @@ export default function Header() {
   const isIndex = router.pathname === '/';
   const isFeed = router.pathname === '/pages/es/modelos.jsx';
 
-//RESPONSIVE
+  // Hydration fix
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Responsive breakpoints
   const isMobile = useMediaQuery({ maxWidth: 600 });
   const isTablet = useMediaQuery({ minWidth: 601, maxWidth: 1024 });
   const isDesktop = useMediaQuery({ minWidth: 1025 });
 
-
+  // Motion animation props
   const animatedProps = {
-  filter: isIndex ? 'none' : 'invert(1)',
-  width: isMobile
-    ? (isIndex ? '180px' : '120px')
-    : isTablet
-    ? (isIndex ? '300px' : '200px')
-    : isIndex
-    ? '450px'
-    : '350px',
-  top: isIndex ? '10vh' : '0px',
-  left: isIndex ? '50vw' : '0px',
-  transform: isIndex
-    ? isMobile
-      ? 'translateX(-90px)'
+    filter: isIndex ? 'none' : 'invert(1)',
+    width: isMobile
+      ? isIndex ? '180px' : '120px'
       : isTablet
-      ? 'translateX(-180px)'
-      : 'translateX(-260px)'
-    : 'translateX(0px)',
-};
-
-
-
+      ? isIndex ? '300px' : '200px'
+      : isIndex
+      ? '450px'
+      : '350px',
+    top: isIndex ? '10vh' : '0px',
+    left: isIndex ? '50vw' : '0px',
+    transform: isIndex
+      ? isMobile
+        ? 'translateX(-90px)'
+        : isTablet
+        ? 'translateX(-180px)'
+        : 'translateX(-260px)'
+      : 'translateX(0px)',
+  };
 
   return (
     <header
@@ -61,22 +65,16 @@ export default function Header() {
           height: 'auto',
         }}
       >
-
-
-
         <Image
           src={ar_logo_white}
           alt="logotipo AR Agency agencia de modelos en Valencia"
           style={{ width: 'auto', height: 'auto' }}
           priority
         />
-
-
-
-
       </motion.div>
 
-        {isMobile ? (
+      {mounted && (
+        isMobile ? (
           !isIndex ? (
             <Link href="/" className="menu__hamburger" aria-label="Menú">
               <svg width="29" height="24" viewBox="0 0 100 80" fill="currentColor">
@@ -88,13 +86,11 @@ export default function Header() {
           ) : null
         ) : (
           <div className="menu__links">
-            <Link href="#">Instagram</Link>
+            <Link href="https://www.instagram.com/ariannyrivasacademy/">Instagram</Link>
             <Link href="/">Menú</Link>
           </div>
-        )}
-
-
-
+        )
+      )}
     </header>
   );
 }
