@@ -1,4 +1,4 @@
-import SeoHead from '@/components/SeoHead.jsx';
+import SeoHead from '@/components/seoHead';
 import ModelGrid from '@/components/feed/modelGrid';
 
 export default function Feed() {
