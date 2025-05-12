@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import IndexSlider from '../components/index_slider';
-import SeoHead from '../components/SeoHead';
+import SeoHead from '../components/SeoHead.jsx';
 
 export default function Home() {
   const [activo, setActivo] = useState(null);
