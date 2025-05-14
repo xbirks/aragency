@@ -77,6 +77,11 @@ strong{
 		right: 3vw;
 		top: 40px;
 	}
+
+	.menu__instagram{
+		display: flex;
+		margin-top: 11px;
+	}
 }
 
 
@@ -98,9 +103,13 @@ strong{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 3vw;
+  gap: 5vw;
   padding: 0;
   margin: 0;
+
+  			@include media500px {
+			justify-content: space-between;
+			}
 
   li {
     font-size: 0.75rem;
@@ -168,7 +177,7 @@ strong{
 			color: $white;
 			text-transform: uppercase;
 			letter-spacing: -5px;
-			font-size: 82px;
+			font-size: 72px;
 			font-weight: 200;
 			text-align: center;
 			margin-bottom: 25px;
@@ -206,7 +215,7 @@ strong{
 			color: $white;
 			text-transform: uppercase;
 			letter-spacing: -1px;
-			font-size: 28px;
+			font-size: 24px;
 			font-weight: 200;
 			text-decoration: none;
 			display: block;
@@ -323,7 +332,7 @@ strong{
 		right: 40px;
 		z-index: 100;
 
-		font-size: 16px;
+		font-size: 14px;
 		text-transform: uppercase;
 		width: 40vw;
 		min-height: 2rem;
@@ -391,7 +400,7 @@ strong{
 			color: $black;
 			text-transform: uppercase;
 			letter-spacing: 0px;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: 200;
 			text-decoration: none;
 			display: block;
@@ -401,7 +410,7 @@ strong{
 
 			@include media390px {
 			letter-spacing: -0.5px;
-			font-size: 16px;
+			font-size: 14px;
 			}
 		}
 	}
@@ -431,10 +440,10 @@ strong{
 		font-family: $aktiv;
 		text-transform: uppercase;
 		font-weight: 200;
-		font-size: 16px;
+		font-size: 14px;
 		letter-spacing: -0px;
-		line-height: 22px;
-		max-width: 800px;
+		line-height: 20px;
+		max-width: 750px;
 		margin-bottom: 10px;
 	}
 }
