@@ -10,6 +10,8 @@ export default function Header() {
   const router = useRouter();
   const isIndex = router.pathname === '/';
   const isFeed = router.pathname === '/pages/es/modelos.jsx';
+  const isSlug = router.pathname.includes('[slug]');
+
 
   // Hydration fix
   const [mounted, setMounted] = useState(false);
@@ -25,15 +27,22 @@ export default function Header() {
   // Motion animation props
   const animatedProps = {
     filter: isIndex ? 'none' : 'invert(1)',
-    width: isMobile
-      ? isIndex ? '180px' : '120px'
+    width: isSlug
+      ? '100px'
+      : isMobile
+      ? isIndex
+        ? '180px'
+        : '120px'
       : isTablet
-      ? isIndex ? '300px' : '200px'
+      ? isIndex
+        ? '300px'
+        : '200px'
       : isIndex
       ? '450px'
       : '350px',
+
     top: isIndex ? '10vh' : '0px',
-    left: isIndex ? '50vw' : '0px',
+    left: isIndex ? '48vw' : '0px',
     transform: isIndex
       ? isMobile
         ? 'translateX(-90px)'

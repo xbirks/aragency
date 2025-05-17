@@ -1,10 +1,15 @@
 import { useState } from 'react';
 import IndexSlider from '../components/index_slider';
 import SeoHead from '@/components/seoHead';
+import { useEffect } from 'react';
 
 export default function Home() {
   const [activo, setActivo] = useState(null);
   const handleToggle = (pais) => setActivo(prev => (prev === pais ? null : pais));
+
+  useEffect(() => {
+  console.log('INDEX mounted');
+}, []);
 
   return (
     <>

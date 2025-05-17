@@ -6,6 +6,7 @@ $black: #161616;
 $white: #ffffff;
 $grey-light: #EEEEEE;
 $grey-dark: #666666;
+$destacado: #bea37d;
 $aktiv: "aktiv-grotesk", Arial, Helvetica, sans-serif;
 $fuente-p: 14pt;
 $transition-short: 0.2s;
@@ -122,3 +123,14 @@ body.fondo-feed {
   background: $white;
 }
 
+
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+a{
+  all: unset;
+  cursor: pointer;
+}
