@@ -10,6 +10,7 @@ export default function Header() {
   const router = useRouter();
   const isIndex = router.pathname === '/';
   const isFeed = router.pathname === '/pages/es/modelos.jsx';
+   const isSlug = router.route === '/es/modelos/[slug]';
 
 
   // Hydration fix
@@ -26,7 +27,9 @@ export default function Header() {
   // Motion animation props
   const animatedProps = {
     filter: isIndex ? 'none' : 'invert(1)',
-    width: isMobile
+    width: isSlug
+      ? '100px'
+      : isMobile
       ? isIndex
         ? '180px'
         : '120px'
