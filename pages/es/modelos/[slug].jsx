@@ -141,10 +141,10 @@ export default function ModeloPage({ model }) {
 
           <motion.div
             className="ficha__portfolio"
-            initial={{ y: '100%', opacity: 0 }}
+            initial={{ y: '100%', opacity: 1 }}
             animate={{ y: 0, opacity: 1 }}
-            exit={{ y: '100%', opacity: 0 }}
-            transition={{ duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
+            exit={{ y: '100%', opacity: 1 }}
+            transition={{ duration: 1, ease: [0.33, 1, 0.68, 1] }}
           >
             <Image
               src={ar_logo_white}
