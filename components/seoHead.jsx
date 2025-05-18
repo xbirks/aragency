@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 export default function SeoHead({
-  title = 'AR ACADEMY',
+  title = 'AR AGENCY',
   description = 'Agencia de modelos internacionales en España y Estados Unidos.',
   keywords = '',
   url = 'https://aragency.vercel.app',

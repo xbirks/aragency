@@ -3,6 +3,7 @@ import models from '../../../data/models.json';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import ButtonArrow from '@/components/buttons/buttonArrow.jsx';
 
 export async function getStaticPaths() {
   const paths = models.map(model => ({
@@ -60,7 +61,9 @@ export default function ModeloPage({ model }) {
               <a href={model.links.instagram} target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
             )}
             {model.links?.hire && (
-              <a href={model.links.hire}>CONTRATAR</a>
+              <a href={`mailto:${model.links.hire.replace(/^mailto:/, '')}?subject=Quiero contratar a ${model.name}&body=Hola, estoy interesado en contratar a ${model.name}. ¿Podéis darme más información?`}>
+                CONTRATAR
+              </a>
             )}
           </nav>
         </motion.div>
@@ -104,6 +107,32 @@ export default function ModeloPage({ model }) {
             )
           )}
         </div>
+
+
+
+
+
+          <div className="ficha__description">
+            <div>
+              <h2>{model.name}</h2>
+              <ButtonArrow href="/" texto="Contratar"></ButtonArrow>
+            </div>
+
+            <p>Jasmine Sanders es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.
+            Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.
+            Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales.</p>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
 
         {/* Placeholder modal (la galería completa se hace luego) */}
         {showGallery && (
