@@ -1,9 +1,11 @@
 import { useRouter } from 'next/router';
 import models from '../../../data/models.json';
-import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import ButtonArrow from '@/components/buttons/buttonArrow.jsx';
+import ar_logo_white from '@/public/assets/AR_Vector_White.svg';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export async function getStaticPaths() {
   const paths = models.map(model => ({
@@ -56,7 +58,8 @@ export default function ModeloPage({ model }) {
           <h1>{model.name}</h1>
 
           <nav className="ficha__botones">
-            <button onClick={() => setShowGallery(true)}>PORTFOLIO</button>
+            <button onClick={() => setShowGallery(0)}>PORTFOLIO</button>
+
             {model.links?.instagram && (
               <a href={model.links.instagram} target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
             )}
@@ -118,9 +121,7 @@ export default function ModeloPage({ model }) {
               <ButtonArrow href="/" texto="Contratar"></ButtonArrow>
             </div>
 
-            <p>Jasmine Sanders es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.
-            Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.
-            Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales.</p>
+            <p dangerouslySetInnerHTML={{ __html: model.description }} />
           </div>
 
 
@@ -134,27 +135,67 @@ export default function ModeloPage({ model }) {
 
 
 
-        {/* Placeholder modal (la galería completa se hace luego) */}
-        {showGallery && (
-          <div
-            style={{
-              position: 'fixed',
-              top: 0,
-              left: 0,
-              width: '100vw',
-              height: '100vh',
-              background: 'rgba(0,0,0,0.9)',
-              color: 'white',
-              zIndex: 100,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-            onClick={() => setShowGallery(false)}
+      <AnimatePresence>
+
+        {showGallery !== false && (
+
+          <motion.div
+            className="ficha__portfolio"
+            initial={{ y: '100%', opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: '100%', opacity: 0 }}
+            transition={{ duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
           >
-            <p>Galería completa (próximo paso)</p>
-          </div>
+            <Image
+              src={ar_logo_white}
+              alt="logotipo AR Agency agencia de modelos en Valencia"
+              className="ficha__logo"
+            />
+
+            <button
+              className="ficha__close"
+              onClick={() => setShowGallery(false)}
+              aria-label="Cerrar portfolio"
+            >
+              <img src="/assets/close.svg" alt="Cerrar" />
+            </button>
+
+            <button
+              className="ficha__nav ficha__nav--prev"
+              onClick={() =>
+                setShowGallery((prev) => (prev > 0 ? prev - 1 : model.gallery.length - 1))
+              }
+              aria-label="Anterior"
+            >
+              <img src="/assets/arrow_black.svg" alt="Anterior" />
+            </button>
+
+            <button
+              className="ficha__nav ficha__nav--next"
+              onClick={() => setShowGallery((prev) => (prev + 1) % model.gallery.length)}
+              aria-label="Siguiente"
+            >
+              <img src="/assets/arrow_black.svg" alt="Siguiente" />
+            </button>
+
+            <div className="ficha__media">
+              {model.gallery[showGallery].type === 'video' ? (
+                <video src={model.gallery[showGallery].src} autoPlay loop muted playsInline />
+              ) : (
+                <img src={model.gallery[showGallery].src} alt={`gallery-${showGallery}`} />
+              )}
+            </div>
+          </motion.div>
         )}
+
+      </AnimatePresence>
+
+
+
+
+
+
+
       </div>
     </>
   );

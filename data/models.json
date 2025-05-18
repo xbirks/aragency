@@ -2,6 +2,7 @@
   {
     "slug": "ana-torres",
     "name": "Almudena Fernandez",
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales.",
     "images": {
       "default": "/models/anisha/wm-1-01.jpg",
       "hover": "/models/anisha/wm-1-02.jpg"
@@ -27,7 +28,73 @@
       {
         "type": "image",
         "src": "/models/anisha/wm-1-02.jpg"
-      },      {
+      },
+      {
+        "type": "image",
+        "src": "/models/anisha/wm-1-02.jpg"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "image",
+        "src": "/models/almudena/almu-01.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/models/almudena/almu-02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/models/almudena/almu-03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "/models/almudena/almu-04.jpg"
+      },
+      {
+        "type": "video",
+        "src": "/models/almudena/almu-05.mp4"
+      },
+      {
+        "type": "image",
+        "src": "/models/almudena/almu-06.jpg"
+      }
+    ],
+    "links": {
+      "instagram": "https://instagram.com/ariahernandez77",
+      "hire": "mailto:contact@aragency.com"
+    }
+  },
+  {
+    "slug": "zoe-ishikawa-80",
+    "name": "Valeria Mendoza",
+    "images": {
+      "default": "/models/jacinta/wm-2-01.jpg",
+      "hover": "/models/jacinta/wm-2-02.jpg"
+    },
+    "height": 166,
+    "bust": 81,
+    "waist": 61,
+    "hips": 89,
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/zoe-ishikawa-80",
+    "hero": "/models/ejemplo_video.mp4",
+    "media": [
+      {
+        "type": "image",
+        "src": "/models/anisha/wm-1-01.jpg"
+      },
+      {
+        "type": "video",
+        "src": "/models/ejemplo_video.mp4"
+      },
+      {
+        "type": "image",
+        "src": "/models/anisha/wm-1-02.jpg"
+      },
+      {
         "type": "image",
         "src": "/models/anisha/wm-1-02.jpg"
       }
@@ -77,88 +144,8 @@
     "links": {
       "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
-  },
-  {
-    "slug": "zoe-ishikawa-80",
-    "name": "Valeria Mendoza",
-    "images": {
-      "default": "/models/jacinta/wm-2-01.jpg",
-      "hover": "/models/jacinta/wm-2-02.jpg"
     },
-    "height": 166,
-    "bust": 81,
-    "waist": 61,
-    "hips": 89,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/zoe-ishikawa-80",
-    "hero": "/models/jacinta/wm-2-01.jpg",
-    "media": [
-      {
-        "type": "image",
-        "src": "/models/jacinta/wm-2-01.jpg"
-      },
-      {
-        "type": "video",
-        "src": "/videos/sample-1.mp4"
-      },
-      {
-        "type": "image",
-        "src": "/models/jacinta/wm-2-02.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/common/sample-extra.jpg"
-      }
-    ],
-    "gallery": [
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-1.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-3.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-4.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-5.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-6.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-7.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-8.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-9.jpg"
-      },
-      {
-        "type": "image",
-        "src": "/models/gallery/zoe-ishikawa-80/img-10.jpg"
-      }
-    ],
-    "links": {
-      "instagram": "https://instagram.com/zoeishikawa80",
-      "hire": "mailto:contact@aragency.com"
-    }
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "nina-rivera-26",
@@ -171,75 +158,76 @@
     "bust": 82,
     "waist": 62,
     "hips": 90,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/nina-rivera-26",
-    "hero": "/models/josefa/wm-3-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/nina-rivera-26",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/josefa/wm-3-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/josefa/wm-3-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-rivera-26/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ninarivera26",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "nina-hernandez-79",
@@ -252,75 +240,76 @@
     "bust": 83,
     "waist": 63,
     "hips": 91,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/nina-hernandez-79",
-    "hero": "/models/nadia/wm-4-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/nina-hernandez-79",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-hernandez-79/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ninahernandez79",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "aria-martins-62",
@@ -333,75 +322,76 @@
     "bust": 84,
     "waist": 64,
     "hips": 92,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/aria-martins-62",
-    "hero": "/models/juana/wm-5-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/aria-martins-62",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juana/wm-5-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juana/wm-5-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-martins-62/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ariamartins62",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "nina-ishikawa-93",
@@ -414,75 +404,76 @@
     "bust": 85,
     "waist": 65,
     "hips": 93,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/nina-ishikawa-93",
-    "hero": "/models/juliana/wm-6-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/nina-ishikawa-93",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juliana/wm-6-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juliana/wm-6-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-93/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ninaishikawa93",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "jade-petrova-6",
@@ -495,75 +486,76 @@
     "bust": 86,
     "waist": 66,
     "hips": 94,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/jade-petrova-6",
-    "hero": "/models/juana/wm-5-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/jade-petrova-6",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juana/wm-5-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juana/wm-5-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-6/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/jadepetrova6",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "zoe-martins-9",
@@ -576,75 +568,76 @@
     "bust": 87,
     "waist": 67,
     "hips": 95,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/zoe-martins-9",
-    "hero": "/models/nadia/wm-4-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/zoe-martins-9",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/zoe-martins-9/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/zoemartins9",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "jade-petrova-51",
@@ -657,75 +650,76 @@
     "bust": 88,
     "waist": 60,
     "hips": 96,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/jade-petrova-51",
-    "hero": "/models/jacinta/wm-2-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/jade-petrova-51",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/jacinta/wm-2-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/jacinta/wm-2-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-petrova-51/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/jadepetrova51",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "aria-khan-6",
@@ -738,75 +732,76 @@
     "bust": 89,
     "waist": 61,
     "hips": 97,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/aria-khan-6",
-    "hero": "/models/juliana/wm-6-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/aria-khan-6",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juliana/wm-6-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juliana/wm-6-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/aria-khan-6/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ariakhan6",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "lola-khan-47",
@@ -819,75 +814,76 @@
     "bust": 80,
     "waist": 62,
     "hips": 98,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/lola-khan-47",
-    "hero": "/models/juana/wm-5-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/lola-khan-47",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juana/wm-5-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juana/wm-5-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/lola-khan-47/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/lolakhan47",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "nina-khan-55",
@@ -900,75 +896,76 @@
     "bust": 81,
     "waist": 63,
     "hips": 99,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/nina-khan-55",
-    "hero": "/models/josefa/wm-3-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/nina-khan-55",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/josefa/wm-3-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/josefa/wm-3-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-khan-55/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ninakhan55",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "elena-khan-74",
@@ -981,11 +978,11 @@
     "bust": 82,
     "waist": 64,
     "hips": 88,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/elena-khan-74",
-    "hero": "/models/anisha/wm-1-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/elena-khan-74",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
@@ -993,7 +990,7 @@
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
@@ -1001,55 +998,56 @@
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/elena-khan-74/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/elenakhan74",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "luna-silva-38",
@@ -1062,75 +1060,76 @@
     "bust": 83,
     "waist": 65,
     "hips": 89,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/luna-silva-38",
-    "hero": "/models/nadia/wm-4-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/luna-silva-38",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-silva-38/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/lunasilva38",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "iris-rivera-92",
@@ -1143,75 +1142,76 @@
     "bust": 84,
     "waist": 66,
     "hips": 90,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/iris-rivera-92",
-    "hero": "/models/juliana/wm-6-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/iris-rivera-92",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juliana/wm-6-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juliana/wm-6-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/iris-rivera-92/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/irisrivera92",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "luna-lee-90",
@@ -1224,75 +1224,76 @@
     "bust": 85,
     "waist": 67,
     "hips": 91,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/luna-lee-90",
-    "hero": "/models/jacinta/wm-2-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/luna-lee-90",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/jacinta/wm-2-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/jacinta/wm-2-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-lee-90/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/lunalee90",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "nina-martins-3",
@@ -1305,75 +1306,76 @@
     "bust": 86,
     "waist": 60,
     "hips": 92,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/nina-martins-3",
-    "hero": "/models/josefa/wm-3-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/nina-martins-3",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/josefa/wm-3-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/josefa/wm-3-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-martins-3/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ninamartins3",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "luna-novak-73",
@@ -1386,75 +1388,76 @@
     "bust": 87,
     "waist": 61,
     "hips": 93,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/luna-novak-73",
-    "hero": "/models/juana/wm-5-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/luna-novak-73",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/juana/wm-5-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/juana/wm-5-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/luna-novak-73/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/lunanovak73",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "jade-silva-73",
@@ -1467,75 +1470,76 @@
     "bust": 88,
     "waist": 62,
     "hips": 94,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/jade-silva-73",
-    "hero": "/models/jacinta/wm-2-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/jade-silva-73",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/jacinta/wm-2-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/jacinta/wm-2-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/jade-silva-73/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/jadesilva73",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   },
   {
     "slug": "nina-ishikawa-70",
@@ -1548,74 +1552,75 @@
     "bust": 89,
     "waist": 63,
     "hips": 95,
-    "hair": "dark brown",
-    "eyes": "brown",
-    "skin": "medium",
-    "url": "/modelos/nina-ishikawa-70",
-    "hero": "/models/nadia/wm-4-01.jpg",
+    "hair": "castaño oscuro",
+    "eyes": "marrones",
+    "skin": "media",
+    "url": "/es/modelos/nina-ishikawa-70",
+    "hero": "/models/ejemplo_video.mp4",
     "media": [
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-01.jpg"
+        "src": "/models/anisha/wm-1-01.jpg"
       },
       {
         "type": "video",
-        "src": "/videos/sample-1.mp4"
+        "src": "/models/ejemplo_video.mp4"
       },
       {
         "type": "image",
-        "src": "/models/nadia/wm-4-02.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       },
       {
         "type": "image",
-        "src": "/models/common/sample-extra.jpg"
+        "src": "/models/anisha/wm-1-02.jpg"
       }
     ],
     "gallery": [
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-1.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-2.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-2.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-3.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-3.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-4.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-1.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-5.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-5.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-6.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-6.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-7.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-7.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-8.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-8.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-9.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-9.jpg"
       },
       {
         "type": "image",
-        "src": "/models/gallery/nina-ishikawa-70/img-10.jpg"
+        "src": "/models/gallery/aria-hernandez-77/img-10.jpg"
       }
     ],
     "links": {
-      "instagram": "https://instagram.com/ninaishikawa70",
+      "instagram": "https://instagram.com/ariahernandez77",
       "hire": "mailto:contact@aragency.com"
-    }
+    },
+    "description": "<strong>Jasmine Sanders</strong> es una modelo latina con una elegancia natural que la distingue. Nacida en Bogotá y actualmente afincada en Valencia, Jasmine ha construido una trayectoria versátil que combina la moda editorial con campañas de contenido digital para marcas emergentes y consolidadas en Europa.<br><br> Su carrera comenzó en sesiones de fotografía lifestyle en Barcelona, pero su proyección internacional llegó tras protagonizar una campaña para una firma de cosmética natural con sede en Berlín. Desde entonces, ha trabajado para marcas de moda sostenible, editoriales independientes y proyectos de contenido UGC en redes sociales, donde conecta con una audiencia diversa gracias a su autenticidad y carisma.<br><br> Con una mirada intensa y una actitud cercana, Jasmine representa la nueva generación de modelos: creativa, adaptable y profundamente conectada con las tendencias culturales y digitales."
   }
 ]

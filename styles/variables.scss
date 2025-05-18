@@ -6,7 +6,7 @@ $black: #161616;
 $white: #ffffff;
 $grey-light: #EEEEEE;
 $grey-dark: #666666;
-$destacado: #bea37d;
+$destacado: #c1da68;
 $aktiv: "aktiv-grotesk", Arial, Helvetica, sans-serif;
 $fuente-p: 14pt;
 $transition-short: 0.2s;
@@ -139,4 +139,13 @@ button {
 a{
   all: unset;
   cursor: pointer;
+}
+
+::-moz-selection {
+  background: $destacado;
+  color: $black;
+}
+::selection {
+  background: $destacado;
+  color: $black;
 }
