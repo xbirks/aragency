@@ -430,6 +430,14 @@ strong{
 		&:hover .model-img-default {
 			opacity: 0;
 		}
+
+		  @media (hover: none) {
+			.model-img-hover {
+			opacity: 0 !important;
+			}
+			.model-img-default {
+			opacity: 1 !important;
+			}}
 		}
 
 
