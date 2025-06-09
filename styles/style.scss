@@ -178,16 +178,18 @@ strong{
 //MENU
 
 .menu__master{
-	padding-top: 45vh;
+	padding-top: 500px;
 	box-sizing: border-box;
 
-			@include alto700px {
-			padding-top: 60vh;
+			@include media1000px {
+			padding-top: 400px;
 			}
 
-			@include alto400px {
-			padding-top: 80vh;
+			@include alto700px {
+			padding-top: 500px;
 			}
+
+			
 
   
 
@@ -430,6 +432,7 @@ strong{
 		&:hover .model-img-default {
 			opacity: 0;
 		}
+		
 		}
 
 

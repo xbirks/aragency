@@ -30,7 +30,7 @@ export default function Header() {
       ? '450px'
       : '350px',
     top: isIndex ? '10vh' : '0px',
-    left: isIndex ? '50vw' : '0px',
+    left: isIndex ? '48vw' : '0px',
     transform: isIndex
       ? isMobile
         ? 'translateX(-90px)'
@@ -52,23 +52,26 @@ export default function Header() {
       }}
     >
       <motion.div
-        layoutId="logo"
-        className="menu__logo"
-        initial={false}
-        animate={animatedProps}
-        transition={{ duration: 1 }}
-        style={{
-          position: 'relative',
-          height: 'auto',
-        }}
-      >
-        <Image
-          src={ar_logo_white}
-          alt="logotipo AR Agency agencia de modelos en Valencia"
-          style={{ width: 'auto', height: 'auto' }}
-          priority
-        />
-      </motion.div>
+  layoutId="logo"
+  className="menu__logo"
+  initial={false}
+  animate={animatedProps}
+  transition={{ duration: 1 }}
+  style={{
+    position: 'relative',
+    height: 'auto',
+    cursor: 'pointer', // importante para indicar interactividad
+  }}
+  onClick={() => router.back()} // aquí vuelve atrás
+>
+  <Image
+    src={ar_logo_white}
+    alt="logotipo AR Agency agencia de modelos en Valencia"
+    style={{ width: 'auto', height: 'auto' }}
+    priority
+  />
+</motion.div>
+
 
       {mounted && (
         isMobile ? (
