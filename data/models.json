@@ -104,5 +104,117 @@
     ]
 
 
+  },
+  {
+    "slug": "aneta-ivanoc-garcia",
+    "name": "Aneta Ivanoc",
+    "description": "<strong>Aneta Ivanoc</strong> es una modelo española que puede trabajar en cualquier ricón del mundo. Sus principales habilidades son la danza, el pilates, el volleyball y la pintura.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099917/default-aneta-ivanoc_qi8sj8.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099918/hover-aneta-ivanoc_srtnob.jpg"
+    },
+    "height": 171,
+    "bust": 78,
+    "waist": 66,
+    "hips": 93,
+    "hair": "Castaño oscuro",
+    "eyes": "Marrón",
+    "url": "/es/modelos/aneta-ivanoc-garcia",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100000/portada-aneta-ivanoc_gjxvyz.jpg",
+
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100230/IMG_5428_ttgzht.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100222/IMG_5450_ia2lxy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100233/IMG_3655---copia_gjudh2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100281/STILL-LIFE_05_l3oucl.jpg"
+      }
+    ],
+
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100220/IMG_3654---copia_irjc6r.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100224/IMG_5437_jvxj7i.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100222/IMG_5450_ia2lxy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100226/IMG_8869-_1_fvvlet.jpg"
+      },{
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100228/IMG_3656---copia_eddrbc.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100230/IMG_5428_ttgzht.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100231/IMG_5430_chqjke.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100233/IMG_3655---copia_gjudh2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100281/STILL-LIFE_05_l3oucl.jpg"
+      }
+    ],
+
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100125/image00008_nkdmby.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100120/image00007_wc51yu.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100122/image00006_f6bmq0.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100123/image00005_nnpfzy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100048/image00003_elbkmg.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100050/image00002_kfgutn.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100047/image00001_kalwf5.jpg"
+      }
+    ],
+
+    "videoGallery": [
+   
+    ]
+
+
   }
 ]
+
