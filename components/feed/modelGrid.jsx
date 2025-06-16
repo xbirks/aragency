@@ -1,32 +1,36 @@
 // components/ModelGrid.jsx
 import { useState, useEffect, useMemo } from 'react';
 import ModelCard from './modelCard';
-import data from '../../data/models.json';
+import dataRaw from '../../data/models.json';
 
 export default function ModelGrid() {
-  const fullData = useMemo(() => data, []); 
+  const data = useMemo(() => {
+    if (Array.isArray(dataRaw)) return dataRaw;
+    if (Array.isArray(dataRaw.default)) return dataRaw.default;
+    return [];
+  }, []);
 
   const [query, setQuery] = useState('');
-  const [filtered, setFiltered] = useState(fullData);
+  const [filtered, setFiltered] = useState(data);
 
   useEffect(() => {
     const q = query.toLowerCase();
 
-    const matches = fullData.filter(model => {
+    const matches = data.filter(model => {
       return (
-        model.name.toLowerCase().includes(q) ||
-        model.hair.toLowerCase().includes(q) ||
-        model.eyes.toLowerCase().includes(q) ||
-        model.skin.toLowerCase().includes(q) ||
-        model.height.toString().includes(q) ||
-        model.bust.toString().includes(q) ||
-        model.waist.toString().includes(q) ||
-        model.hips.toString().includes(q)
+        model.name?.toLowerCase().includes(q) ||
+        model.hair?.toLowerCase().includes(q) ||
+        model.eyes?.toLowerCase().includes(q) ||
+        model.height?.toString().includes(q) ||
+        model.bust?.toString().includes(q) ||
+        model.waist?.toString().includes(q) ||
+        model.hips?.toString().includes(q)
       );
     });
 
     setFiltered(matches);
-  }, [query, fullData]);
+  }, [query, data]);
+
   return (
     <div className="model__feed-master">
       <input
@@ -35,16 +39,16 @@ export default function ModelGrid() {
         placeholder="BUSCADOR"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        />
+      />
 
-    <div className="model__feed">
-  {filtered
-    .slice()
-    .sort((a, b) => a.name.localeCompare(b.name))
-    .map(model => (
-      <ModelCard key={model.slug} model={model} />
-    ))}
-</div>
+      <div className="model__feed">
+        {(filtered || [])
+          .slice()
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(model => (
+            <ModelCard key={model.slug} model={model} />
+          ))}
+      </div>
     </div>
   );
 }

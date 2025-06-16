@@ -624,9 +624,10 @@ strong{
 
 		img, video{
 			object-fit: cover;
-			height: 30vh;
+			height: auto;
 			min-height: 400px;
 			width: 100%;
+			aspect-ratio: 1/1;
 			object-position: top;
 
 			@include media900px {
