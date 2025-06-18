@@ -22,7 +22,17 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const model = models.find(m => m.slug === params.slug);
-  return { props: { model } };
+
+ 
+  if (!model) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: { model },
+  };
 }
 
 export default function ModeloPage({ model }) {
@@ -97,6 +107,7 @@ export default function ModeloPage({ model }) {
           <span className="stat__title">CADERA <span className="stat__data">{model.hips} cm</span></span>
           <span className="stat__title">CABELLO <span className="stat__data">{model.hair}</span></span>
           <span className="stat__title">OJOS <span className="stat__data">{model.eyes}</span></span>
+          <span className="stat__title">ZAPATOS <span className="stat__data">{model.shoes} EU</span></span>
         </div>
 
         <div className="ficha__galeria">

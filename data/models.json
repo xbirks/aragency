@@ -2,6 +2,7 @@
   {
     "slug": "alba-garcia-riera",
     "name": "Alba García",
+    "category": "model",
     "description": "<strong>Alba García Riera</strong> es una modelo española que trabaja en la zona de Valencia, Ibiza y Mallorca. Sus principales habilidades son la danza, el skate, el stretching, el yoga y la natación",
     "images": {
       "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750093187/default-alba-garcia_nrapwg.jpg",
@@ -13,6 +14,7 @@
     "hips": 90,
     "hair": "Castaño oscuro",
     "eyes": "Marrón",
+    "shoes": 39,
     "url": "/es/modelos/alba-garcia-riera",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750094478/portada-alba-garcia_vpvtfe.jpg",
 
@@ -108,6 +110,7 @@
   {
     "slug": "aneta-ivanoc-garcia",
     "name": "Aneta Ivanoc",
+    "category": "model",
     "description": "<strong>Aneta Ivanoc</strong> es una modelo española que puede trabajar en cualquier ricón del mundo. Sus principales habilidades son la danza, el pilates, el volleyball y la pintura.",
     "images": {
       "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099917/default-aneta-ivanoc_qi8sj8.jpg",
@@ -119,6 +122,7 @@
     "hips": 93,
     "hair": "Castaño oscuro",
     "eyes": "Marrón",
+    "shoes": 39,
     "url": "/es/modelos/aneta-ivanoc-garcia",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100000/portada-aneta-ivanoc_gjxvyz.jpg",
 
@@ -215,6 +219,813 @@
     ]
 
 
-  }
+  },
+  {
+  "slug": "angelica-pons-marquez",
+  "name": "Angelica Pons",
+  "category": "newface",
+  "description": "<strong>Angelica Pons Marquez</strong> es una modelo que reside en España y trabaja principalmente en Madrid. Le apasionan el yoga, la danza y el dibujo artístico.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264378/default-angelica-pons_aqegu5.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264378/hover-angelica-pons_kzgm7q.jpg"
+  },
+  "height": 175,
+  "bust": 85,
+  "waist": 62,
+  "hips": 94,
+  "hair": "Castaño claro",
+  "eyes": "Miel",
+  "shoes": 39,
+  "url": "/es/modelos/angelica-pons-marquez",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264378/portada-angelica-pons_fuzrgc.jpg",
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264166/IMG_0948_kfbzpt.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264166/IMG_5199_d0cn9x.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264165/e8761743-de02-42d9-a781-a4eb75b5982c_itvdxg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264165/IMG_0936_esw2eo.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264166/IMG_0948_kfbzpt.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264166/IMG_5199_d0cn9x.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264165/e8761743-de02-42d9-a781-a4eb75b5982c_itvdxg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264165/IMG_0936_esw2eo.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264165/IMG_5195_pts8rk.jpg"
+    }
+  ],
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264163/IMG_1206_cox3s4.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264159/IMG_1205_ns7ube.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264156/IMG_1209_wbrqug.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264156/IMG_1207_catmq3.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264155/IMG_1208_yzpupk.jpg"
+    }
+  ],
+  "videoGallery": [
+   
+  ]
+},
+{
+  "slug": "aranxta-leon",
+  "name": "Aranxta Leon",
+  "category": "newface",
+  "description": "<strong>Aranxta Leon</strong> es una modelo española que vive en Madrid y está disponible para trabajar en toda España. Sus intereses incluyen el canto, la escritura, la lectura y los idiomas.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265600/default-arantxa-leon_qmzlg5.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265598/hover-arantxa-leon_fbmnmc.jpg"
+  },
+  "height": 169,
+  "bust": 84,
+  "waist": 61,
+  "hips": 90,
+  "hair": "Castaño oscuro",
+  "eyes": "Marrón",
+  "shoes": 39,
+  "url": "/es/modelos/aranxta-leon",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265601/portada-arantxa-leon_d0tcrs.jpg",
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265506/IMG_7521.JPEG_qxpzxo.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265507/IMG_0194_di5pro.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265504/IMG_8099_qrtjlb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265502/IMG_7518.JPEG_lkgeww.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265506/IMG_7521.JPEG_qxpzxo.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265507/IMG_0194_di5pro.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265504/IMG_8099_qrtjlb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265502/IMG_7518.JPEG_lkgeww.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265503/IMG_0191_vnidy5.jpg"
+    }
+  ],
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265497/Polas-medio-perfil_-pieri__jcewsy.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265496/Pola_weagqz.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265495/Pola-primer-plano_-pieri_gssofz.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265494/Perfil_-pieri__o2pqf6.jpg"
+    }
+  ],
+  "videoGallery": [
+    
+  ]
+},
+{
+  "slug": "barbara-valera",
+  "name": "Barbara Valera",
+  "category": "newface",
+  "description": "<strong>Barbara Elena Valera</strong> es una modelo española. Vive en España y destaca por su pasión por el arte y la expresión corporal.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268355/default-barbara-valera_ungrsx.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268356/hover-barbara-valera_erkc6r.jpg"
+  },
+  "height": 172,
+  "bust": 84,
+  "waist": 69,
+  "hips": 94,
+  "hair": "Castaño claro",
+  "eyes": "Marron claro / verde",
+  "url": "/es/modelos/barbara-valera",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268358/portada-barbara-valera_qxsgtj.jpg",
+
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268394/IMG_0031_grrg0a.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268393/IMG_7982-PS_qnv1p6.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268391/IMG_8106-PS._nmnq6g.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268389/IMG_8177-PS_b1eam8.jpg"
+    }
+  ],
+
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268394/IMG_0031_grrg0a.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268393/IMG_7982-PS_qnv1p6.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268391/IMG_8106-PS._nmnq6g.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268389/IMG_8177-PS_b1eam8.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268387/barbie4_es32nj.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268386/IMG_0051_hecqhw.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268384/IMG_0644_sxintz.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750097094/1000277515_jye1ce.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268382/IMG_0646_qkxlbj.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268381/image00011_gxlqs5.jpg"
+    }
+  ],
+
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268406/image00017_wmvq0b.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268404/image00014_borgk1.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268402/image00001_dpemb8.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268401/image00015_nphuhu.jpg"
+    }
+  ],
+
+  "videoGallery": [
+   
+  ]
+},
+{
+  "slug": "carin-garcés",
+  "name": "Carin Garcés",
+  "category": "newface",
+  "description": "<strong>Carin Garcés</strong> es una modelo española con residencia en España. Sus intereses incluyen diversas actividades creativas y artísticas.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269331/default-carin-garces_dxtun4.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269329/hover-carin-garces_qbdsbr.jpg"
+  },
+  "height": 160,
+  "bust": 88,
+  "waist": 65,
+  "hips": 94,
+  "hair": "Castaño oscuro",
+  "eyes": "Negros",
+  "shoes": 36,
+  "url": "/es/modelos/carin-garcés",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269333/portada-carin-garces_iwlqqn.jpg",
+
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268985/Escaneado_-20250411-1307_1_wrcmpx.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268983/Escaneado_-20250411-1306_ift8az.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268941/Escaneado_-20250411-1307_wvy344.jpg"
+    }
+  ],
+
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268995/Escaneado_-20250411-1305_boh6kg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268992/Escaneado_-20250411-1306_1_ubwdry.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268990/Escaneado_-20250411-1308_fpavmr.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268990/Escaneado_-20250411-1308_fpavmr.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268985/Escaneado_-20250411-1307_1_wrcmpx.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268983/Escaneado_-20250411-1306_ift8az.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268941/Escaneado_-20250411-1307_wvy344.jpg"
+    }
+  ],
+
+  "digitales": [
+    
+  ],
+
+  "videoGallery": [
+   
+  ]
+},
+{
+  "slug": "florisbel-oyer",
+  "name": "Florisbel Oyer",
+  "category": "newface",
+  "description": "<strong>Florisbel Andreina Oyer</strong> es una modelo española con residencia en España. Tiene interés por el arte y se muestra muy abierta a nuevos proyectos.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272666/default-florisbel-oyer_ovxohj.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272669/hover-florisbel-oyer_pqsuln.jpg"
+  },
+  "height": 155,
+  "bust": 71,
+  "waist": 73,
+  "hips": 85,
+  "hair": "Castaño oscuro",
+  "eyes": "Marron",
+  "shoes": 35,
+  "url": "/es/modelos/florisbel-oyer",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272671/portada-florisbel-oyer_zttbpq.jpg",
+
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272662/IMG_3992_hmqc77.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272660/IMG_3999_vpxx8q.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272624/IMG_4005_frkbt0.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272621/IMG_3994_locz9u.jpg"
+    }
+  ],
+
+  "gallery": [
+     {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272662/IMG_3992_hmqc77.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272660/IMG_3999_vpxx8q.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272624/IMG_4005_frkbt0.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272621/IMG_3994_locz9u.jpg"
+    }
+  ],
+
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272607/IMG_3987_smi5tu.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272604/IMG_3997_amrst2.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272601/IMG_4037_gfcwau.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272599/IMG_3998_pocntu.jpg"
+    },
+       {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272597/IMG_3995_g9vxtp.jpg"
+    }
+  ],
+
+  "videoGallery": [
+    
+  ]
+},
+{
+  "slug": "kelly-valencia-gallo",
+  "name": "Kelly Valencia",
+  "category": "model",
+  "description": "<strong>Kelly Johanna Valencia Gallo</strong> es una modelo española que reside en Valencia. Destaca por su talento en salsa, baile urbano y actuación.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273179/default-kelly-valencia_wtmlke.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273185/hover-kelly-valencia_tecege.jpg"
+  },
+  "height": 160,
+  "bust": 79,
+  "waist": 67,
+  "hips": 94,
+  "hair": "Negro",
+  "eyes": "Marron oscuro",
+  "shoes": 38,
+  "url": "/es/modelos/kelly-valencia-gallo",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273182/portada-kelly-valencia_lq4sm1.jpg",
+
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273175/IMG_0987_foiqtq.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273172/IMG_7329_lecp0v.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273169/IMG_5395_vaynxg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273166/IMG_7564_peppat.jpg"
+    }
+  ],
+
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273175/IMG_0987_foiqtq.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273172/IMG_7329_lecp0v.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273169/IMG_5395_vaynxg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273166/IMG_7564_peppat.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273163/IMG_5396_jouxge.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273160/IMG_1791_mrznou.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273157/IMG_0990_kzuz0o.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273154/IMG_5516_opn7k2.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273151/IMG_5520_vpepk5.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273148/IMG_7941_cuibyd.jpg"
+    }
+  ],
+
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273144/IMG_7516.JPEG_vah2x7.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273105/IMG_7513.JPEG_opmrng.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273087/IMG_7514.JPEG_hxx68l.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273084/IMG_7517.JPEG_qaije7.jpg"
+    },
+        {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273082/IMG_7515.JPEG_y94cxa.jpg"
+    }
+  ],
+
+  "videoGallery": [
+    
+  ]
+},
+{
+  "slug": "kim-ayala-useche",
+  "name": "Kim Ayala",
+  "category": "newface",
+  "description": "<strong>Kim Ayala Useche</strong> es una modelo española que reside en España. Entre sus intereses destacan actividades personales que reflejan su estilo único.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273882/default-kim-ayala_npx8rx.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273885/hover-kim-ayala_wmvgbz.jpg"
+  },
+  "height": 175,
+  "bust": 90,
+  "waist": 90,
+  "hips": 117,
+  "hair": "Cataño",
+  "eyes": "Marron",
+  "shoes": 39,
+  "url": "/es/modelos/kim-ayala-useche",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273889/portada-kim-ayala_jil3kq.jpg",
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273877/IMG_4018_kydyq5.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273874/IMG_4025_ie0fix.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273870/IMG_4021_ydtjcy.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273867/IMG_4024_aa4aj7.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273877/IMG_4018_kydyq5.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273874/IMG_4025_ie0fix.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273870/IMG_4021_ydtjcy.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273867/IMG_4024_aa4aj7.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273867/IMG_4024_aa4aj7.jpg"
+    }
+  ],
+  "digitales": [
+        
+  ],
+  "videoGallery": [
+    
+  ]
+},
+{
+  "slug": "liseury-guzman",
+  "name": "Liseury Guzman",
+  "category": "model",
+  "description": "<strong>Liseury Guzman</strong> es una modelo española que reside en España. Sus principales intereses incluyen el yoga y el volleyball, reflejando un estilo de vida activo y saludable.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275016/default-liseury_ufpkwd.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274997/hover-liseury_ft4xfl.jpg"
+  },
+  "height": 174,
+  "bust": 86,
+  "waist": 64,
+  "hips": 91,
+  "hair": "Marron oscuro",
+  "eyes": "Negro",
+  "shoes": 41,
+  "url": "/es/modelos/liseury-guzman",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275000/portada-liseury_uwmfwr.jpg",
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274969/IMG_3341_jbcrw8.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274972/IMG_7523.JPEG_tdmucz.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274979/IMG_3038_nh1xcl.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274990/IMG_3046_bds6m1.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274990/IMG_3046_bds6m1.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274987/IMG_3044_p27etj.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274983/IMG_3039_thoelj.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274979/IMG_3038_nh1xcl.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274976/IMG_3346_smdnc4.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274972/IMG_7523.JPEG_tdmucz.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274969/IMG_3341_jbcrw8.jpg"
+    }
+  ],
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275036/IMG_3029_alrw9a.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275032/555D2BDF-6863-44DC-A59B-0EC9A13CAB1B_1_105_c.jpeg_ca9uws.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275028/IMG_3027_vxjfzg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275024/IMG_7524.JPEG_vvivga.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275021/IMG_3030_ewbhfs.jpg"
+    }
+  ],
+  "videoGallery": [
+    
+  ]
+},
+{
+  "slug": "mafer-salinas",
+  "name": "Mafer Salinas",
+  "category": "model",
+  "description": "<strong>Mafer Salinas</strong> es una modelo española que reside en España. Sus pasiones incluyen el canto y el yoga, que reflejan su equilibrio entre creatividad y bienestar.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275422/default-mafer_oax6n8.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275425/hover-mafer_lcba44.jpg"
+  },
+  "height": 165,
+  "bust": 85,
+  "waist": 60,
+  "hips": 95,
+  "hair": "Negro",
+  "eyes": "Hazel",
+  "shoes": 37,
+  "url": "/es/modelos/mafer-salinas",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275429/portada-mafer_kagpen.jpg",
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275515/IMG_5789_gltkym.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275511/IMG_8317_zenzno.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275507/IMG_5430_reyfkb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275503/b2747252-b367-4aa2-a4b7-c27287187d75_ct8xqb.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275515/IMG_5789_gltkym.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275511/IMG_8317_zenzno.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275507/IMG_5430_reyfkb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275503/b2747252-b367-4aa2-a4b7-c27287187d75_ct8xqb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275499/dd04a836-953f-43de-a702-cf70ad10582a_nwdbv6.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275495/IMG_8314_evztsv.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275491/IMG_6390_jq7nyx.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275487/IMG_3922_rzdbix.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275483/IMG_2867_mcidpn.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275480/IMG_2875_yernka.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275464/IMG_5788_mmjtjd.jpg"
+    }
+  ],
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275535/IMG_7533.JPEG_mllo6m.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275531/IMG_7529.JPEG_tjwhxd.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275527/IMG_7532.JPEG_y4ese4.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275523/IMG_7530.JPEG_oektew.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275520/IMG_7531.JPEG_ksskf4.jpg"
+    }
+  ],
+  "videoGallery": [
+    
+  ]
+}
+
+
 ]
 

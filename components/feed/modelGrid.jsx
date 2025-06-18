@@ -1,15 +1,7 @@
-// components/ModelGrid.jsx
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import ModelCard from './modelCard';
-import dataRaw from '../../data/models.json';
 
-export default function ModelGrid() {
-  const data = useMemo(() => {
-    if (Array.isArray(dataRaw)) return dataRaw;
-    if (Array.isArray(dataRaw.default)) return dataRaw.default;
-    return [];
-  }, []);
-
+export default function ModelGrid({ data }) {
   const [query, setQuery] = useState('');
   const [filtered, setFiltered] = useState(data);
 

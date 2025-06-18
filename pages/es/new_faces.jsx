@@ -5,7 +5,7 @@ import dataRaw from '@/data/models.json';
 
 export default function Feed() {
   const data = Array.isArray(dataRaw) ? dataRaw : dataRaw.default || [];
-  const modelos = data.filter(m => m.category === 'model');
+  const newfaces = data.filter(m => m.category === 'newface');
 
   return (
     <>
@@ -24,7 +24,7 @@ export default function Feed() {
           minHeight: '100vh',
         }}
       >
-        <ModelGrid data={modelos} />
+        <ModelGrid data={newfaces} />
       </div>
 
       <div className="model__textos">

@@ -515,6 +515,7 @@ strong{
 			width: 100%;
 			object-fit: cover;
 			filter: grayscale(100%) brightness(80%);
+			object-position: top;
 		}
 
 		h1{
@@ -628,7 +629,7 @@ strong{
 			min-height: 400px;
 			width: 100%;
 			aspect-ratio: 1/1;
-			object-position: center;
+			object-position: top;
 
 			@include media900px {
 			height: 30vh;

@@ -33,16 +33,16 @@ export default function Home() {
           modelos="Modelos"
           modeloslink="/es/modelos"
           nuevas="New faces"
-          nuevaslink="/es/modelos"
+          nuevaslink="/es/new_faces"
           isExpanded={activo === 'Spain'}
           onToggle={() => handleToggle('Spain')}
         />
         <IndexSlider
           pais="United States"
           modelos="Models"
-          modeloslink="https://ermo.es"
+          modeloslink="/us/models"
           nuevas="New faces"
-          nuevaslink="ermo.es"
+          nuevaslink="/us/models"
           isExpanded={activo === 'United States'}
           onToggle={() => handleToggle('United States')}
         />
