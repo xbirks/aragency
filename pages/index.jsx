@@ -46,6 +46,15 @@ export default function Home() {
           isExpanded={activo === 'United States'}
           onToggle={() => handleToggle('United States')}
         />
+        <IndexSlider
+          pais="LATAM"
+          modelos="Models"
+          modeloslink="/latam/models"
+          nuevas="New faces"
+          nuevaslink="/latam/new_faces"
+          isExpanded={activo === 'LATAM'}
+          onToggle={() => handleToggle('LATAM')}
+        />
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import dataRaw from '../../../data/models.json';
+import { useEffect } from 'react';
 const models = Array.isArray(dataRaw) ? dataRaw : dataRaw.default || [];
 
 import { useState } from 'react';
@@ -50,6 +51,30 @@ export default function ModeloPage({ model }) {
       : [];
 
   const media = currentGallery[galleryIndex] || null;
+
+
+
+  useEffect(() => {
+  const handleKeyDown = (e) => {
+    if (!galleryType) return;
+
+    if (e.key === 'ArrowRight') {
+      setGalleryIndex((prev) => (prev + 1) % currentGallery.length);
+    } else if (e.key === 'ArrowLeft') {
+      setGalleryIndex((prev) =>
+        prev > 0 ? prev - 1 : currentGallery.length - 1
+      );
+    }
+  };
+
+  window.addEventListener('keydown', handleKeyDown);
+  return () => window.removeEventListener('keydown', handleKeyDown);
+}, [galleryType, currentGallery.length]);
+
+
+
+
+
 
   return (
     <>

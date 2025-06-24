@@ -5,8 +5,8 @@
     "category": "model",
     "description": "<strong>Alba García Riera</strong> es una modelo española que trabaja en la zona de Valencia, Ibiza y Mallorca. Sus principales habilidades son la danza, el skate, el stretching, el yoga y la natación",
     "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750093187/default-alba-garcia_nrapwg.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750093187/hover-alba-garcia_yawfbf.jpg"
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750750169/default-alba-garcia_nrapwg.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750750173/hover-alba-garcia_yawfbf.jpg"
     },
     "height": 168,
     "bust": 82,
@@ -16,7 +16,7 @@
     "eyes": "Marrón",
     "shoes": 39,
     "url": "/es/modelos/alba-garcia-riera",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750094478/portada-alba-garcia_vpvtfe.jpg",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750750154/portada-alba-garcia_vpvtfe.jpg",
 
     "media": [
       {
@@ -99,11 +99,19 @@
     ],
 
     "videoGallery": [
-      {
-        "type": "video",
-        "src": "/models/ejemplo_video.mp4"
-      }
-    ]
+  {
+    "type": "video",
+    "src": "/models/alba_garcia/videos/1000277488_1.mp4"
+  },
+  {
+    "type": "video",
+    "src": "/models/alba_garcia/videos/1000277489_1.mp4"
+  },
+  {
+    "type": "video",
+    "src": "/models/alba_garcia/videos/1000277490_1.mp4"
+  }
+]
 
 
   },
@@ -113,8 +121,9 @@
     "category": "model",
     "description": "<strong>Aneta Ivanoc</strong> es una modelo española que puede trabajar en cualquier ricón del mundo. Sus principales habilidades son la danza, el pilates, el volleyball y la pintura.",
     "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099917/default-aneta-ivanoc_qi8sj8.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099918/hover-aneta-ivanoc_srtnob.jpg"
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750751724/hover-aneta-ivanoc_srtnob.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099917/default-aneta-ivanoc_qi8sj8.jpg"
+      
     },
     "height": 171,
     "bust": 78,
@@ -124,7 +133,7 @@
     "eyes": "Marrón",
     "shoes": 39,
     "url": "/es/modelos/aneta-ivanoc-garcia",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100000/portada-aneta-ivanoc_gjxvyz.jpg",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750751717/portada-aneta-ivanoc_gjxvyz.jpg",
 
     "media": [
       {
@@ -387,7 +396,7 @@
 {
   "slug": "barbara-valera",
   "name": "Barbara Valera",
-  "category": "newface",
+  "category": "model",
   "description": "<strong>Barbara Elena Valera</strong> es una modelo española. Vive en España y destaca por su pasión por el arte y la expresión corporal.",
   "images": {
     "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268355/default-barbara-valera_ungrsx.jpg",
@@ -831,8 +840,8 @@
   "category": "model",
   "description": "<strong>Liseury Guzman</strong> es una modelo española que reside en España. Sus principales intereses incluyen el yoga y el volleyball, reflejando un estilo de vida activo y saludable.",
   "images": {
-    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275016/default-liseury_ufpkwd.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274997/hover-liseury_ft4xfl.jpg"
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275016/default-liseury_ufpkwd.jpg",
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750274997/hover-liseury_ft4xfl.jpg"
   },
   "height": 174,
   "bust": 86,

@@ -77,7 +77,7 @@ export default function Header() {
         isMobile ? (
           !isIndex && (
             <div className="menu__mobile">
-              <Link
+              <a
                 href="https://www.instagram.com/studioar.es/"
                 className="menu__instagram"
                 target="_blank"
@@ -93,7 +93,8 @@ export default function Header() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </Link>
+              </a>
+
 
               <Link href="/" className="menu__hamburger" aria-label="Menú">
                 <svg width="29" height="24" viewBox="0 0 100 80" fill="currentColor">
@@ -105,7 +106,7 @@ export default function Header() {
           )
         ) : (
           <div className="menu__links">
-            <Link href="https://www.instagram.com/ariannyrivasacademy/">Instagram</Link>
+            <a href="https://www.instagram.com/ariannyrivasacademy/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <Link href="/">Menú</Link>
           </div>
         )
