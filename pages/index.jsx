@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
         <SeoHead
-        title="AR ACADEMY - Agencia de modelos"
+        title="AR AGENCY - Agencia de modelos"
         description="Descubre modelos y creativos emergentes en España y Estados Unidos."
         image="https://aragency.vercel.app/seo/index-cover.jpg"
         url="https://aragency.vercel.app"
