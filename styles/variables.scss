@@ -94,6 +94,12 @@ $transition-short: 0.2s;
         @content;
       }
     }
+
+     @mixin media400px {
+      @media only screen and (max-width: 400px) {
+        @content;
+      }
+    }
   
     @mixin media390px {
       @media only screen and (max-width: 390px) {

@@ -20,7 +20,7 @@ export default function Footer() {
     >
       <ul className="footer__links">
         <li><Link href="/contacto">Contacto</Link></li>
-        <li><Link href="/formulario-modelo">Quiero ser modelo</Link></li>
+        <li><Link href="/ser-modelo">Quiero ser modelo</Link></li>
         <li><Link href="/aviso-legal">Aviso legal</Link></li>
         <li><Link href="/politica-privacidad">Política de privacidad</Link></li>
         <li><Link href="/cookies">Política de cookies</Link></li>
