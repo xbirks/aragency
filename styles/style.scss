@@ -646,6 +646,76 @@ strong{
 	}
 
 
+	.ficha__galeria-opciones{
+		padding: 0 3vw 3vw;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+
+			@include media1200px {
+			grid-template-columns: repeat(2, 1fr);
+			}
+
+			@include media800px {
+			grid-template-columns: repeat(1, 1fr);
+			}
+
+		.galeria__item{
+			position: relative;
+			min-height: 200px;
+			height: auto;
+			aspect-ratio: 16/9;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-size: cover;
+			background-position: center;
+			cursor: pointer;
+			transition:  0.3s ease-in-out;
+
+			@include media800px {
+			height: auto;
+			width: auto;
+			min-height: auto;
+			aspect-ratio: 16/6;
+			}
+			
+
+			&:before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(30, 30, 30, 0.6); 
+				z-index: 1;
+				pointer-events: none; 
+				transition:  0.3s ease-in-out;
+				}
+
+			&:hover{
+				&:before{
+					background-color: rgba(0, 0, 0, 0.7); 
+					transition:  0.3s ease-in-out;
+				}
+			}
+			
+
+			.galeria__texto{
+				 position: relative;
+      			z-index: 2;
+				font-family: $aktiv;
+				font-weight: 300;
+				font-size: 1.5rem;
+				color: $white;
+			}
+		}
+		
+	}
+	
+
+
 	.ficha__description{
 		padding-left: 3vw;
 		padding-right: 3vw;
@@ -788,7 +858,33 @@ strong{
 				max-width: 80vw;
 				max-height: 80vh;
 				}
+				
 			}
+
+			.ficha__media.media--pair {
+				display: flex;
+				gap: 1rem;
+				justify-content: center;
+				align-items: flex-start;
+				width: 80vw;
+				}
+
+				.ficha__media.media--pair img {
+				height: 100%;
+				width: auto;
+				display: block;
+
+						@include media1300px {
+						height: 700px;
+						}
+						@include media1200px {
+						height: 600px;
+						}
+						@include media1100px {
+						height: 500px;
+						}
+				}
+
 
 		}
 
@@ -796,3 +892,82 @@ strong{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+//CONTACTO
+
+.contacto {
+	margin-left: 3vw;
+	margin-right: 3vw;
+	margin-top: 350px;
+  font-family: $aktiv;
+  font-size: 0.9rem;
+  transition:  0.3s ease-in-out;
+
+  				@include media600px {
+				margin-top: 250px;
+				transition:  0.3s ease-in-out;
+				}
+
+		.contacto__bloque {
+		margin-bottom: 4rem;
+		
+		}
+
+		.contacto__hueco{
+			display: flex;
+
+			.hueco{
+				width: 200px;
+
+						@include media600px {
+						width: 10vw;
+						}
+			}
+
+			.contacto__tarjetas{
+				width: 100%;
+			}
+		}
+
+		.contacto__titulo {
+		font-weight: 400;
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+		text-transform: uppercase;
+		}
+
+		.contacto__linea {
+		border: none;
+		border-top: 1px solid #444;
+		margin-bottom: 1.5rem;
+		}
+
+		.contacto__fila {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid #333;
+		padding: 0.7rem 0;
+		}
+
+		.contacto__etiqueta {
+		color: #ccc;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		}
+
+		.contacto__dato {
+		text-align: right;
+		text-transform: uppercase;
+		}
+
+}

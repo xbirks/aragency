@@ -10,6 +10,11 @@ import ButtonArrow from '@/components/buttons/buttonArrow.jsx';
 import ar_logo_white from '@/public/assets/AR_Vector_White.svg';
 import { motion, AnimatePresence } from 'framer-motion';
 
+
+
+
+
+
 export async function getStaticPaths() {
   const paths = models.map(model => ({
     params: { slug: model.slug },
@@ -40,6 +45,14 @@ export default function ModeloPage({ model }) {
   const router = useRouter();
   const [galleryType, setGalleryType] = useState(null);
   const [galleryIndex, setGalleryIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkSize = () => setIsMobile(window.innerWidth <= 768);
+    checkSize();
+    window.addEventListener('resize', checkSize);
+    return () => window.removeEventListener('resize', checkSize);
+  }, []);
 
   const currentGallery =
     galleryType === 'portfolio'
@@ -50,29 +63,42 @@ export default function ModeloPage({ model }) {
       ? model.videoGallery || []
       : [];
 
-  const media = currentGallery[galleryIndex] || null;
+
+
+  const isVideoGallery = galleryType === 'video';
+
+    const preparedGallery = isVideoGallery
+      ? currentGallery
+      : currentGallery.flatMap(item => {
+          if (Array.isArray(item.src)) {
+            return isMobile
+              ? item.src.map(src => ({ type: 'image', src }))
+              : [item];
+          }
+          return [item];
+        });
+
+    const media = preparedGallery[galleryIndex] || null;
+
 
 
 
   useEffect(() => {
-  const handleKeyDown = (e) => {
-    if (!galleryType) return;
+    const handleKeyDown = (e) => {
+      if (!galleryType) return;
 
-    if (e.key === 'ArrowRight') {
-      setGalleryIndex((prev) => (prev + 1) % currentGallery.length);
-    } else if (e.key === 'ArrowLeft') {
-      setGalleryIndex((prev) =>
-        prev > 0 ? prev - 1 : currentGallery.length - 1
-      );
-    }
-  };
+      if (e.key === 'ArrowRight') {
+        setGalleryIndex((prev) => (prev + 1) % preparedGallery.length);
+      } else if (e.key === 'ArrowLeft') {
+        setGalleryIndex((prev) =>
+          prev > 0 ? prev - 1 : preparedGallery.length - 1
+        );
+      }
+    };
 
-  window.addEventListener('keydown', handleKeyDown);
-  return () => window.removeEventListener('keydown', handleKeyDown);
-}, [galleryType, currentGallery.length]);
-
-
-
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [galleryType, preparedGallery.length]);
 
 
 
@@ -104,25 +130,40 @@ export default function ModeloPage({ model }) {
           <h1>{model.name}</h1>
 
           <nav className="ficha__botones">
-            <button onClick={() => {
-              setGalleryType('portfolio');
-              setGalleryIndex(0);
-            }}>PORTFOLIO</button>
+            {model.gallery?.length > 0 && (
+              <button
+                onClick={() => {
+                  setGalleryType('portfolio');
+                  setGalleryIndex(0);
+                }}
+              >
+                PORTFOLIO
+              </button>
+            )}
 
             {model.digitales?.length > 0 && (
-              <button onClick={() => {
-                setGalleryType('digitales');
-                setGalleryIndex(0);
-              }}>DIGITALES</button>
+              <button
+                onClick={() => {
+                  setGalleryType('digitales');   // ✅ ya cambia de galería
+                  setGalleryIndex(0);
+                }}
+              >
+                DIGITALES
+              </button>
             )}
 
             {model.videoGallery?.length > 0 && (
-              <button onClick={() => {
-                setGalleryType('video');
-                setGalleryIndex(0);
-              }}>VIDEO</button>
+              <button
+                onClick={() => {
+                  setGalleryType('video');       // ✅ idem
+                  setGalleryIndex(0);
+                }}
+              >
+                VIDEO
+              </button>
             )}
           </nav>
+
         </motion.div>
 
         <div className="ficha__stats">
@@ -135,26 +176,57 @@ export default function ModeloPage({ model }) {
           <span className="stat__title">ZAPATOS <span className="stat__data">{model.shoes} EU</span></span>
         </div>
 
-        <div className="ficha__galeria">
-          {model.media.map((item, i) =>
-            item.type === 'video' ? (
-              <video
-                key={i}
-                src={item.src}
-                autoPlay
-                loop
-                muted
-                playsInline
-              />
-            ) : (
-              <img
-                key={i}
-                src={item.src}
-                alt={`media-${i}`}
-              />
-            )
+        <div className="ficha__galeria-opciones">
+          {/* PORTFOLIO: solo si hay contenido */}
+          {model.gallery?.length > 0 && (
+            <div
+              className="galeria__item"
+              onClick={() => {
+                setGalleryType('portfolio');
+                setGalleryIndex(0);
+              }}
+              style={{
+                backgroundImage: `url(${model.portfolioCover || '/default-portfolio.jpg'})`,
+              }}
+            >
+              <span className="galeria__texto">PORTFOLIO</span>
+            </div>
+          )}
+
+          {/* DIGITALES: solo si existen */}
+          {model.digitales?.length > 0 && (
+            <div
+              className="galeria__item"
+              onClick={() => {
+                setGalleryType('digitales');
+                setGalleryIndex(0);
+              }}
+              style={{
+                backgroundImage: `url(${model.digitalesCover || '/default-digitales.jpg'})`,
+              }}
+            >
+              <span className="galeria__texto">DIGITALES</span>
+            </div>
+          )}
+
+          {/* VIDEO: solo si existen */}
+          {model.videoGallery?.length > 0 && (
+            <div
+              className="galeria__item"
+              onClick={() => {
+                setGalleryType('video');
+                setGalleryIndex(0);
+              }}
+              style={{
+                backgroundImage: `url(${model.videoCover || '/default-video.jpg'})`,
+              }}
+            >
+              <span className="galeria__texto">VIDEO</span>
+            </div>
           )}
         </div>
+
+
 
         <div className="ficha__description">
           <div>
@@ -211,13 +283,25 @@ export default function ModeloPage({ model }) {
                 <img src="/assets/arrow_black.svg" alt="Siguiente" />
               </button>
 
-              <div className="ficha__media">
+              <div className={`ficha__media ${Array.isArray(media.src) ? 'media--pair' : ''}`}>
                 {media.type === 'video' ? (
-                  <video src={media.src} autoPlay loop muted playsInline />
+                  <video
+                    src={media.src}
+                    autoPlay
+                    loop
+                    playsInline
+                  />
+                ) : Array.isArray(media.src) ? (
+                  media.src.map((src, i) => (
+                    <img key={i} src={src} alt={`gallery-${galleryIndex}-${i}`} />
+                  ))
                 ) : (
                   <img src={media.src} alt={`gallery-${galleryIndex}`} />
                 )}
               </div>
+
+
+
             </motion.div>
           )}
         </AnimatePresence>
