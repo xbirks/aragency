@@ -1203,7 +1203,7 @@
     {
       "type": "image",
       "src": [
-        "enlace-07-falta",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751190752/_DSC2011TERMINADA_orcyrv.jpg",
         "https://res.cloudinary.com/dpxilazgm/image/upload/v1751023018/_DSC2045TERMINADA_gr9axr.jpg"
       ],
       "layout": "pair"
@@ -1257,6 +1257,14 @@
       "src": [
         "https://res.cloudinary.com/dpxilazgm/image/upload/v1751023015/_DSC0380termretrato_ixekzb.jpg",
         "https://res.cloudinary.com/dpxilazgm/image/upload/v1751023067/IMG_5307_z4qlev.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751190822/_U8A0296_f9n5cj.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751190821/_U8A0308_girrcm.jpg"
       ],
       "layout": "pair"
     },
@@ -1320,7 +1328,7 @@
   "description": "<strong>Mireya Aroca Sánchez</strong> es una modelo española afincada en Valencia. Entre sus aficiones destacan la danza, el yoga, la cocina y la creación de contenido UGC.",
   "images": {
     "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024042/default_mireyaaroca_fav5ww.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024042/default_mireyaaroca_fav5ww.jpg"
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024045/hover_mireyaaroca_y5fo2b.jpg"
   },
   "height": 162,
   "bust": 88,
