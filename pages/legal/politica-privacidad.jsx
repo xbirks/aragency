@@ -1,4 +1,5 @@
 import ButtonArrow from "@/components/buttons/buttonArrow"
+import SeoHead from '@/components/seoHead';
 
 export default function PoliticaPrivacidad() {
   return (
