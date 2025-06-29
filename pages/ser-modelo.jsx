@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Compressor from "compressorjs";
 import Link from "next/link";
+import SeoHead from '@/components/seoHead';
 
 
 function ModelApplicationForm() {
@@ -95,6 +96,17 @@ function ModelApplicationForm() {
   };
 
   return (
+
+    <>
+      <SeoHead
+      title="Ser modelo - AR Agency"
+      description="Rellena nuestro formulario para convertirte en modelo profesional."
+      image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
+      url="https://www.ariannyrivasagency.com"
+      keywords="Formulario, formulario ser modelo, apuntarse ser modelo, como ser modelo"
+    />
+
+
     <div className="form-model">
       <h1 className="form-model__title">SER MODELO</h1>
 
@@ -133,7 +145,7 @@ function ModelApplicationForm() {
         <input
           type="text"
           name="firstName"
-          placeholder="Nombre"
+          placeholder="Nombre*"
           value={formData.firstName}
           onChange={handleChange}
           required
@@ -141,7 +153,7 @@ function ModelApplicationForm() {
         <input
           type="text"
           name="lastName"
-          placeholder="Apellidos"
+          placeholder="Apellidos*"
           value={formData.lastName}
           onChange={handleChange}
           required
@@ -149,7 +161,7 @@ function ModelApplicationForm() {
         <input
           type="email"
           name="email"
-          placeholder="Email"
+          placeholder="Email*"
           value={formData.email}
           onChange={handleChange}
           required
@@ -157,7 +169,7 @@ function ModelApplicationForm() {
         <input
           type="tel"
           name="phone"
-          placeholder="Teléfono"
+          placeholder="Teléfono*"
           value={formData.phone}
           onChange={handleChange}
           required
@@ -165,7 +177,7 @@ function ModelApplicationForm() {
         <input
           type="text"
           name="instagram"
-          placeholder="Instagram"
+          placeholder="Instagram*"
           value={formData.instagram}
           onChange={handleChange}
         />
@@ -262,6 +274,7 @@ function ModelApplicationForm() {
         )}
       </form>
     </div>
+    </>
   );
 }
 
