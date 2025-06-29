@@ -27,16 +27,6 @@ export default function SeoHead({
       <meta name="robots" content="index, follow" />
       <meta name="revisit-after" content="7 days" />
 
-       {/* Seguridad */}
-      <meta
-        httpEquiv="Content-Security-Policy"
-        content="default-src 'self'; img-src 'self' https://www.ariannyrivasagency.com/; script-src 'self' https://apis.google.com"
-      />
-      <meta name="referrer" content="no-referrer-when-downgrade" />
-      <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
-      <meta httpEquiv="X-Frame-Options" content="DENY" />
-      <meta httpEquiv="X-XSS-Protection" content="1; mode=block" />
-      <meta name="permissions-policy" content="geolocation=(self)" />
 
       {/* Formato de detección en móviles */}
       <meta
