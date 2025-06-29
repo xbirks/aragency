@@ -3,6 +3,15 @@ import SeoHead from '@/components/seoHead';
 
 export default function AvisoLegal() {
   return (
+    <>
+                    <SeoHead
+                    title="Aviso legal - AR Agency"
+                    description="Lee atentamente nuestro aviso legal e informate."
+                    image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
+                    url="https://www.ariannyrivasagency.com"
+                    keywords="No disponible"
+                  />
+
     <main>
       <section className="legal__master">
         <h1>Aviso legal</h1>
@@ -88,5 +97,6 @@ export default function AvisoLegal() {
         </div>
       </section>
     </main>
+    </>
   )
 }

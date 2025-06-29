@@ -5,8 +5,8 @@ export default function PoliticaCookies() {
   return (
      <>
                 <SeoHead
-                title="Política de privacidad- AR Agency"
-                description="Lee atentamente nuestra política de privacidad e informate."
+                title="Política de cookies - AR Agency"
+                description="Lee atentamente nuestra política de cookies e informate."
                 image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
                 url="https://www.ariannyrivasagency.com"
                 keywords="No disponible"

@@ -3,6 +3,15 @@ import SeoHead from '@/components/seoHead';
 
 export default function PoliticaPrivacidad() {
   return (
+     <>
+                    <SeoHead
+                    title="Política de privacidad - AR Agency"
+                    description="Lee atentamente nuestra política de privacidad e informate."
+                    image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
+                    url="https://www.ariannyrivasagency.com"
+                    keywords="No disponible"
+                  />
+
     <main>
       <section className="legal__master">
         <h1>Política de Privacidad</h1>
@@ -78,5 +87,6 @@ export default function PoliticaPrivacidad() {
         </div>
       </section>
     </main>
+    </>
   )
 }
