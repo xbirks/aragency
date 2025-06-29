@@ -651,6 +651,7 @@ strong{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 1rem;
+		margin: 0 auto;
 
 			@include media1200px {
 			grid-template-columns: repeat(2, 1fr);

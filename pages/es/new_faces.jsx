@@ -10,11 +10,11 @@ export default function Feed() {
   return (
     <>
       <SeoHead
-        title="AR Models"
-        description="Descubre modelos y creativos emergentes en España y Estados Unidos."
-        image="https://aragency.vercel.app/seo/index-cover.jpg"
-        url="https://aragency.vercel.app"
-        keywords="modelos en España, agencia de modelos, moda, talento, pasarela, fotografía"
+        title="AR New Faces"
+        description="Nuestras modelos emergentes en España"
+        image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
+        url="https://www.ariannyrivasagency.com/"
+        keywords="modelos emergentes en España, agencia de modelos, moda, talento, pasarela, fotografía"
       />
 
       <div
