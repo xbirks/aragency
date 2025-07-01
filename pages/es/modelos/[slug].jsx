@@ -231,7 +231,7 @@ export default function ModeloPage({ model }) {
         <div className="ficha__description">
           <div>
             <h2>{model.name}</h2>
-            <ButtonArrow href="/" texto="Contratar" />
+            <ButtonArrow href="mailto:info@ariannyrivasagency.com" texto="Contratar" />
           </div>
           <p dangerouslySetInnerHTML={{ __html: model.description }} />
         </div>

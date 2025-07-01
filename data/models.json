@@ -332,6 +332,20 @@
         "layout": "pair"
       },{
         "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0474_xwygam.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0566_rqgvun.jpg"
+        ],
+        "layout": "pair"
+      },{
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0607_efhof6.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0659_rzdrbg.jpg"
+        ],
+        "layout": "pair"
+      },{
+        "type": "image",
         "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265504/IMG_8099_qrtjlb.jpg"
       }
     ],
@@ -469,46 +483,38 @@
     
 
     "gallery": [
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268387/barbie4_es32nj.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268379/barbie3_a7ozra.jpg"
-        ],
-        "layout": "pair"
-      },{
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268377/image00010_ty0mho.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268381/image00011_gxlqs5.jpg"
-        ],
-        "layout": "pair"
-      },{
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268384/IMG_0644_sxintz.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268382/IMG_0646_qkxlbj.jpg"
-        ],
-        "layout": "pair"
-      },{
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268386/IMG_0051_hecqhw.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268394/IMG_0031_grrg0a.jpg"
-        ],
-        "layout": "pair"
-      },{
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268389/IMG_8177-PS_b1eam8.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268393/IMG_7982-PS_qnv1p6.jpg"
-        ],
-        "layout": "pair"
-      }
+     
     ],
 
   "digitales": [
-    
+     {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268995/Escaneado_-20250411-1305_boh6kg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268992/Escaneado_-20250411-1306_1_ubwdry.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268990/Escaneado_-20250411-1308_fpavmr.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268985/Escaneado_-20250411-1307_1_wrcmpx.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268983/Escaneado_-20250411-1306_ift8az.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268941/Escaneado_-20250411-1307_wvy344.jpg"
+    }
   ],
 
   "videoGallery": [
@@ -539,7 +545,11 @@
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
 
     "gallery": [
-        {
+        
+    ],
+  "digitales": [
+    
+    {
       "type": "image",
       "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788843/C0A1C7AE-0535-45A5-80FC-9FF4C4B36962_1_105_c.jpeg_apzbsr.jpg"
     },
@@ -571,10 +581,6 @@
       "type": "image",
       "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788826/7B6C77E5-10A9-48A3-9766-7F5362B1B3D2_1_105_c.jpeg_tivb7h.jpg"
     }
-    ],
-  "digitales": [
-    
-    
   ],
   "videoGallery": [
    
@@ -616,7 +622,7 @@
       "type": "image",
       "src": [
         "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272624/IMG_4005_frkbt0.jpg",
-        ""
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272660/IMG_3999_vpxx8q.jpg"
       ],
       "layout": "pair"
     }
@@ -714,10 +720,7 @@
   ],
 
   "digitales": [
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273160/IMG_1791_mrznou.jpg"
-    },
+    
     {
       "type": "image",
       "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273105/IMG_7513.JPEG_opmrng.jpg"
@@ -1517,10 +1520,6 @@
         "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024779/00dfdaaf-18e9-4e26-bf72-5ce98a787221_vrthbu.jpg"
       ],
       "layout": "pair"
-    },
-    {
-      "type": "image",
-      "src": "enlace-14-falta"
     },
     {
       "type": "image",
