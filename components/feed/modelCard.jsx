@@ -11,8 +11,8 @@ export default function ModelCard({ model }) {
       transition={{ duration: 0.4, ease: 'easeOut' }}
     >
       <div className="model__tarjeta-img">
-        <img src={model.images.default} alt={model.name} className="model-img-default" />
-        <img src={model.images.hover} alt={`${model.name} hover`} className="model-img-hover" />
+        <img src={model.images.default} alt={`Foto principal de ${model.name}`} className="model-img-default" />
+        <img src={model.images.hover} alt={`Foto secundaria de ${model.name}`} className="model-img-hover" />
       </div>
       <p className="model__tarjeta-name">{model.name}</p>
     </motion.div>

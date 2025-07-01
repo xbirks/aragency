@@ -155,7 +155,7 @@ export default function ModeloPage({ model }) {
             {model.videoGallery?.length > 0 && (
               <button
                 onClick={() => {
-                  setGalleryType('video');       // ✅ idem
+                  setGalleryType('video');       
                   setGalleryIndex(0);
                 }}
               >
@@ -293,10 +293,10 @@ export default function ModeloPage({ model }) {
                   />
                 ) : Array.isArray(media.src) ? (
                   media.src.map((src, i) => (
-                    <img key={i} src={src} alt={`gallery-${galleryIndex}-${i}`} />
+                    <img key={i} src={src} alt={`Portfolio de ${model.name}, imagen ${galleryIndex + 1}`} />
                   ))
                 ) : (
-                  <img src={media.src} alt={`gallery-${galleryIndex}`} />
+                  <img src={media.src} alt={`Digitales de ${model.name}, imagen ${galleryIndex + 1}`} />
                 )}
               </div>
 
