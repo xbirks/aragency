@@ -58,7 +58,7 @@ export default async function handler(req, res) {
 
   const mailOptions = {
     from: process.env.SMTP_USER,
-    to: "hola@soyandres.es",
+    to: "info@ariannyrivasagency.com",
     subject: `Nueva candidatura de modelo: ${firstName} ${lastName}`,
     html: `
       <h2>Datos de la candidatura</h2>
