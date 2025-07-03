@@ -1818,7 +1818,102 @@
       "src": "/models/teresa_rodriguez/videos/teresa(1).mp4"
     }
   ]
+},{
+  "slug": "andrea-dobrin",
+  "name": "Andrea Dobrin",
+  "category": "model",
+  "description": "<strong>Andrea Dobrin</strong> es una modelo española que reside en Valencia y se apasiona por el patinaje y la actuación.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/default_andrea-dobri_y3cqot.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/hover_andrea-dobri_aciuyn.jpg"
+  },
+  "height": 170,
+  "bust": 90,
+  "waist": 69,
+  "hips": 93,
+  "hair": "Negro",
+  "eyes": "Marrón",
+  "shoes": 39,
+  "url": "/es/modelos/andrea-dobrin",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571320/portfolio_andrea-dobri_dpeg4n.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/portada_andrea-dobri_yfusv8.jpg",
+  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571320/digitales_andrea-dobri_tgm0ni.jpg",
+  "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571175/IMG_5500_uo2ecs.jpg",
+
+  "gallery": [
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571175/IMG_7644_tgzalh.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571176/IMG_7640-2_d3nzr6.jpg"
+      ],
+      "layout": "pair"
+    },{
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571177/7381428D-0930-418F-88A7-E22DE91D66FF_1_105_c.jpeg_bjdq3y.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571175/IMG_0927_zd7b7g.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571176/IMG_8010_odtkx2.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571175/IMG_8009_snilxd.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571176/50AB7B53-0380-4A10-974F-9FF6CB2BFE79_vxe75w.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571174/IMG_2903_o9e7p1.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571175/IMG_5500_uo2ecs.jpg"
+    }
+  ],
+
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571164/IMG_7634_krbjex.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571164/IMG_7638_ubnmiy.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571164/IMG_7626_kq2akj.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571164/IMG_7636_w5pcmc.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571164/IMG_7630_nv4pao.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571164/IMG_7632_vbezwd.jpg"
+    }
+  ],
+
+  "videoGallery": [
+    {
+      "type": "video",
+      "src": "/models/andrea_dobrin/videos/low_vid1.mp4"
+    }
+  ]
 }
+
+
 
 
 
