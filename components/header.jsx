@@ -78,7 +78,7 @@ export default function Header() {
           !isIndex && (
             <div className="menu__mobile">
               <a
-                href="https://www.instagram.com/studioar.es/"
+                href="https://www.instagram.com/ariannyrivasagency/"
                 className="menu__instagram"
                 target="_blank"
                 rel="noopener noreferrer"

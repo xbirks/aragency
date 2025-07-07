@@ -749,8 +749,8 @@
   "category": "newface",
   "description": "<strong>Kim Ayala Useche</strong> es una new face española con base en Valencia y disponibilidad para proyectos en Madrid y Barcelona. Sus pasiones incluyen el patinaje, el canto y la interpretación.",
   "images": {
-    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273882/default-kim-ayala_npx8rx.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273885/hover-kim-ayala_wmvgbz.jpg"
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751919581/default_kimi_uc5zed.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751919581/hover_kimi_d8t5qh.jpg"
   },
   "height": 159,
   "bust": 106,
@@ -1819,10 +1819,10 @@
     }
   ]
 },{
-  "slug": "andrea-dobrin",
-  "name": "Andrea Dobrin",
+  "slug": "andreea-dobrin",
+  "name": "Andreea Dobrin",
   "category": "model",
-  "description": "<strong>Andrea Dobrin</strong> es una modelo española que reside en Valencia y se apasiona por el patinaje y la actuación.",
+  "description": "<strong>Andreea Dobrin</strong> es una modelo española que reside en Valencia y se apasiona por el patinaje y la actuación.",
   "images": {
     "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/default_andrea-dobri_y3cqot.jpg",
     "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/hover_andrea-dobri_aciuyn.jpg"
@@ -1834,7 +1834,7 @@
   "hair": "Negro",
   "eyes": "Marrón",
   "shoes": 39,
-  "url": "/es/modelos/andrea-dobrin",
+  "url": "/es/modelos/andreea-dobrin",
   "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571320/portfolio_andrea-dobri_dpeg4n.jpg",
   "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/portada_andrea-dobri_yfusv8.jpg",
   "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571320/digitales_andrea-dobri_tgm0ni.jpg",
