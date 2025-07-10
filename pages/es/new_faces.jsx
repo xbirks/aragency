@@ -30,11 +30,18 @@ export default function Feed() {
       <div className="model__textos">
         <h1>Agencia de modelos en Valencia</h1>
 
-        <p><strong>AR Agency</strong> es una agencia de modelos con sede en <strong>Valencia y Miami</strong>, especializada en representar <strong>talento profesional y semiprofesional</strong> para campañas de moda, publicidad y contenido digital. Trabajamos con marcas que buscan <strong>autenticidad</strong>, impacto y <strong>conexión real con sus audiencias</strong>.</p>
-
-        <p>Nuestra propuesta combina <strong>dirección de talento</strong>, estrategia de contenido y presencia activa en redes sociales. Creamos colaboraciones que van más allá del casting: modelos capaces de <strong>generar contenido (UGC)</strong>, conectar con comunidades y adaptarse a los nuevos formatos de comunicación.</p>
-
-        <p>Nos implicamos de forma cercana en cada proyecto, <strong>cuidando los detalles</strong> y apostando por relaciones duraderas basadas en la <strong>confianza</strong>, la transparencia y la calidad. Esta forma de trabajar nos ha permitido construir un entorno donde tanto clientes como modelos pueden <strong>crecer y evolucionar juntos</strong>.</p>
+        <p><strong>AR Agency no solo representa modelos: forma talentos con sello propio.</strong>
+        <br></br><br></br>
+        Cada integrante de nuestra comunidad recibe formación desde la base, lo que garantiza <strong>profesionalismo, autenticidad, calidad y visibilidad digital</strong> en cada paso que da.
+        <br></br><br></br>
+        Somos una <strong>comunidad internacional de modelos</strong>, con sede en Valencia, que reúne talentos que representan culturas, historias y estilos de todo el mundo. Apostamos por una formación integral, acompañamiento constante y <strong>coaching personalizado,</strong> asegurando que cada perfil esté listo para destacar en <strong>pasarelas, campañas digitales y redes sociales.</strong>
+        <br></br><br></br>
+        <strong>Quien confía en AR Agency accede a modelos altamente capacitados, versátiles y alineados con las últimas tendencias del mercado.</strong> Ofrecemos un proceso ágil, atención personalizada y resultados de alto impacto visual y emocional. Trabajar con nosotros significa contar con un equipo comprometido en reflejar valores, potenciar la conexión con la audiencia y elevar el valor estético y comunicativo de cada proyecto.
+        <br></br><br></br>
+        Brindamos <strong>compromiso y un servicio impecable,</strong> pensado para <strong>marcas de moda, fotógrafos, diseñadores, y mentes creativas</strong> que buscan <strong>modelos profesionales con proyección,</strong> tanto a nivel nacional como internacional.
+        <br></br><br></br>
+        <strong>Nuestros talentos son más que una imagen. Tienen propósito, disciplina y actitud.</strong> Una nueva generación de modelos, libre de estereotipos, está emergiendo. <strong>Y empieza aquí.</strong>
+        </p>
       </div>
     </>
   );
