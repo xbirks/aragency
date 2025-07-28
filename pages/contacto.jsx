@@ -12,11 +12,11 @@ export default function ContactoAgencias() {
           <div className="contacto__tarjetas">
             <div className="contacto__fila">
               <span className="contacto__etiqueta">Dirección</span>
-              <span className="contacto__dato">Avenida de la Constitución 12</span>
+              <span className="contacto__dato">C/ de Sant Vicent Màrtir, 338, Jesús, 46017 València, Valencia</span>
             </div>
             <div className="contacto__fila">
               <span className="contacto__etiqueta">Teléfono</span>
-              <span className="contacto__dato">+34 675 392 216</span>
+              <span className="contacto__dato">+34 661 85 56 12</span>
             </div>
             <div className="contacto__fila">
               <span className="contacto__etiqueta">Email</span>
@@ -26,7 +26,7 @@ export default function ContactoAgencias() {
         </div>
       </div>
 
-      <div className="contacto__bloque">
+      {/* <div className="contacto__bloque">
         <h2 className="contacto__titulo">Miami / Florida / USA</h2>
         <hr className="contacto__linea" />
 
@@ -48,7 +48,7 @@ export default function ContactoAgencias() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

@@ -7,16 +7,8 @@ import ButtonArrow from '@/components/buttons/buttonArrow.jsx';
 import ar_logo_white from '@/public/assets/AR_Vector_White.svg';
 import { motion, AnimatePresence } from 'framer-motion';
 
-/**
- * =============================================================
- * ModeloPage – versión corregida
- * =============================================================
- * • preparedGallery se calcula antes de los callbacks =>
- *   evita “Cannot access ... before initialization”.
- * • Todas las referencias de límite usan preparedGallery.length.
- * • Loader con fade‑in/fade‑out durante la carga.
- * =============================================================
- */
+
+
 
 const models = Array.isArray(dataRaw) ? dataRaw : dataRaw.default || [];
 
