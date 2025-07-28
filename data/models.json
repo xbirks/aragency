@@ -1822,7 +1822,8 @@
   "slug": "andreea-dobrin",
   "name": "Andreea Dobrin",
   "category": "model",
-  "description": "<strong>Andreea Dobrin</strong> es una modelo española que reside en Valencia y se apasiona por el patinaje y la actuación.",
+  "description": "<strong>Andreea Dobrin</strong> es una modelo con una presencia magnética y una mirada intensa que transmite fuerza, sensibilidad y carácter en cada imagen. Su estilo depurado y contemporáneo le permite destacar con naturalidad en producciones que apuestan por la autenticidad y la expresión emocional.<br><br>Con su gran pasión por la actuación y por el patinaje, Andreea aporta a cada sesión una combinación única de control corporal y espontaneidad. Su trabajo frente a cámara refleja una conexión genuina con el entorno creativo, dando como resultado imágenes potentes y llenas de intención.<br><br>Andreea representa una generación de modelos intuitivas, versátiles y profundamente comprometidas con la estética, la narrativa visual y la construcción de identidades modernas y conscientes.",
+
   "images": {
     "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/default_andrea-dobri_y3cqot.jpg",
     "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751571319/hover_andrea-dobri_aciuyn.jpg"
@@ -2120,7 +2121,7 @@
   "eyes": "Verdes",
   "shoes": "36/37",
   "url": "/es/modelos/irene-manez-garcia",
-  "hero": "/models/irene-manez/video_irene.mp4",
+  "hero": "/models/irene_manez/video_irene.mp4",
   "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724862/portada_irene-manez_nwjubx.jpg",
   "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724860/digitales_irene-manez_qsvy8d.jpg",
   "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724857/video_irene-manez_pctmnk.jpg",
@@ -2209,7 +2210,7 @@
   "videoGallery": [
     {
       "type": "video",
-      "src": "/models/irene-manez/video_irene.mp4"
+      "src": "/models/irene_manez/video_irene.mp4"
     }
   ]
 }
