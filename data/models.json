@@ -1911,7 +1911,311 @@
       "src": "/models/andrea_dobrin/videos/low_vid1.mp4"
     }
   ]
+},
+
+{
+  "slug": "miriam-xiaoping-gienez-anderiz",
+  "name": "Miriam Giénez",
+  "category": "model",
+  "description": "Miriam Xiaoping es una artista integral y modelo versátil, cuya… fuerza escénica, elegancia física y profunda sensibilidad corporal.<br></br>Con una formación sólida en danza contemporánea, heels, hip-hop, y la versatilidad que ofrece su experiencia multicultural, domina el movimiento con naturalidad y se adapta con fluidez a los lenguajes visuales de cada marca o proyecto.<br></br>Apasionada por el patinaje, la acrobacia y el teatro, su cuerpo se convierte en un canal de narrativa visual que va más allá de la moda, fusionando energía, poética y un dominio técnico que dota de autenticidad cada imagen.<br></br>Con su habilidad para los idiomas —español, inglés, chino, francés e italiano—, Miriam crea una conexión auténtica, carisma multicultural y creatividad sin fronteras.<br></br>Miriam aporta una mirada fresca, empoderada y comprometida, siendo un valor imprescindible que eleva cada proyecto con estilo, talento y visión escénica.",
+
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722898/default_xiaoping_g4tuoh.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722898/hover_xiaoping_pgj4jx.jpg"
+  },
+  "height": 160,
+  "bust": 91,
+  "waist": 72,
+  "hips": 96,
+  "hair": "Negro",
+  "eyes": "Marrón",
+  "shoes": 36,
+  "url": "/es/modelos/miriam-xiaoping-gienez-anderiz",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/portfolio_xiaoping_gnm26n.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/portada_xiaoping_mkzdot.jpg",
+  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/digitales_xiaoping_erpy0q.jpg",
+  "videoCover": "",
+  "gallery": [
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722851/solmenorphoto-61_wlz0qe.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722849/solmenorphoto-38_ro0c8p.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722848/MIRIAM-XIAOPING_RIVER-_6_m4kzgb.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722848/MIRIAM-XIAOPING_RIVER-_5_fexmf0.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722850/solmenorphoto-25_mirfjs.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722851/solmenorphoto-27_c8lxzv.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722846/MIRIAM-XIAOPING_RIVER-_1_xbfs8x.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722847/MIRIAM-XIAOPING_RIVER-_2_ghj8wr.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722847/2025-01-25-MiriamX0175_embul3.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722847/MIRIAM_XIAOPING_RIVER-00011_jplkpa.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722850/MIRIAM-XIAOPING_RIVER23_oiy2q2.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722849/MIRIAM-XIAOPING_RIVER24_z4ychy.jpg"
+      ],
+      "layout": "pair"
+    }
+  ],
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722836/ea19812c-5831-423d-8927-f6f30bd0efb5_mnwkvq.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722836/53188ec1-1447-42ee-95d9-b6bfa7012220_il88l3.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722835/43b0e030-46ff-433d-a264-0fbca604ed5c_wcldgi.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722835/5fe50093-fb11-402c-a62a-93854db9af5c_pfyn75.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722835/f9f86cea-1775-4b81-b21e-f38f836dac8b_ngtcrx.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722835/e7ea19a3-0c68-4f69-8f68-c08f183854ee_zmgztu.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722835/de8a6e3a-04dc-48cf-9244-8c720d0e59d9_axlige.jpg"
+    }
+  ],
+  "videoGallery": [
+    
+  ]
+},
+{
+  "slug": "carol-valencia",
+  "name": "Carol Valencia",
+  "category": "newface",
+  "description": "<strong>Carol Juliana Valencia</strong> es una modelo new face española radicada en Madrid.<br></br>De ojos azul con verde y cabello rubio, aporta frescura y naturalidad a cada proyecto.",
+  "images": {
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724179/default_carol-julian_anpx7j.jpg",
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724178/hover_carol-julian_xwpzao.jpg"
+  },
+  "height": 163,
+  "bust": 80,
+  "waist": 61,
+  "hips": 83,
+  "hair": "Rubio",
+  "eyes": "Azul con verde",
+  "shoes": 36.5,
+  "url": "/es/modelos/carol-valencia",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724175/portada_carol-julian_gyo2de.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724176/portfolio_carol-julian_jvpeuu.jpg",
+  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724177/digitales_carol-julian_hrwhaw.jpg",
+  "videoCover": "",
+
+  "gallery": [
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724126/2DC9C035-AF2E-4A94-8698-11E500C7C04A_1_105_c.jpeg_d9zcsg.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724130/ABEF130D-130D-41CD-99F8-C84D803845C9_1_105_c.jpeg_xqt41g.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724127/7D90028C-A166-45BA-BF35-FECCFB17502B_1_105_c.jpeg_fu7ez3.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724125/IMG_0906-2_ypzegs.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724129/IMG_7716_icufsf.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724128/IMG_7721_lcpewl.jpg"
+      ],
+      "layout": "pair"
+    }
+  ],
+
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724118/3S6A6871-copia_xbieai.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724116/3S6A6808-copia_jgtreg.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724116/3S6A6813-copia_ldxjtz.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724115/3S6A6780-copia_nnccws.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724114/3S6A6897-copia_kqhzxi.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724113/3S6A6773-copia_ofp3yy.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724113/3S6A6839-copia_ujqs23.jpg"
+    }
+  ],
+
+  "videoGallery": [
+  
+  ]
+},
+{
+  "slug": "irene-manez-garcia",
+  "name": "Irene Mañez",
+  "category": "newface",
+  "description": "<strong>Irene Mañez</strong> es una modelo new face española afincada en Valencia, disponible para proyectos en toda España y Estados Unidos.<br></br>Apasionada por el canto, la actuación y el piano, aporta energía fresca con sus ojos verdes y cabello castaño claro.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724858/default_irene-manez_exkvby.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724859/hover_irene-manez_u0xhy8.jpg"
+  },
+  "height": 168,
+  "bust": 90.5,
+  "waist": 68,
+  "hips": 87,
+  "hair": "Castaño claro",
+  "eyes": "Verdes",
+  "shoes": "36/37",
+  "url": "/es/modelos/irene-manez-garcia",
+  "hero": "/models/irene-manez/video_irene.mp4",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724862/portada_irene-manez_nwjubx.jpg",
+  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724860/digitales_irene-manez_qsvy8d.jpg",
+  "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724857/video_irene-manez_pctmnk.jpg",
+
+  "gallery": [
+    
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724836/IMG_8374.JPEG_xrwvwa.jpg"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724831/7a8675b9-0adb-4cfb-bdf5-e44158bd8035_yr37qy.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724833/IMG_6593_pxn4pn.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724834/IMG_8372.JPEG_ypuwid.jpg"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724838/IMG_6597_fn18jo.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724835/IMG_6640_ruaqym.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724830/IMG_8371.JPEG_xrr9ln.jpg"
+    }
+  ],
+
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724854/IMG_4289-2_fcqxnp.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724853/IMG_4288_shm0sj.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724852/IMG_4287_a1c0g7.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724851/IMG_4285_egyalx.jpg"
+    },{
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724849/IMG_4286_drtkw3.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724848/FOTO-2_cpsmgv.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724847/FOTO-3_blelh5.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724845/FOTO-1_k8t20g.jpg"
+    },{
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724844/IMG_4294_yalf0i.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724843/IMG_4293_kdag0g.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724841/IMG_4292_td132u.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724840/IMG_4290_uf4mpl.jpg"
+    }
+  ],
+
+  "videoGallery": [
+    {
+      "type": "video",
+      "src": "/models/irene-manez/video_irene.mp4"
+    }
+  ]
 }
+
+
+
 
 
 
