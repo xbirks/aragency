@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
         <SeoHead
-        title="AR AGENCY - Agencia de modelos"
-        description="Descubre modelos y promesas emergentes en España, Estados Unidos y LATAM."
+        title="AR AGENCY - Agencia internacional de modelos y talentos emergentes"
+        description="Descubre modelos y promesas emergentes en España, Estados Unidos y LATAM para pasarela, UGC y publicidad"
         image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
         url="https://www.ariannyrivasagency.com"
         keywords="modelos en España, agencia de modelos, moda, talento, pasarela, fotografía"
