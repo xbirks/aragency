@@ -228,13 +228,13 @@
     "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264378/default-angelica-pons_aqegu5.jpg",
     "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264378/hover-angelica-pons_kzgm7q.jpg"
   },
-  "height": 175,
-  "bust": 85,
-  "waist": 62,
-  "hips": 94,
-  "hair": "Castaño claro",
-  "eyes": "Miel",
-  "shoes": 39,
+  "height": 171,
+  "bust": 90,
+  "waist": 76,
+  "hips": 91,
+  "hair": "Castaño oscuro",
+  "eyes": "Verde",
+  "shoes": 40,
   "url": "/es/modelos/angelica-pons-marquez",
   "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786845/portada_angelica_jzrqaf.jpg",
 
@@ -291,10 +291,10 @@
   ]
 },
 {
-  "slug": "aranxta-leon",
-  "name": "Aranxta Leon",
+  "slug": "arantxa-leon",
+  "name": "Arantxa León",
   "category": "newface",
-  "description": "<strong>Aranxta</strong> es una modelo con un estilo moderno, fresco y cercano, ideal para marcas que buscan campañas auténticas y reales. Su rostro versátil y expresivo conecta de forma genuina con el público, transmitiendo naturalidad en cada toma. Con experiencia en la creación de contenido UGC, aporta espontaneidad, confianza y fluidez en entornos digitales y redes sociales.<br></br>Un talento emergente perfecto para producciones que valoran la cercanía, la creatividad y la personalidad única.",
+  "description": "<strong>Arantxa León</strong> es una modelo con un estilo moderno, fresco y cercano, ideal para marcas que buscan campañas auténticas y reales. Su rostro versátil y expresivo conecta de forma genuina con el público, transmitiendo naturalidad en cada toma. Con experiencia en la creación de contenido UGC, aporta espontaneidad, confianza y fluidez en entornos digitales y redes sociales.<br></br>Un talento emergente perfecto para producciones que valoran la cercanía, la creatividad y la personalidad única.",
   "images": {
     "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265600/default-arantxa-leon_qmzlg5.jpg",
     "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265598/hover-arantxa-leon_fbmnmc.jpg"
