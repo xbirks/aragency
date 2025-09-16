@@ -155,7 +155,16 @@
           "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100231/IMG_5430_chqjke.jpg"
         ],
         "layout": "pair"
-      },{
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048213/IMG_9526_w2pjbs.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048212/IMG_9531_mutaxw.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
         "type": "image",
         "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100222/IMG_5450_ia2lxy.jpg"
       },{
@@ -464,8 +473,8 @@
   "category": "newface",
   "description": "<strong>Carin Garcés</strong> es una modelo con un estilo alternativo y una estética muy personal que no pasa desapercibida.<br><br>Su mirada intensa, gestualidad sutil y rasgos delicados aportan una fuerza visual ideal para proyectos editoriales, creativos y conceptuales.<br><br>Artista visual y apasionada por la pintura, su sensibilidad estética se refleja con naturalidad frente a la cámara, generando imágenes con profundidad y significado. Un rostro distintivo, perfecto para marcas y producciones que buscan autenticidad, carácter y una belleza poco convencional.",
   "images": {
-    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269331/default-carin-garces_dxtun4.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269329/hover-carin-garces_qbdsbr.jpg"
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048670/default_carin-garces_zzhgex.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048666/hover_carin-garces_qm98mh.jpg"
   },
   "height": 160,
   "bust": 88,
@@ -477,13 +486,36 @@
   "url": "/es/modelos/carin-garcés",
   "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269333/portada-carin-garces_iwlqqn.jpg",
 
-  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048667/portfolio_carin-garces_e8shsr.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048668/digitales_carin-garces_ravtff.jpg",
 
     
 
     "gallery": [
-     
+     {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048612/Carin-009_b7ta9q.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048611/Carin-012_ujeif7.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048607/Carin-001_byciam.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048608/Carin-003_aemsmw.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048610/Carin-004_oxdtmd.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048607/Carin-006_aafs3x.jpg"
+        ],
+        "layout": "pair"
+      }
     ],
 
   "digitales": [
@@ -625,6 +657,14 @@
         "https://res.cloudinary.com/dpxilazgm/image/upload/v1750272660/IMG_3999_vpxx8q.jpg"
       ],
       "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048874/DSC01673_hb6oeb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048876/DSC01866-copia_agy5wo.jpg"
     }
   ],
 
@@ -749,8 +789,8 @@
   "category": "newface",
   "description": "<strong>Kim</strong> combina su experiencia como modelo con su trabajo en contenido UGC, logrando conectar de forma directa con la audiencia actual.<br><br>Con una mirada serena y segura, transmite naturalidad y confianza en cada imagen.<br><br>Su presencia versátil le permite adaptarse con facilidad a distintos formatos visuales, desde campañas hasta colaboraciones digitales.<br><br>Ideal para marcas que buscan perfiles auténticos, creativos y con gran capacidad de conexión.",
   "images": {
-    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751919581/default_kimi_uc5zed.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751919581/hover_kimi_d8t5qh.jpg"
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049241/default_kim-ayala_hj7l9n.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049244/hover_kim-ayala_opkslv.jpg"
   },
   "height": 159,
   "bust": 106,
@@ -760,14 +800,53 @@
   "eyes": "Marron",
   "shoes": 39,
   "url": "/es/modelos/kim-ayala-useche",
-  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273889/portada-kim-ayala_jil3kq.jpg",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049245/portada_kim-ayala_fplpgb.jpg",
 
-  "portfolioCover": "",
-  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273889/portada-kim-ayala_jil3kq.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049242/portfolio_kim-ayala_tejurb.jpg",
+  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049247/digitales_kim-ayala_p0etlm.jpg",
   "videoCover": "",
 
   "gallery": [
-    
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049301/IMG_8320_hvrpeb.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049308/IMG_8885_j5xpad.jpg"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049310/IMG_8309_egrxov.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049299/IMG_8315_c8hhau.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049311/Book--Clase-Bemodel-01-02-2025--Cristina-Grajera.-Covers-Models-Academy-51_r3nxaj.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049297/IMG_8280_rthtqz.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049302/IMG_8528_u0uxyl.jpg"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049295/Foto_1_hywei1.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049304/Foto_4_bcfg79.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049306/IMG_8417_jcuwqt.jpg"
+    }
   ],
 
   "digitales": [
@@ -814,13 +893,41 @@
   "eyes": "Negro",
   "shoes": 41,
   "url": "/es/modelos/liseury-guzman",
-  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275000/portada-liseury_uwmfwr.jpg",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046755/portada_liseury_vfrzbo.jpg",
 
   "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751007971/portfolio_liseury_z3lvsg.jpg",
   "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751007972/digitales_liseury_agy4cy.jpg",
   "videoCover": "",
 
   "gallery": [
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__6_erw507.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__7_uaobwe.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__4_wrnnog.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__3_jwkyyw.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__5_u3r4hv.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__1_mx9vvg.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758046467/250916__8_ulvcmw.jpg"
+    },
     {
       "type": "image",
       "src": [
@@ -1330,8 +1437,8 @@
   "category": "model",
   "description": "<strong>Mireya Aroca Sánchez</strong> es una modelo profesional que destaca por su autenticidad, disciplina y mirada creativa. Es autora de su propio libro, lo que refleja su compromiso con el desarrollo personal y la expresión artística.<br><br>Apasionada por la danza, el yoga, la cocina y la creación de contenido UGC, Mireya aporta sensibilidad, elegancia y versatilidad a cada proyecto. Su profesionalismo, sumado a una presencia serena y segura frente a la cámara, la convierten en una aliada ideal para marcas que buscan talento real con propósito y proyección.",
   "images": {
-    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024042/default_mireyaaroca_fav5ww.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024045/hover_mireyaaroca_y5fo2b.jpg"
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048033/default_mireya__qvwp7j.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048034/hover_mireya__opqoam.jpg"
   },
   "height": 162,
   "bust": 88,
@@ -1348,6 +1455,49 @@
   "videoCover": "",
 
   "gallery": [
+      
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047696/image00001_rvxd4k.jpg"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047700/Archivo-27_h1phin.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047693/Archivo-31_te1wqt.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047694/Archivo-19_ngrjxc.jpg"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047692/Archivo-60_utstlg.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047692/Archivo-58_heuaox.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047698/Archivo-8_tenvqb.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047697/Archivo-10_xiqvyd.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047700/Archivo-2_gxw5a8.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047695/Archivo-3_kndvlw.jpg"
+      ],
+      "layout": "pair"
+    },
+
+
     {
       "type": "image",
       "src": [
@@ -2122,12 +2272,28 @@
   "shoes": "36/37",
   "url": "/es/modelos/irene-manez-garcia",
   "hero": "/models/irene_manez/video_irene.mp4",
-  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724862/portada_irene-manez_nwjubx.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047348/portfolio_irene_manez_afar2f.jpg",
   "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724860/digitales_irene-manez_qsvy8d.jpg",
   "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724857/video_irene-manez_pctmnk.jpg",
 
   "gallery": [
     
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047178/IMG_9387-PS--2_iqfozh.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047178/IMG_9399-Ps2-final-final-2-_umbvwd.jpg"
+      ],
+      "layout": "pair"
+    },
+    {
+      "type": "image",
+      "src": [
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047176/IMG_9428.-irene-cargada-final_yfxei7.jpg",
+        "https://res.cloudinary.com/dpxilazgm/image/upload/v1758047177/IMG_9368-PS-2_ejtbb0.jpg"
+      ],
+      "layout": "pair"
+    },
     {
       "type": "image",
       "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753724836/IMG_8374.JPEG_xrwvwa.jpg"
