@@ -5,7 +5,7 @@ export default function PoliticaDesistimiento() {
   return (
     <>
       <SeoHead
-        title="Política de desistimiento y reembolso — The Perfect Model"
+        title="Política de desestimiento y reembolso — The Perfect Model"
         description="Condiciones para ejercer el derecho de desistimiento y solicitar reembolso en la formación online The Perfect Model."
         image="https://www.ariannyrivasagency.com/seo/index-cover.jpg"
         url="https://www.ariannyrivasagency.com"
@@ -14,7 +14,7 @@ export default function PoliticaDesistimiento() {
 
       <main>
         <section className="legal__master">
-          <h1>Política de Desistimiento y Reembolso — Formación Online «The Perfect Model»</h1>
+          <h1>Política de desestimiento y reembolso <br></br>—<br></br> Formación Online «The Perfect Model»</h1>
           <p>Versión 24&nbsp;oct&nbsp;2025</p>
 
           <p>
