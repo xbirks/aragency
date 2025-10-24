@@ -1301,7 +1301,7 @@ strong{
 		font-weight: 200;
 		font-size: 0.9rem;
 		letter-spacing: 0px;
-		line-height: 20px;
+		line-height: 24px;
 		max-width: 750px;
 		margin-bottom: 10px;
 		padding-left: 20px;
@@ -1309,6 +1309,17 @@ strong{
 
 	.button__cierre{
 		margin-top: 100px;
+	}
+
+	.legal__sublista{
+		margin-left: 30px;
+		color: rgb(128, 102, 43);
+	}
+
+	.legal__enlace{
+		color: #2c27be;
+		font-weight: 400;
+		text-decoration: underline;
 	}
 
 }
