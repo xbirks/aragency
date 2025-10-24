@@ -24,6 +24,7 @@ export default function Footer() {
         <li><Link href="/legal/aviso-legal">Aviso legal</Link></li>
         <li><Link href="/legal/politica-privacidad">Política de privacidad</Link></li>
         <li><Link href="/legal/politica-cookies">Política de cookies</Link></li>
+        <li><Link href="/legal/politica-devolucion">Política de devolución</Link></li>
       </ul>
     </motion.footer>
   );
