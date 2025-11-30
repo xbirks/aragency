@@ -25,9 +25,9 @@ export async function getStaticProps({ params }) {
 
 export default function ModeloPage({ model }) {
   /* ───────────────────────────  state  ───────────────────── */
-  const [galleryType, setGalleryType] = useState(null);   // 'portfolio' | 'digitales' | 'video' | null
+  const [galleryType, setGalleryType] = useState(null);   // 'portfolio' | 'digitales' | 'video' | 'ugc' | null
   const [galleryIndex, setGalleryIndex] = useState(0);
-  const [isMobile, setIsMobile]   = useState(false);      // breakpoint 768
+  const [isMobile, setIsMobile] = useState(false);      // breakpoint 768
   const [isLoading, setIsLoading] = useState(true);       // loader overlay
 
   /* ───────────────────  detectar tamaño viewport  ────────── */
@@ -41,22 +41,23 @@ export default function ModeloPage({ model }) {
   /* ───────────────────  construir galería efectiva  ──────── */
   const currentGallery =
     galleryType === 'portfolio' ? model.gallery || [] :
-    galleryType === 'digitales' ? model.digitales || [] :
-    galleryType === 'video'     ? model.videoGallery || [] :
-    [];
+      galleryType === 'digitales' ? model.digitales || [] :
+        galleryType === 'video' ? model.videoGallery || [] :
+          galleryType === 'ugc' ? model.ugcGallery || [] :
+            [];
 
-  const isVideoGallery = galleryType === 'video';
+  const isVideoGallery = galleryType === 'video' || galleryType === 'ugc';
 
   const preparedGallery = isVideoGallery
     ? currentGallery
     : currentGallery.flatMap(item => {
-        if (Array.isArray(item.src)) {
-          return isMobile
-            ? item.src.map(src => ({ type: 'image', src }))
-            : [item];
-        }
-        return [item];
-      });
+      if (Array.isArray(item.src)) {
+        return isMobile
+          ? item.src.map(src => ({ type: 'image', src }))
+          : [item];
+      }
+      return [item];
+    });
 
   const media = preparedGallery[galleryIndex] || null;
 
@@ -104,9 +105,10 @@ export default function ModeloPage({ model }) {
           <h1>{model.name}</h1>
           {/* botones galería */}
           <nav className="ficha__botones">
-            {model.gallery?.length > 0 && <button onClick={() => {setGalleryType('portfolio'); setGalleryIndex(0);}}>PORTFOLIO</button>}
-            {model.digitales?.length > 0 && <button onClick={() => {setGalleryType('digitales'); setGalleryIndex(0);}}>DIGITALES</button>}
-            {model.videoGallery?.length > 0 && <button onClick={() => {setGalleryType('video'); setGalleryIndex(0);}}>VIDEO</button>}
+            {model.gallery?.length > 0 && <button onClick={() => { setGalleryType('portfolio'); setGalleryIndex(0); }}>PORTFOLIO</button>}
+            {model.digitales?.length > 0 && <button onClick={() => { setGalleryType('digitales'); setGalleryIndex(0); }}>DIGITALES</button>}
+            {model.videoGallery?.length > 0 && <button onClick={() => { setGalleryType('video'); setGalleryIndex(0); }}>VIDEO</button>}
+            {model.ugcGallery?.length > 0 && <button onClick={() => { setGalleryType('ugc'); setGalleryIndex(0); }}>UGC</button>}
           </nav>
         </motion.div>
 
@@ -124,17 +126,21 @@ export default function ModeloPage({ model }) {
         {/* Opciones de galería */}
         <div className="ficha__galeria-opciones">
           {model.gallery?.length > 0 && (
-            <div className="galeria__item" onClick={() => {setGalleryType('portfolio'); setGalleryIndex(0);}} style={{backgroundImage:`url(${model.portfolioCover || '/default-portfolio.jpg'})`}}>
+            <div className="galeria__item" onClick={() => { setGalleryType('portfolio'); setGalleryIndex(0); }} style={{ backgroundImage: `url(${model.portfolioCover || '/default-portfolio.jpg'})` }}>
               <span className="galeria__texto">PORTFOLIO</span>
-            </div>) }
+            </div>)}
           {model.digitales?.length > 0 && (
-            <div className="galeria__item" onClick={() => {setGalleryType('digitales'); setGalleryIndex(0);}} style={{backgroundImage:`url(${model.digitalesCover || '/default-digitales.jpg'})`}}>
+            <div className="galeria__item" onClick={() => { setGalleryType('digitales'); setGalleryIndex(0); }} style={{ backgroundImage: `url(${model.digitalesCover || '/default-digitales.jpg'})` }}>
               <span className="galeria__texto">DIGITALES</span>
-            </div>) }
+            </div>)}
           {model.videoGallery?.length > 0 && (
-            <div className="galeria__item" onClick={() => {setGalleryType('video'); setGalleryIndex(0);}} style={{backgroundImage:`url(${model.videoCover || '/default-video.jpg'})`}}>
+            <div className="galeria__item" onClick={() => { setGalleryType('video'); setGalleryIndex(0); }} style={{ backgroundImage: `url(${model.videoCover || '/default-video.jpg'})` }}>
               <span className="galeria__texto">VIDEO</span>
-            </div>) }
+            </div>)}
+          {model.ugcGallery?.length > 0 && (
+            <div className="galeria__item" onClick={() => { setGalleryType('ugc'); setGalleryIndex(0); }} style={{ backgroundImage: `url(${model.ugcCover || '/default-ugc.jpg'})` }}>
+              <span className="galeria__texto">UGC</span>
+            </div>)}
         </div>
 
         {/* Descripción */}
@@ -149,9 +155,9 @@ export default function ModeloPage({ model }) {
         {/* Galería modal */}
         <AnimatePresence>
           {galleryType && media && (
-            <motion.div className="ficha__portfolio" initial={{y:'100%',opacity:1}} animate={{y:0,opacity:1}} exit={{y:'100%',opacity:1}} transition={{duration:1,ease:[0.33,1,0.68,1]}}>
+            <motion.div className="ficha__portfolio" initial={{ y: '100%', opacity: 1 }} animate={{ y: 0, opacity: 1 }} exit={{ y: '100%', opacity: 1 }} transition={{ duration: 1, ease: [0.33, 1, 0.68, 1] }}>
 
-             
+
 
               {/* Logotipo */}
               <Image
@@ -187,9 +193,8 @@ export default function ModeloPage({ model }) {
 
               {/* Media */}
               <div
-                className={`ficha__media ${
-                  Array.isArray(media.src) ? 'media--pair' : ''
-                }`}
+                className={`ficha__media ${Array.isArray(media.src) ? 'media--pair' : ''
+                  }`}
               >
                 {media.type === 'video' ? (
                   <motion.video

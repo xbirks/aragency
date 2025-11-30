@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import ModelCard from './modelCard';
 
-export default function ModelGrid({ data }) {
+export default function ModelGrid({ data, showOnlyUGC, setShowOnlyUGC }) {
   const [query, setQuery] = useState('');
   const [filtered, setFiltered] = useState(data);
 
@@ -32,6 +32,15 @@ export default function ModelGrid({ data }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
+      
+      <div className="feed__filters">
+        <button 
+          className={`filter-button ${showOnlyUGC ? 'active' : ''}`}
+          onClick={() => setShowOnlyUGC(!showOnlyUGC)}
+        >
+          {showOnlyUGC ? '✓ ' : ''}UGC
+        </button>
+      </div>
 
       <div className="model__feed">
         {(filtered || [])

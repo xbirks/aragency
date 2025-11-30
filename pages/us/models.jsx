@@ -1,11 +1,16 @@
+import { useState } from 'react';
 import SeoHead from '@/components/seoHead';
 import ModelGrid from '@/components/feed/modelGrid';
 import dataRaw from '@/data/models.json';
 
 
 export default function Feed() {
+  const [showOnlyUGC, setShowOnlyUGC] = useState(false);
+
   const data = Array.isArray(dataRaw) ? dataRaw : dataRaw.default || [];
-  const modelos = data.filter(m => m.category === 'model');
+  const modelos = data
+    .filter(m => m.category === 'model')
+    .filter(m => !showOnlyUGC || (m.ugcGallery && m.ugcGallery.length > 0));
 
   return (
     <>
@@ -25,7 +30,7 @@ export default function Feed() {
           minHeight: '100vh',
         }}
       >
-        <ModelGrid data={modelos} />
+        <ModelGrid data={modelos} showOnlyUGC={showOnlyUGC} setShowOnlyUGC={setShowOnlyUGC} />
       </div>
 
       <div className="model__textos">
