@@ -20,13 +20,21 @@
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784133/1000277521_kswarn.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784593/portada_digitales_gt8rfu.jpg",
     "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784133/1000277515_jlqmny.jpg",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784133/1000277515_jlqmny.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829948/ugc_alba-garcia_fplzpm.jpg",
     "gallery": [
       {
         "type": "image",
         "src": [
           "https://res.cloudinary.com/dpxilazgm/image/upload/v1764541385/photolopaz-26-08-2025-0001_yisimx.jpg",
           "https://res.cloudinary.com/dpxilazgm/image/upload/v1764541384/SAVE_20250630_122022_dulqgq.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1765830622/SAVE_20250630_121941_ascia7.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1765830622/SAVE_20250630_121959_thfgfm.jpg"
         ],
         "layout": "pair"
       },
@@ -162,7 +170,7 @@
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786208/portada_aneta_qtdqdb.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786209/portfolio_aneta_va4rnh.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786210/digitales_aneta_ifedqz.jpg",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786210/digitales_aneta_ifedqz.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829909/ugc_aneta-ivanoc_jxik95.jpg",
     "gallery": [
       {
         "type": "image",
@@ -341,7 +349,7 @@
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787275/portada_arantxa_fefctd.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787273/portfolio_arantxa_nhhkrp.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787271/digitales_arantxa_wdijjl.jpg",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787271/digitales_arantxa_wdijjl.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829872/ugc_arantxa-leon_gmrxjy.jpg",
     "gallery": [
       {
         "type": "image",
@@ -610,7 +618,7 @@
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751005835/portfolio_fabiana_wtk0pp.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751005832/digitales_fabiana_mvoafx.jpg",
     "videoCover": "",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751005832/digitales_fabiana_mvoafx.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829816/ugc_florisbel-oy_tlrsbx.jpg",
     "gallery": [
       {
         "type": "image",
@@ -779,7 +787,7 @@
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049242/portfolio_kim-ayala_tejurb.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049247/digitales_kim-ayala_p0etlm.jpg",
     "videoCover": "",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049247/digitales_kim-ayala_p0etlm.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829733/ugc_kim-ayala_nuphag.jpg",
     "gallery": [
       {
         "type": "image",
@@ -1108,7 +1116,7 @@
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004588/portfolio_fabiana_xnz77g.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004587/digitales_fabiana_fuyp8f.jpg",
     "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004632/image00041_ziaabs.jpg",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004632/image00041_ziaabs.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829841/ugc_fabiana-gudi_ztt3rv.jpg",
     "gallery": [
       {
         "type": "image",
@@ -1436,7 +1444,7 @@
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024048/portada_mireyaaroca_mndpss.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024051/portfolio_mireyaaroca_ytdqfz.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024039/digitales_mireyaaroca_a5xojf.jpg",
-    "videoCover": "",
+    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829705/video_mireya-aroca_twvou6.jpg",
     "gallery": [
       {
         "type": "image",
@@ -1765,7 +1773,7 @@
     "portfolioCover": "",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751025696/digitales_saraysalas_wrmcxp.jpg",
     "videoCover": "",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751025696/digitales_saraysalas_wrmcxp.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829666/ugc_saray-salas_xtjey7.jpg",
     "gallery": [],
     "digitales": [
       {
@@ -2078,7 +2086,7 @@
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/portada_xiaoping_mkzdot.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/digitales_xiaoping_erpy0q.jpg",
     "videoCover": "",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/digitales_xiaoping_erpy0q.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829974/ugc_miriam-gimen_sshzjn.jpg",
     "gallery": [
       {
         "type": "image",
@@ -2400,9 +2408,9 @@
       "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1764537701/hover_andreea-moni_pqrah1.jpg"
     },
     "height": 165,
-    "bust": 80,
-    "waist": 60,
-    "hips": 95,
+    "bust": 88,
+    "waist": 70,
+    "hips": 98,
     "hair": "Rubio oscuro",
     "eyes": "Verdes",
     "shoes": "38",
