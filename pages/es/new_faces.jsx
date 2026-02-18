@@ -5,12 +5,13 @@ import dataRaw from '@/data/models.json';
 
 
 export default function Feed() {
-  const [showOnlyUGC, setShowOnlyUGC] = useState(false);
+  // UGC Filter - Comentado temporalmente (puede reactivarse en el futuro)
+  // const [showOnlyUGC, setShowOnlyUGC] = useState(false);
 
   const data = Array.isArray(dataRaw) ? dataRaw : dataRaw.default || [];
   const newfaces = data
-    .filter(m => m.category === 'newface')
-    .filter(m => !showOnlyUGC || (m.ugcGallery && m.ugcGallery.length > 0));
+    .filter(m => m.category === 'newface');
+  // .filter(m => !showOnlyUGC || (m.ugcGallery && m.ugcGallery.length > 0)); // UGC Filter desactivado
 
   return (
     <>
@@ -29,7 +30,7 @@ export default function Feed() {
           minHeight: '100vh',
         }}
       >
-        <ModelGrid data={newfaces} showOnlyUGC={showOnlyUGC} setShowOnlyUGC={setShowOnlyUGC} />
+        <ModelGrid data={newfaces} /* showOnlyUGC={showOnlyUGC} setShowOnlyUGC={setShowOnlyUGC} */ />
       </div>
 
       <div className="model__textos">

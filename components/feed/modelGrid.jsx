@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import ModelCard from './modelCard';
 
-export default function ModelGrid({ data, showOnlyUGC, setShowOnlyUGC }) {
+// UGC Filter - Props comentadas temporalmente (puede reactivarse en el futuro)
+export default function ModelGrid({ data /* , showOnlyUGC, setShowOnlyUGC */ }) {
   const [query, setQuery] = useState('');
   const [filtered, setFiltered] = useState(data);
 
@@ -32,7 +33,8 @@ export default function ModelGrid({ data, showOnlyUGC, setShowOnlyUGC }) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      
+
+      {/* UGC Filter Button - Comentado temporalmente (puede reactivarse en el futuro)
       <div className="feed__filters">
         <button 
           className={`filter-button ${showOnlyUGC ? 'active' : ''}`}
@@ -41,6 +43,7 @@ export default function ModelGrid({ data, showOnlyUGC, setShowOnlyUGC }) {
           {showOnlyUGC ? '✓ ' : ''}UGC
         </button>
       </div>
+      */}
 
       <div className="model__feed">
         {(filtered || [])

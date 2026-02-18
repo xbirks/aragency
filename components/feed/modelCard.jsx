@@ -50,7 +50,9 @@ import Link from 'next/link';
 
 export default function ModelCard({ model }) {
   const href = `/es/modelos/${model.slug}`; // <- SIEMPRE desde el slug
-  const hasUGC = model.ugcGallery && model.ugcGallery.length > 0;
+
+  // UGC Badge - Comentado temporalmente (puede reactivarse en el futuro)
+  // const hasUGC = model.ugcGallery && model.ugcGallery.length > 0;
 
   return (
     <Link href={href}>
@@ -61,7 +63,8 @@ export default function ModelCard({ model }) {
         transition={{ duration: 0.4, ease: 'easeOut' }}
       >
         <div className="model__tarjeta-img">
-          {hasUGC && <span className="ugc-badge">UGC</span>}
+          {/* UGC Badge desactivado temporalmente */}
+          {/* {hasUGC && <span className="ugc-badge">UGC</span>} */}
           <img src={model.images.default} alt={`Foto principal de ${model.name}`} className="model-img-default" />
           <img src={model.images.hover} alt={`Foto secundaria de ${model.name}`} className="model-img-hover" />
         </div>
