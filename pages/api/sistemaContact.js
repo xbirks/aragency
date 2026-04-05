@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
   const mailOptions = {
     from: process.env.SMTP_USER,
-    to: "andres03ortega@gmail.com",
+    to: "info@ariannyrivasagency.com",
     subject: `Nueva solicitud desde /sistema: ${name}`,
     html: `
       <h2>Nueva solicitud de contacto — Landing /sistema</h2>
