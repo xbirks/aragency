@@ -2050,7 +2050,18 @@ strong {
 		transform: translateX(0);
 	}
 	100% {
-		transform: translateX(-50%);
+		transform: translateX(calc(-50% - 12px));
+	}
+}
+
+@media (max-width: 700px) {
+	@keyframes sistemaScroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-50% - 8px));
+		}
 	}
 }
 
