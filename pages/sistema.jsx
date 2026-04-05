@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 const phonePrefixes = [
@@ -56,6 +57,7 @@ export default function SistemaPage() {
     acceptData: false,
   });
 
+  const router = useRouter();
   const [fullLoaded, setFullLoaded] = useState(false);
 
   // Preload full video in background
@@ -125,7 +127,8 @@ export default function SistemaPage() {
       });
 
       if (res.ok) {
-        setSuccess(true);
+        router.push('/solicitud-enviada');
+        return;
       } else {
         setErrors({ general: "Error al enviar. Inténtalo de nuevo." });
       }
