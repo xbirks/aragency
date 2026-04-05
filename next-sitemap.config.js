@@ -1,8 +1,9 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.ariannyrivasagency.com',   
-  generateRobotsTxt: true,                          
-  sitemapSize: 1000,                                
+  siteUrl: 'https://www.ariannyrivasagency.com',
+  generateRobotsTxt: true,
+  sitemapSize: 1000,
+  exclude: ['/sistema'],                                
   transform: async (config, url) => {
     
     return {

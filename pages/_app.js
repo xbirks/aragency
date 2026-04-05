@@ -22,12 +22,14 @@ export default function App({ Component, pageProps }) {
     },
   };
 
+  const isLanding = router.pathname === '/sistema';
+
   return (
     <>
-      <Header />
+      {!isLanding && <Header />}
       <AnimatePresence mode="wait">
         <motion.div
-          key={router.asPath} 
+          key={router.asPath}
           initial={variants[direction].initial}
           animate={variants[direction].animate}
           exit={variants[direction].exit}
