@@ -53,6 +53,14 @@ export default function SistemaPage() {
     name: "",
     email: "",
     phone: "",
+    company: "",
+    instagram: "",
+    contentVolume: "",
+    salesImpact: "",
+    goals: "",
+    budget: "",
+    platforms: [],
+    upcomingLaunch: "",
     acceptTerms: false,
     acceptData: false,
   });
@@ -96,6 +104,18 @@ export default function SistemaPage() {
     }
   };
 
+  const handlePlatformToggle = (platform) => {
+    setFormData((prev) => {
+      const current = prev.platforms;
+      return {
+        ...prev,
+        platforms: current.includes(platform)
+          ? current.filter((p) => p !== platform)
+          : [...current, platform],
+      };
+    });
+  };
+
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = "Introduce tu nombre completo";
@@ -105,6 +125,10 @@ export default function SistemaPage() {
       newErrors.email = "Introduce un correo electrónico válido";
     if (!formData.phone.trim())
       newErrors.phone = "Introduce tu número de teléfono";
+    if (!formData.salesImpact.trim())
+      newErrors.salesImpact = "Este campo es obligatorio";
+    if (!formData.budget)
+      newErrors.budget = "Selecciona un rango de presupuesto";
     if (!formData.acceptTerms)
       newErrors.acceptTerms = "Debes aceptar los términos y condiciones";
     setErrors(newErrors);
@@ -123,6 +147,14 @@ export default function SistemaPage() {
           name: formData.name,
           email: formData.email,
           phone: `${prefix}${formData.phone}`,
+          company: formData.company,
+          instagram: formData.instagram,
+          contentVolume: formData.contentVolume,
+          salesImpact: formData.salesImpact,
+          goals: formData.goals,
+          budget: formData.budget,
+          platforms: formData.platforms,
+          upcomingLaunch: formData.upcomingLaunch,
         }),
       });
 
@@ -251,34 +283,18 @@ export default function SistemaPage() {
                     </div>
                   ) : (
                     <>
-                      <label className="sistema__label">Nombre completo</label>
+                      <label className="sistema__label">Nombre y apellido</label>
                       <input
                         className={`sistema__input ${errors.name ? "sistema__input--error" : ""}`}
                         type="text"
                         name="name"
-                        placeholder="CARLOS CORREA"
+                        placeholder="MARÍA LÓPEZ"
                         autoComplete="name"
                         value={formData.name}
                         onChange={handleChange}
                       />
                       {errors.name && (
                         <span className="sistema__error">{errors.name}</span>
-                      )}
-
-                      <label className="sistema__label">
-                        Correo electrónico
-                      </label>
-                      <input
-                        className={`sistema__input ${errors.email ? "sistema__input--error" : ""}`}
-                        type="email"
-                        name="email"
-                        placeholder="CARLOSCORREA@GMAIL.COM"
-                        autoComplete="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                      />
-                      {errors.email && (
-                        <span className="sistema__error">{errors.email}</span>
                       )}
 
                       <label className="sistema__label">Teléfono</label>
@@ -298,7 +314,7 @@ export default function SistemaPage() {
                           className={`sistema__phone-input ${errors.phone ? "sistema__input--error" : ""}`}
                           type="tel"
                           name="phone"
-                          placeholder="675 392 216"
+                          placeholder="612 345 678"
                           autoComplete="tel-national"
                           inputMode="numeric"
                           value={formData.phone}
@@ -319,6 +335,144 @@ export default function SistemaPage() {
                         <span className="sistema__error">{errors.phone}</span>
                       )}
 
+                      <label className="sistema__label">Correo electrónico</label>
+                      <input
+                        className={`sistema__input ${errors.email ? "sistema__input--error" : ""}`}
+                        type="email"
+                        name="email"
+                        placeholder="CARLOSCORREA@GMAIL.COM"
+                        autoComplete="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                      />
+                      {errors.email && (
+                        <span className="sistema__error">{errors.email}</span>
+                      )}
+
+                      <label className="sistema__label">Empresa</label>
+                      <input
+                        className="sistema__input"
+                        type="text"
+                        name="company"
+                        placeholder="NOMBRE DE TU EMPRESA"
+                        autoComplete="organization"
+                        value={formData.company}
+                        onChange={handleChange}
+                      />
+
+                      <label className="sistema__label">Instagram</label>
+                      <input
+                        className="sistema__input"
+                        type="text"
+                        name="instagram"
+                        placeholder="@TUEMPRESA"
+                        value={formData.instagram}
+                        onChange={handleChange}
+                      />
+
+                      <label className="sistema__label">¿Cuánto contenido producen actualmente por semana?</label>
+                      <select
+                        className="sistema__select"
+                        name="contentVolume"
+                        value={formData.contentVolume}
+                        onChange={handleChange}
+                      >
+                        <option value="">Seleccionar</option>
+                        <option value="1-5 piezas">1 – 5 piezas</option>
+                        <option value="6-15 piezas">6 – 15 piezas</option>
+                        <option value="16-30 piezas">16 – 30 piezas</option>
+                        <option value="31+ piezas">31+ piezas</option>
+                      </select>
+
+                      <label className="sistema__label">
+                        ¿Qué impacto tiene en las ventas el contenido que están usando actualmente? *
+                      </label>
+                      <textarea
+                        className={`sistema__textarea ${errors.salesImpact ? "sistema__input--error" : ""}`}
+                        name="salesImpact"
+                        placeholder="CUÉNTANOS..."
+                        value={formData.salesImpact}
+                        onChange={handleChange}
+                        rows={3}
+                      />
+                      {errors.salesImpact && (
+                        <span className="sistema__error">{errors.salesImpact}</span>
+                      )}
+
+                      <label className="sistema__label">
+                        ¿Qué es exactamente lo que quieren conseguir trabajando con nosotros?
+                      </label>
+                      <textarea
+                        className="sistema__textarea"
+                        name="goals"
+                        placeholder="CUÉNTANOS..."
+                        value={formData.goals}
+                        onChange={handleChange}
+                        rows={3}
+                      />
+
+                      <label className="sistema__label">
+                        ¿Cuál es el presupuesto mensual aproximado entre contenido orgánico y anuncios? *
+                      </label>
+                      <select
+                        className={`sistema__select ${errors.budget ? "sistema__input--error" : ""}`}
+                        name="budget"
+                        value={formData.budget}
+                        onChange={handleChange}
+                      >
+                        <option value="">Seleccionar</option>
+                        <option value="Menos de 4.000€">Menos de 4.000 €</option>
+                        <option value="4.000€ - 10.000€">Entre 4.000 € y 10.000 €</option>
+                        <option value="10.000€ - 30.000€">Entre 10.000 € y 30.000 €</option>
+                        <option value="30.000€ - 70.000€">Entre 30.000 € y 70.000 €</option>
+                        <option value="Más de 100.000€">Más de 100.000 €</option>
+                      </select>
+                      {errors.budget && (
+                        <span className="sistema__error">{errors.budget}</span>
+                      )}
+
+                      <label className="sistema__label">
+                        ¿En qué plataformas distribuís el contenido principalmente?
+                      </label>
+                      <div className="sistema__platforms">
+                        {["Instagram", "TikTok", "YouTube", "Amazon/E-commerce", "Todas las anteriores", "Otras"].map((p) => (
+                          <label key={p} className="sistema__platform-option">
+                            <input
+                              type="checkbox"
+                              checked={formData.platforms.includes(p)}
+                              onChange={() => handlePlatformToggle(p)}
+                            />
+                            <span>{p}</span>
+                          </label>
+                        ))}
+                      </div>
+
+                      <label className="sistema__label">
+                        ¿Tenéis un lanzamiento o campaña en las próximas 4–6 semanas?
+                      </label>
+                      <div className="sistema__radio-row">
+                        <label className="sistema__radio-option">
+                          <input
+                            type="radio"
+                            name="upcomingLaunch"
+                            value="Sí"
+                            checked={formData.upcomingLaunch === "Sí"}
+                            onChange={handleChange}
+                          />
+                          <span>Sí</span>
+                        </label>
+                        <label className="sistema__radio-option">
+                          <input
+                            type="radio"
+                            name="upcomingLaunch"
+                            value="No"
+                            checked={formData.upcomingLaunch === "No"}
+                            onChange={handleChange}
+                          />
+                          <span>No</span>
+                        </label>
+                      </div>
+
                       <div className="sistema__checkboxes">
                         <label
                           className={`sistema__checkbox ${errors.acceptTerms ? "sistema__checkbox--error" : ""}`}
@@ -331,7 +485,7 @@ export default function SistemaPage() {
                           />
                           <span>
                             He leído y acepto los{" "}
-                            <strong>términos y condiciones</strong>.
+                            <a href="/legal/aviso-legal" target="_blank" rel="noopener noreferrer"><strong>términos y condiciones</strong></a>.
                           </span>
                         </label>
 
