@@ -55,12 +55,12 @@ export default function SistemaPage() {
     phone: "",
     company: "",
     instagram: "",
+    brandPhase: "",
     contentVolume: "",
-    salesImpact: "",
-    goals: "",
-    budget: "",
+    topResults: [],
     platforms: [],
-    upcomingLaunch: "",
+    budget: "",
+    urgency: "",
     acceptTerms: false,
     acceptData: false,
   });
@@ -116,6 +116,17 @@ export default function SistemaPage() {
     });
   };
 
+  const handleTopResultToggle = (option) => {
+    setFormData((prev) => {
+      const current = prev.topResults;
+      if (current.includes(option)) {
+        return { ...prev, topResults: current.filter((o) => o !== option) };
+      }
+      if (current.length >= 2) return prev;
+      return { ...prev, topResults: [...current, option] };
+    });
+  };
+
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = "Introduce tu nombre completo";
@@ -125,8 +136,6 @@ export default function SistemaPage() {
       newErrors.email = "Introduce un correo electrónico válido";
     if (!formData.phone.trim())
       newErrors.phone = "Introduce tu número de teléfono";
-    if (!formData.salesImpact.trim())
-      newErrors.salesImpact = "Este campo es obligatorio";
     if (!formData.budget)
       newErrors.budget = "Selecciona un rango de presupuesto";
     if (!formData.acceptTerms)
@@ -149,12 +158,12 @@ export default function SistemaPage() {
           phone: `${prefix}${formData.phone}`,
           company: formData.company,
           instagram: formData.instagram,
+          brandPhase: formData.brandPhase,
           contentVolume: formData.contentVolume,
-          salesImpact: formData.salesImpact,
-          goals: formData.goals,
-          budget: formData.budget,
+          topResults: formData.topResults,
           platforms: formData.platforms,
-          upcomingLaunch: formData.upcomingLaunch,
+          budget: formData.budget,
+          urgency: formData.urgency,
         }),
       });
 
@@ -232,29 +241,36 @@ export default function SistemaPage() {
           <p className="sistema__brands-text">No improvisan su contenido</p>
         </section>
 
-        {/* ─── HERO ─── */}
-        <section className="sistema__hero">
-          <h1 className="sistema__title">
-            <span className="sistema__title-light">El sistema que usan </span>
-            <span className="sistema__title-bold">
-              las marcas que no tienen tiempo para errores en su contenido
-            </span>
-          </h1>
-          <div className="sistema__subtitle">
-            <p className="sistema__subtitle-main">Esto no es una agencia.</p>
-            <p className="sistema__subtitle-under">
-              Es tu equipo creativo externo, completamente formado y certificado.
-            </p>
-          </div>
-        </section>
+        {/* ─── SPLIT LAYOUT ─── */}
+        <div className="sistema__split">
 
-        {/* ─── DARK BAR ─── */}
-        <div className="sistema__darkbar">
-          <p>
-            Trabajamos con un número limitado de marcas al mes para garantizar
-            el nivel.
-          </p>
-        </div>
+          {/* ─── LEFT: HERO + DARKBAR (sticky en desktop) ─── */}
+          <div className="sistema__split-left">
+            <section className="sistema__hero">
+              <h1 className="sistema__title">
+                <span className="sistema__title-light">El sistema que convierte </span>
+                <span className="sistema__title-bold">marcas en referentes de su mercado.</span>
+              </h1>
+              <h2 className="sistema__title-sub">
+                Para que tu contenido venda todos los días <strong>sin microgestionar equipo.</strong>
+              </h2>
+              {/* <div className="sistema__subtitle">
+                <p className="sistema__subtitle-main">Esto no es una agencia.</p>
+                <p className="sistema__subtitle-under">
+                  Es tu equipo creativo externo, completamente formado y certificado.
+                </p>
+              </div> */}
+            </section>
+
+            <div className="sistema__darkbar">
+              <p>
+                Sólo trabajamos con marcas que ya invierten en contenido.
+              </p>
+            </div>
+          </div>
+
+          {/* ─── RIGHT: VIDEO + FORM (scrollable) ─── */}
+          <div className="sistema__split-right">
 
         {/* ─── PASO 1: VIDEO ─── */}
         <section className="sistema__step">
@@ -288,7 +304,7 @@ export default function SistemaPage() {
         {/* ─── PASO 2: FORM ─── */}
         <section className="sistema__step" ref={formRef}>
           <h2 className="sistema__step-title">
-            <span className="sistema__step-num">Paso 2</span> Agenda tu llamada
+            <span className="sistema__step-num">Paso 2</span> Rellena el formulario y te contactamos
           </h2>
           <p className="sistema__step-subtitle">
             Producción al nivel de las mejores marcas
@@ -309,12 +325,13 @@ export default function SistemaPage() {
                     </div>
                   ) : (
                     <>
+                      {/* Grupo 1: siempre visible */}
                       <label className="sistema__label">Nombre y apellido</label>
                       <input
                         className={`sistema__input ${errors.name ? "sistema__input--error" : ""}`}
                         type="text"
                         name="name"
-                        placeholder="MARÍA LÓPEZ"
+                        placeholder="María López"
                         autoComplete="name"
                         value={formData.name}
                         onChange={handleChange}
@@ -366,7 +383,7 @@ export default function SistemaPage() {
                         className={`sistema__input ${errors.email ? "sistema__input--error" : ""}`}
                         type="email"
                         name="email"
-                        placeholder="CARLOSCORREA@GMAIL.COM"
+                        placeholder="maria@empresa.com"
                         autoComplete="email"
                         value={formData.email}
                         onChange={handleChange}
@@ -375,204 +392,258 @@ export default function SistemaPage() {
                         <span className="sistema__error">{errors.email}</span>
                       )}
 
-                      <label className="sistema__label">Empresa</label>
-                      <input
-                        className="sistema__input"
-                        type="text"
-                        name="company"
-                        placeholder="NOMBRE DE TU EMPRESA"
-                        autoComplete="organization"
-                        value={formData.company}
-                        onChange={handleChange}
-                      />
-
-                      <label className="sistema__label">Instagram</label>
-                      <input
-                        className="sistema__input"
-                        type="text"
-                        name="instagram"
-                        placeholder="@TUEMPRESA"
-                        value={formData.instagram}
-                        onChange={handleChange}
-                      />
-
-                      <label className="sistema__label">¿Cuánto contenido producen actualmente por semana?</label>
-                      <select
-                        className="sistema__select"
-                        name="contentVolume"
-                        value={formData.contentVolume}
-                        onChange={handleChange}
-                      >
-                        <option value="">Seleccionar</option>
-                        <option value="1-5 piezas">1 – 5 piezas</option>
-                        <option value="6-15 piezas">6 – 15 piezas</option>
-                        <option value="16-30 piezas">16 – 30 piezas</option>
-                        <option value="31+ piezas">31+ piezas</option>
-                      </select>
-
-                      <label className="sistema__label">
-                        ¿Qué impacto tiene en las ventas el contenido que están usando actualmente? *
-                      </label>
-                      <textarea
-                        className={`sistema__textarea ${errors.salesImpact ? "sistema__input--error" : ""}`}
-                        name="salesImpact"
-                        placeholder="CUÉNTANOS..."
-                        value={formData.salesImpact}
-                        onChange={handleChange}
-                        rows={3}
-                      />
-                      {errors.salesImpact && (
-                        <span className="sistema__error">{errors.salesImpact}</span>
-                      )}
-
-                      <label className="sistema__label">
-                        ¿Qué es exactamente lo que quieren conseguir trabajando con nosotros?
-                      </label>
-                      <textarea
-                        className="sistema__textarea"
-                        name="goals"
-                        placeholder="CUÉNTANOS..."
-                        value={formData.goals}
-                        onChange={handleChange}
-                        rows={3}
-                      />
-
-                      <label className="sistema__label">
-                        ¿Cuál es el presupuesto mensual aproximado entre contenido orgánico y anuncios? *
-                      </label>
-                      <select
-                        className={`sistema__select ${errors.budget ? "sistema__input--error" : ""}`}
-                        name="budget"
-                        value={formData.budget}
-                        onChange={handleChange}
-                      >
-                        <option value="">Seleccionar</option>
-                        <option value="Menos de 4.000€">Menos de 4.000 €</option>
-                        <option value="4.000€ - 10.000€">Entre 4.000 € y 10.000 €</option>
-                        <option value="10.000€ - 30.000€">Entre 10.000 € y 30.000 €</option>
-                        <option value="30.000€ - 70.000€">Entre 30.000 € y 70.000 €</option>
-                        <option value="Más de 100.000€">Más de 100.000 €</option>
-                      </select>
-                      {errors.budget && (
-                        <span className="sistema__error">{errors.budget}</span>
-                      )}
-
-                      <label className="sistema__label">
-                        ¿En qué plataformas distribuís el contenido principalmente?
-                      </label>
-                      <div className="sistema__platforms">
-                        {["Instagram", "TikTok", "YouTube", "Amazon/E-commerce", "Todas las anteriores", "Otras"].map((p) => (
-                          <label key={p} className="sistema__platform-option">
-                            <input
-                              type="checkbox"
-                              checked={formData.platforms.includes(p)}
-                              onChange={() => handlePlatformToggle(p)}
-                            />
-                            <span>{p}</span>
-                          </label>
-                        ))}
-                      </div>
-
-                      <label className="sistema__label">
-                        ¿Tenéis un lanzamiento o campaña en las próximas 4–6 semanas?
-                      </label>
-                      <div className="sistema__radio-row">
-                        <label className="sistema__radio-option">
+                      {/* Grupo 2: tras nombre + teléfono + correo */}
+                      {formData.name.trim() && formData.phone.trim() && formData.email.trim() && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">Empresa</label>
                           <input
-                            type="radio"
-                            name="upcomingLaunch"
-                            value="Sí"
-                            checked={formData.upcomingLaunch === "Sí"}
+                            className="sistema__input"
+                            type="text"
+                            name="company"
+                            placeholder="Nombre de tu empresa"
+                            autoComplete="organization"
+                            value={formData.company}
                             onChange={handleChange}
                           />
-                          <span>Sí</span>
-                        </label>
-                        <label className="sistema__radio-option">
+
+                          <label className="sistema__label">Instagram</label>
                           <input
-                            type="radio"
-                            name="upcomingLaunch"
-                            value="No"
-                            checked={formData.upcomingLaunch === "No"}
+                            className="sistema__input"
+                            type="text"
+                            name="instagram"
+                            placeholder="@tuempresa"
+                            value={formData.instagram}
                             onChange={handleChange}
                           />
-                          <span>No</span>
-                        </label>
-                      </div>
-
-                      <div className="sistema__checkboxes">
-                        <label
-                          className={`sistema__checkbox ${errors.acceptTerms ? "sistema__checkbox--error" : ""}`}
-                        >
-                          <input
-                            type="checkbox"
-                            name="acceptTerms"
-                            checked={formData.acceptTerms}
-                            onChange={handleChange}
-                          />
-                          <span>
-                            He leído y acepto los{" "}
-                            <a href="/legal/aviso-legal" target="_blank" rel="noopener noreferrer"><strong>términos y condiciones</strong></a>.
-                          </span>
-                        </label>
-
-                        <label className="sistema__checkbox">
-                          <input
-                            type="checkbox"
-                            name="acceptData"
-                            checked={formData.acceptData}
-                            onChange={handleChange}
-                          />
-                          <span>
-                            Entiendo y acepto que mis datos sean almacenados y
-                            utilizados para fines informativos, incluyendo la
-                            posibilidad de ser compartidos con terceros con los
-                            que exista una relación contractual, como clientes,
-                            socios o colaboradores.
-                          </span>
-                        </label>
-                      </div>
-
-                      {errors.acceptTerms && (
-                        <span className="sistema__error">
-                          {errors.acceptTerms}
-                        </span>
-                      )}
-                      {errors.general && (
-                        <span className="sistema__error">
-                          {errors.general}
-                        </span>
+                        </div>
                       )}
 
-                      <button
-                        className="sistema__submit"
-                        onClick={handleSubmit}
-                        disabled={sending}
-                      >
-                        <span>
-                          {sending ? "Enviando..." : "Continuar"}
-                        </span>
-                        {!sending && (
-                          <svg
-                            width="13"
-                            height="13"
-                            viewBox="0 0 13 13"
-                            fill="none"
+                      {/* Grupo 3: fase de la marca */}
+                      {(formData.company.trim() || formData.instagram.trim()) && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">¿En qué fase está la marca ahora mismo?</label>
+                          <div className="sistema__platforms">
+                            {[
+                              "Estamos creciendo rápido y necesitamos escalar el contenido",
+                              "El contenido actual no está convirtiendo como esperamos",
+                              "Queremos profesionalizar lo que ya funciona",
+                            ].map((opt) => (
+                              <label key={opt} className="sistema__platform-option">
+                                <input
+                                  type="checkbox"
+                                  checked={formData.brandPhase === opt}
+                                  onChange={() => setFormData((prev) => ({ ...prev, brandPhase: prev.brandPhase === opt ? "" : opt }))}
+                                />
+                                <span>{opt}</span>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Grupo 4: contenido por semana */}
+                      {formData.brandPhase && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">¿Cuánto contenido producen actualmente por semana (entre orgánico y Paid)?</label>
+                          <div className="sistema__platforms">
+                            {[
+                              "Menos de 16 piezas",
+                              "16 – 30 piezas",
+                              "30 – 60 piezas",
+                              "60 – 100 piezas",
+                              "Más de 100 piezas",
+                            ].map((opt) => (
+                              <label key={opt} className="sistema__platform-option">
+                                <input
+                                  type="checkbox"
+                                  checked={formData.contentVolume === opt}
+                                  onChange={() => setFormData((prev) => ({ ...prev, contentVolume: prev.contentVolume === opt ? "" : opt }))}
+                                />
+                                <span>{opt}</span>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Grupo 5: resultado concreto (max 2) */}
+                      {formData.contentVolume && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">¿Qué resultado concreto es el más importante para la marca ahora mismo? <span className="sistema__label-hint">(Seleccionar hasta 2)</span></label>
+                          <div className="sistema__platforms">
+                            {[
+                              "Más ventas directas desde redes sociales",
+                              "Contenido que funcione en anuncios de pago (Meta/TikTok)",
+                              "Mejorar la percepción de marca y posicionamiento",
+                              "Aumentar el tráfico a e-commerce o web",
+                              "Tener un sistema de contenido consistente sin depender solo de nosotros",
+                            ].map((opt) => (
+                              <label key={opt} className="sistema__platform-option">
+                                <input
+                                  type="checkbox"
+                                  checked={formData.topResults.includes(opt)}
+                                  onChange={() => handleTopResultToggle(opt)}
+                                />
+                                <span>{opt}</span>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Grupo 6: plataformas */}
+                      {formData.topResults.length > 0 && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">¿En qué plataformas distribuyen el contenido principalmente?</label>
+                          <div className="sistema__platforms">
+                            {["Instagram", "TikTok", "YouTube", "Amazon / E-commerce", "Todas las anteriores"].map((p) => (
+                              <label key={p} className="sistema__platform-option">
+                                <input
+                                  type="checkbox"
+                                  checked={formData.platforms.includes(p)}
+                                  onChange={() => handlePlatformToggle(p)}
+                                />
+                                <span>{p}</span>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Grupo 7: presupuesto */}
+                      {formData.platforms.length > 0 && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">¿Cuál es el presupuesto mensual aproximado destinado a contenido y/o publicidad?</label>
+                          <div className="sistema__platforms">
+                            {[
+                              "Menos de 5.000 €",
+                              "Entre 5.000 € y 20.000 €",
+                              "Entre 20.000 € y 50.000 €",
+                              "Entre 50.000 € y 100.000 €",
+                              "Entre 100.000 € y 250.000 €",
+                              "Más de 250.000 €",
+                            ].map((opt) => (
+                              <label key={opt} className="sistema__platform-option">
+                                <input
+                                  type="checkbox"
+                                  checked={formData.budget === opt}
+                                  onChange={() => setFormData((prev) => ({ ...prev, budget: prev.budget === opt ? "" : opt }))}
+                                />
+                                <span>{opt}</span>
+                              </label>
+                            ))}
+                          </div>
+                          {errors.budget && (
+                            <span className="sistema__error">{errors.budget}</span>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Grupo 8: urgencia */}
+                      {formData.budget && (
+                        <div className="sistema__reveal">
+                          <label className="sistema__label">¿Con qué urgencia necesitan resolver esto?</label>
+                          <div className="sistema__platforms">
+                            {[
+                              "Tenemos un lanzamiento o campaña en las próximas 4–8 semanas",
+                              "Queremos empezar en los próximos 1–2 meses",
+                              "Estamos evaluando opciones sin prisa inmediata",
+                            ].map((opt) => (
+                              <label key={opt} className="sistema__platform-option">
+                                <input
+                                  type="checkbox"
+                                  checked={formData.urgency === opt}
+                                  onChange={() => setFormData((prev) => ({ ...prev, urgency: prev.urgency === opt ? "" : opt }))}
+                                />
+                                <span>{opt}</span>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Grupo final: tras urgencia */}
+                      {formData.urgency && (
+                        <div className="sistema__reveal">
+                          <div className="sistema__checkboxes">
+                            <label
+                              className={`sistema__checkbox ${errors.acceptTerms ? "sistema__checkbox--error" : ""}`}
+                            >
+                              <input
+                                type="checkbox"
+                                name="acceptTerms"
+                                checked={formData.acceptTerms}
+                                onChange={handleChange}
+                              />
+                              <span>
+                                He leído y acepto los{" "}
+                                <a href="/legal/aviso-legal" target="_blank" rel="noopener noreferrer"><strong>términos y condiciones</strong></a>.
+                              </span>
+                            </label>
+
+                            <label className="sistema__checkbox">
+                              <input
+                                type="checkbox"
+                                name="acceptData"
+                                checked={formData.acceptData}
+                                onChange={handleChange}
+                              />
+                              <span>
+                                Entiendo y acepto que mis datos sean almacenados y
+                                utilizados para fines informativos, incluyendo la
+                                posibilidad de ser compartidos con terceros con los
+                                que exista una relación contractual, como clientes,
+                                socios o colaboradores.
+                              </span>
+                            </label>
+                          </div>
+
+                          {errors.acceptTerms && (
+                            <span className="sistema__error">
+                              {errors.acceptTerms}
+                            </span>
+                          )}
+                          {errors.general && (
+                            <span className="sistema__error">
+                              {errors.general}
+                            </span>
+                          )}
+
+                          <button
+                            className="sistema__submit"
+                            onClick={handleSubmit}
+                            disabled={sending}
                           >
-                            <path
-                              d="M1 12L12 1M12 1H3M12 1V10"
-                              stroke="currentColor"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        )}
-                      </button>
+                            <span>
+                              {sending ? "Enviando..." : "Continuar"}
+                            </span>
+                            {!sending && (
+                              <svg
+                                width="13"
+                                height="13"
+                                viewBox="0 0 13 13"
+                                fill="none"
+                              >
+                                <path
+                                  d="M1 12L12 1M12 1H3M12 1V10"
+                                  stroke="currentColor"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            )}
+                          </button>
+                        </div>
+                      )}
                     </>
                   )}
                 </div>
               </div>
         </section>
+
+          </div>
+        </div>
 
         {/* ─── CASOS DE ÉXITO (CARRUSEL) ─── */}
         <section className="sistema__carousel">

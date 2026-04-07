@@ -8,11 +8,11 @@ export default async function handler(req, res) {
 
   const {
     name, email, phone, company, instagram,
-    contentVolume, salesImpact, goals, budget,
-    platforms, upcomingLaunch,
+    brandPhase, contentVolume, topResults,
+    platforms, budget, urgency,
   } = req.body;
 
-  if (!name || !email || !phone || !salesImpact || !budget) {
+  if (!name || !email || !phone) {
     return res.status(400).json({ message: "Faltan campos obligatorios." });
   }
 
@@ -51,12 +51,12 @@ export default async function handler(req, res) {
             ${row("Email", `<a href="mailto:${email}" style="color:#161616">${email}</a>`)}
             ${row("Empresa", company)}
             ${row("Instagram", instagram)}
+            ${row("Fase de la marca", brandPhase)}
             ${row("Contenido/semana", contentVolume)}
-            ${row("Impacto en ventas", salesImpact)}
-            ${row("Objetivo", goals)}
-            ${row("Presupuesto mensual", budget)}
+            ${row("Resultado prioritario", topResults && topResults.length ? topResults.join(" · ") : "")}
             ${row("Plataformas", platforms && platforms.length ? platforms.join(", ") : "")}
-            ${row("Lanzamiento próximo", upcomingLaunch)}
+            ${row("Presupuesto mensual", budget)}
+            ${row("Urgencia", urgency)}
           </table>
         </div>
 

@@ -27,18 +27,22 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {!isLanding && <Header />}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={router.asPath}
-          initial={variants[direction].initial}
-          animate={variants[direction].animate}
-          exit={variants[direction].exit}
-          transition={{ duration: 0.6, ease: 'easeInOut' }}
-          style={{ position: 'relative', width: '100%', minHeight: '100vh' }}
-        >
-          <Component {...pageProps} />
-        </motion.div>
-      </AnimatePresence>
+      {isLanding ? (
+        <Component {...pageProps} />
+      ) : (
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={router.asPath}
+            initial={variants[direction].initial}
+            animate={variants[direction].animate}
+            exit={variants[direction].exit}
+            transition={{ duration: 0.6, ease: 'easeInOut' }}
+            style={{ position: 'relative', width: '100%', minHeight: '100vh' }}
+          >
+            <Component {...pageProps} />
+          </motion.div>
+        </AnimatePresence>
+      )}
       <Footer />
     </>
   );
