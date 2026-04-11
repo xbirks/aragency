@@ -1536,6 +1536,22 @@ strong {
 			height: 20px;
 			max-width: none;
 		}
+
+		&.sistema__brand-smaller {
+			height: 19px;
+
+			@include media700px {
+				height: 16px;
+			}
+		}
+
+		&.sistema__brand-garnier {
+			height: 17px;
+
+			@include media700px {
+				height: 14px;
+			}
+		}
 	}
 }
 
@@ -1546,11 +1562,13 @@ strong {
 		display: flex;
 		align-items: center;
 		flex-shrink: 0;
-		animation: brandScroll 20s linear infinite;
+		animation: brandScroll 15s linear infinite;
 
 		img {
 			flex-shrink: 0;
 			padding: 0 24px;
+			width: 100px;
+			object-fit: contain;
 		}
 	}
 }
@@ -2246,7 +2264,7 @@ strong {
 	display: flex;
 	gap: 24px;
 	width: max-content;
-	animation: sistemaScroll 60s linear infinite;
+	animation: sistemaScroll 120s linear infinite;
 
 	@include media700px {
 		gap: 16px;
@@ -2255,11 +2273,20 @@ strong {
 
 .sistema__carousel-slide {
 	flex-shrink: 0;
+	width: 320px;
+
+	@include media700px {
+		width: 260px;
+	}
+
+	@include media500px {
+		width: 200px;
+	}
 
 	img, video {
 		display: block;
+		width: 100%;
 		height: 380px;
-		width: auto;
 		object-fit: cover;
 
 		@include media700px {

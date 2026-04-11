@@ -225,17 +225,17 @@ export default function SistemaPage() {
           <div className="sistema__brands-logos">
             <div className="sistema__brands-logos-track">
               <img src="/assets/landing/amazon.png" alt="Amazon" />
-              <img src="/assets/landing/garnier.png" alt="Garnier" />
+              <img src="/assets/landing/garnier.png" alt="Garnier" className="sistema__brand-garnier" />
               <img src="/assets/landing/vogue.png" alt="Vogue" />
               <img src="/assets/landing/colgate.png" alt="Colgate" />
-              <img src="/assets/landing/pantene.png" alt="Pantene" />
+              <img src="/assets/landing/pantene.png" alt="Pantene" className="sistema__brand-smaller" />
             </div>
             <div className="sistema__brands-logos-track sistema__brands-logos-track--clone" aria-hidden="true">
               <img src="/assets/landing/amazon.png" alt="" />
-              <img src="/assets/landing/garnier.png" alt="" />
+              <img src="/assets/landing/garnier.png" alt="" className="sistema__brand-smaller" />
               <img src="/assets/landing/vogue.png" alt="" />
               <img src="/assets/landing/colgate.png" alt="" />
-              <img src="/assets/landing/pantene.png" alt="" />
+              <img src="/assets/landing/pantene.png" alt="" className="sistema__brand-smaller" />
             </div>
           </div>
           <p className="sistema__brands-text">No improvisan su contenido</p>
@@ -285,7 +285,7 @@ export default function SistemaPage() {
               loop={isMuted}
               muted={isMuted}
               playsInline
-              controls
+              controls={!isMuted}
               preload="auto"
             >
               <source src="/vid/VSL_15seg.mp4" type="video/mp4" />
