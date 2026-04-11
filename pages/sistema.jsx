@@ -325,149 +325,47 @@ export default function SistemaPage() {
                     </div>
                   ) : (
                     <>
-                      {/* Grupo 1: siempre visible */}
-                      <label className="sistema__label">Nombre y apellido</label>
-                      <input
-                        className={`sistema__input ${errors.name ? "sistema__input--error" : ""}`}
-                        type="text"
-                        name="name"
-                        placeholder="María López"
-                        autoComplete="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                      />
-                      {errors.name && (
-                        <span className="sistema__error">{errors.name}</span>
-                      )}
-
-                      <label className="sistema__label">Teléfono</label>
-                      <div className="sistema__phone-row">
-                        <select
-                          className="sistema__phone-prefix"
-                          value={prefix}
-                          onChange={(e) => setPrefix(e.target.value)}
-                        >
-                          {phonePrefixes.map((p, i) => (
-                            <option key={`${p.label}-${i}`} value={p.code}>
-                              {p.label} {p.code}
-                            </option>
-                          ))}
-                        </select>
-                        <input
-                          className={`sistema__phone-input ${errors.phone ? "sistema__input--error" : ""}`}
-                          type="tel"
-                          name="phone"
-                          placeholder="612 345 678"
-                          autoComplete="tel-national"
-                          inputMode="numeric"
-                          value={formData.phone}
-                          onChange={(e) => {
-                            const val = e.target.value.replace(/[^0-9\s]/g, "");
-                            setFormData((prev) => ({ ...prev, phone: val }));
-                            if (errors.phone) {
-                              setErrors((prev) => {
-                                const next = { ...prev };
-                                delete next.phone;
-                                return next;
-                              });
-                            }
-                          }}
-                        />
+                      {/* Grupo 1: siempre visible — fase + contenido */}
+                      <label className="sistema__label">¿En qué fase está la marca ahora mismo?</label>
+                      <div className="sistema__platforms">
+                        {[
+                          "Estamos creciendo rápido y necesitamos escalar el contenido",
+                          "El contenido actual no está convirtiendo como esperamos",
+                          "Queremos profesionalizar lo que ya funciona",
+                        ].map((opt) => (
+                          <label key={opt} className="sistema__platform-option">
+                            <input
+                              type="checkbox"
+                              checked={formData.brandPhase === opt}
+                              onChange={() => setFormData((prev) => ({ ...prev, brandPhase: prev.brandPhase === opt ? "" : opt }))}
+                            />
+                            <span>{opt}</span>
+                          </label>
+                        ))}
                       </div>
-                      {errors.phone && (
-                        <span className="sistema__error">{errors.phone}</span>
-                      )}
 
-                      <label className="sistema__label">Correo electrónico</label>
-                      <input
-                        className={`sistema__input ${errors.email ? "sistema__input--error" : ""}`}
-                        type="email"
-                        name="email"
-                        placeholder="maria@empresa.com"
-                        autoComplete="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                      />
-                      {errors.email && (
-                        <span className="sistema__error">{errors.email}</span>
-                      )}
+                      <label className="sistema__label">¿Cuánto contenido producen actualmente por semana (entre orgánico y Paid)?</label>
+                      <div className="sistema__platforms">
+                        {[
+                          "Menos de 16 piezas",
+                          "16 – 30 piezas",
+                          "30 – 60 piezas",
+                          "60 – 100 piezas",
+                          "Más de 100 piezas",
+                        ].map((opt) => (
+                          <label key={opt} className="sistema__platform-option">
+                            <input
+                              type="checkbox"
+                              checked={formData.contentVolume === opt}
+                              onChange={() => setFormData((prev) => ({ ...prev, contentVolume: prev.contentVolume === opt ? "" : opt }))}
+                            />
+                            <span>{opt}</span>
+                          </label>
+                        ))}
+                      </div>
 
-                      {/* Grupo 2: tras nombre + teléfono + correo */}
-                      {formData.name.trim() && formData.phone.trim() && formData.email.trim() && (
-                        <div className="sistema__reveal">
-                          <label className="sistema__label">Empresa</label>
-                          <input
-                            className="sistema__input"
-                            type="text"
-                            name="company"
-                            placeholder="Nombre de tu empresa"
-                            autoComplete="organization"
-                            value={formData.company}
-                            onChange={handleChange}
-                          />
-
-                          <label className="sistema__label">Instagram</label>
-                          <input
-                            className="sistema__input"
-                            type="text"
-                            name="instagram"
-                            placeholder="@tuempresa"
-                            value={formData.instagram}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      )}
-
-                      {/* Grupo 3: fase de la marca */}
-                      {(formData.company.trim() || formData.instagram.trim()) && (
-                        <div className="sistema__reveal">
-                          <label className="sistema__label">¿En qué fase está la marca ahora mismo?</label>
-                          <div className="sistema__platforms">
-                            {[
-                              "Estamos creciendo rápido y necesitamos escalar el contenido",
-                              "El contenido actual no está convirtiendo como esperamos",
-                              "Queremos profesionalizar lo que ya funciona",
-                            ].map((opt) => (
-                              <label key={opt} className="sistema__platform-option">
-                                <input
-                                  type="checkbox"
-                                  checked={formData.brandPhase === opt}
-                                  onChange={() => setFormData((prev) => ({ ...prev, brandPhase: prev.brandPhase === opt ? "" : opt }))}
-                                />
-                                <span>{opt}</span>
-                              </label>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Grupo 4: contenido por semana */}
-                      {formData.brandPhase && (
-                        <div className="sistema__reveal">
-                          <label className="sistema__label">¿Cuánto contenido producen actualmente por semana (entre orgánico y Paid)?</label>
-                          <div className="sistema__platforms">
-                            {[
-                              "Menos de 16 piezas",
-                              "16 – 30 piezas",
-                              "30 – 60 piezas",
-                              "60 – 100 piezas",
-                              "Más de 100 piezas",
-                            ].map((opt) => (
-                              <label key={opt} className="sistema__platform-option">
-                                <input
-                                  type="checkbox"
-                                  checked={formData.contentVolume === opt}
-                                  onChange={() => setFormData((prev) => ({ ...prev, contentVolume: prev.contentVolume === opt ? "" : opt }))}
-                                />
-                                <span>{opt}</span>
-                              </label>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Grupo 5: resultado concreto (max 2) */}
-                      {formData.contentVolume && (
+                      {/* Grupo 2: resultado concreto */}
+                      {formData.brandPhase && formData.contentVolume && (
                         <div className="sistema__reveal">
                           <label className="sistema__label">¿Qué resultado concreto es el más importante para la marca ahora mismo? <span className="sistema__label-hint">(Seleccionar hasta 2)</span></label>
                           <div className="sistema__platforms">
@@ -491,7 +389,7 @@ export default function SistemaPage() {
                         </div>
                       )}
 
-                      {/* Grupo 6: plataformas */}
+                      {/* Grupo 3: plataformas */}
                       {formData.topResults.length > 0 && (
                         <div className="sistema__reveal">
                           <label className="sistema__label">¿En qué plataformas distribuyen el contenido principalmente?</label>
@@ -510,7 +408,7 @@ export default function SistemaPage() {
                         </div>
                       )}
 
-                      {/* Grupo 7: presupuesto */}
+                      {/* Grupo 4: presupuesto */}
                       {formData.platforms.length > 0 && (
                         <div className="sistema__reveal">
                           <label className="sistema__label">¿Cuál es el presupuesto mensual aproximado destinado a contenido y/o publicidad?</label>
@@ -539,7 +437,7 @@ export default function SistemaPage() {
                         </div>
                       )}
 
-                      {/* Grupo 8: urgencia */}
+                      {/* Grupo 5: urgencia */}
                       {formData.budget && (
                         <div className="sistema__reveal">
                           <label className="sistema__label">¿Con qué urgencia necesitan resolver esto?</label>
@@ -562,9 +460,96 @@ export default function SistemaPage() {
                         </div>
                       )}
 
-                      {/* Grupo final: tras urgencia */}
+                      {/* Grupo 6: datos de contacto (todo junto) */}
                       {formData.urgency && (
                         <div className="sistema__reveal">
+                          <label className="sistema__label">Nombre y apellido</label>
+                          <input
+                            className={`sistema__input ${errors.name ? "sistema__input--error" : ""}`}
+                            type="text"
+                            name="name"
+                            placeholder="María López"
+                            autoComplete="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                          />
+                          {errors.name && (
+                            <span className="sistema__error">{errors.name}</span>
+                          )}
+
+                          <label className="sistema__label">Teléfono</label>
+                          <div className="sistema__phone-row">
+                            <select
+                              className="sistema__phone-prefix"
+                              value={prefix}
+                              onChange={(e) => setPrefix(e.target.value)}
+                            >
+                              {phonePrefixes.map((p, i) => (
+                                <option key={`${p.label}-${i}`} value={p.code}>
+                                  {p.label} {p.code}
+                                </option>
+                              ))}
+                            </select>
+                            <input
+                              className={`sistema__phone-input ${errors.phone ? "sistema__input--error" : ""}`}
+                              type="tel"
+                              name="phone"
+                              placeholder="612 345 678"
+                              autoComplete="tel-national"
+                              inputMode="numeric"
+                              value={formData.phone}
+                              onChange={(e) => {
+                                const val = e.target.value.replace(/[^0-9\s]/g, "");
+                                setFormData((prev) => ({ ...prev, phone: val }));
+                                if (errors.phone) {
+                                  setErrors((prev) => {
+                                    const next = { ...prev };
+                                    delete next.phone;
+                                    return next;
+                                  });
+                                }
+                              }}
+                            />
+                          </div>
+                          {errors.phone && (
+                            <span className="sistema__error">{errors.phone}</span>
+                          )}
+
+                          <label className="sistema__label">Correo electrónico</label>
+                          <input
+                            className={`sistema__input ${errors.email ? "sistema__input--error" : ""}`}
+                            type="email"
+                            name="email"
+                            placeholder="maria@empresa.com"
+                            autoComplete="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                          />
+                          {errors.email && (
+                            <span className="sistema__error">{errors.email}</span>
+                          )}
+
+                          <label className="sistema__label">Empresa</label>
+                          <input
+                            className="sistema__input"
+                            type="text"
+                            name="company"
+                            placeholder="Nombre de tu empresa"
+                            autoComplete="organization"
+                            value={formData.company}
+                            onChange={handleChange}
+                          />
+
+                          <label className="sistema__label">Instagram</label>
+                          <input
+                            className="sistema__input"
+                            type="text"
+                            name="instagram"
+                            placeholder="@tuempresa"
+                            value={formData.instagram}
+                            onChange={handleChange}
+                          />
+
                           <div className="sistema__checkboxes">
                             <label
                               className={`sistema__checkbox ${errors.acceptTerms ? "sistema__checkbox--error" : ""}`}
@@ -671,6 +656,31 @@ export default function SistemaPage() {
                   <source src="/assets/landing/caso5.mp4" type="video/mp4" />
                 </video>
               </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso6.jpg" alt="Caso de éxito" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso7.jpg" alt="Caso de éxito" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso8.jpg" alt="Caso de éxito" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso9.jpg" alt="Caso de éxito" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso10.jpg" alt="Caso de éxito" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <video autoPlay loop muted playsInline preload="auto">
+                  <source src="/assets/landing/caso11.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="sistema__carousel-slide">
+                <video autoPlay loop muted playsInline preload="auto">
+                  <source src="/assets/landing/caso12.mp4" type="video/mp4" />
+                </video>
+              </div>
               {/* Duplicated for seamless loop */}
               <div className="sistema__carousel-slide">
                 <img src="/assets/landing/caso1.jpg" alt="Caso de éxito" />
@@ -691,6 +701,31 @@ export default function SistemaPage() {
               <div className="sistema__carousel-slide">
                 <video autoPlay loop muted playsInline preload="auto">
                   <source src="/assets/landing/caso5.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso6.jpg" alt="" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso7.jpg" alt="" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso8.jpg" alt="" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso9.jpg" alt="" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <img src="/assets/landing/caso10.jpg" alt="" />
+              </div>
+              <div className="sistema__carousel-slide">
+                <video autoPlay loop muted playsInline preload="auto">
+                  <source src="/assets/landing/caso11.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="sistema__carousel-slide">
+                <video autoPlay loop muted playsInline preload="auto">
+                  <source src="/assets/landing/caso12.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

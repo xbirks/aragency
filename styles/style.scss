@@ -1527,14 +1527,13 @@ strong {
 	}
 
 	img {
-		height: auto;
+		height: 24px;
 		width: auto;
-		max-height: 22px;
 		max-width: 120px;
 		object-fit: contain;
 
 		@include media700px {
-			max-height: 22px;
+			height: 20px;
 			max-width: none;
 		}
 	}
@@ -1583,7 +1582,8 @@ strong {
 
 	display: flex;
 	align-items: flex-start;
-	gap: 0;
+	gap: 3vw;
+	padding: 0 3vw;
 }
 
 .sistema__split-left {
@@ -1759,7 +1759,7 @@ strong {
 .sistema__split-right .sistema__step {
 	max-width: none;
 	margin: 0;
-	padding: 48px 24px;
+	padding: 48px 3vw 48px 0;
 }
 
 
