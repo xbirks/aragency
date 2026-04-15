@@ -2428,3 +2428,224 @@ strong {
 	color: #868686;
 	text-transform: none;
 }
+
+
+
+
+//ABOUT PAGE — valores exactos del Figma (node 4085:183, frame 1440)
+
+.about {
+	font-family: $aktiv;
+	background-color: $white;
+
+	// HERO — .ficha__master + .ficha__hero tal cual, sin overrides
+
+	// ── INTRO ──
+	.about__intro {
+		padding: 44px 3vw 0;
+	}
+
+	// H2 — 40px / weight 300 / -2% / center / color #161616
+	.about__intro-title {
+		font-family: $aktiv;
+		font-size: 40px;
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 1.28;
+		text-transform: uppercase;
+		text-align: center;
+		color: $black;
+		margin: 0 auto 44px;
+		max-width: 1325px;
+
+		strong {
+			font-weight: 500;
+		}
+
+		@include media1000px {
+			font-size: 32px;
+		}
+
+		@include media700px {
+			font-size: 24px;
+			margin-bottom: 36px;
+		}
+	}
+
+	// Párrafo — 14px / weight 300 / -2% / JUSTIFIED / max 514px
+	.about__intro-text {
+		font-family: $aktiv;
+		font-size: 14px;
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 1.28;
+		text-transform: uppercase;
+		text-align: justify;
+		color: #000;
+		max-width: 514px;
+		margin: 0 auto 74px;
+
+		a {
+			color: #000;
+			text-decoration: underline;
+			text-underline-offset: 2px;
+
+			strong {
+				font-weight: 500;
+			}
+		}
+	}
+
+	// Features — 12px / weight 300 / center / línea 0.5px #000 381px ancho
+	.about__features {
+		max-width: 381px;
+		margin: 0 auto 74px;
+		list-style: none;
+		padding: 0;
+
+		li {
+			font-family: $aktiv;
+			font-size: 12px;
+			font-weight: 300;
+			letter-spacing: -0.02em;
+			line-height: 1.28;
+			text-transform: uppercase;
+			text-align: center;
+			color: #000;
+			padding: 0 0 13px;
+			margin-top: 32px;
+			border-bottom: 0.5px solid #000;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	// CTA — solo layout, los botones son los .button por defecto
+	.about__cta {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		flex-wrap: wrap;
+		padding-bottom: 137px;
+
+		@include media500px {
+			padding-bottom: 90px;
+		}
+	}
+
+	// ── STATS ── banda negra full-bleed
+	.about__stats {
+		background-color: $black;
+		padding: 39px 3vw;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 100px;
+		flex-wrap: wrap;
+
+		@include media700px {
+			gap: 40px;
+			padding: 32px 3vw;
+		}
+
+		.stat {
+			text-align: center;
+		}
+
+		// Número — 40px / w300 / -2% / color #EEEEEE
+		.stat__num {
+			display: block;
+			font-family: $aktiv;
+			font-size: 40px;
+			font-weight: 300;
+			letter-spacing: -0.02em;
+			line-height: 1.28;
+			text-transform: uppercase;
+			color: $grey-light;
+		}
+
+		// Label — 14px / w300 / -2% / color #EEEEEE
+		.stat__label {
+			display: block;
+			font-family: $aktiv;
+			font-size: 14px;
+			font-weight: 300;
+			letter-spacing: -0.02em;
+			line-height: 1.28;
+			text-transform: uppercase;
+			color: $grey-light;
+		}
+	}
+
+	// ── BRANDS ──
+	.about__brands {
+		background-color: $white;
+		padding: 94px 3vw 80px;
+		text-align: center;
+
+		@include media700px {
+			padding: 70px 3vw 60px;
+		}
+
+		// Título — 40px / w300 / -2% / center / color #161616
+		h2 {
+			font-family: $aktiv;
+			font-size: 40px;
+			font-weight: 300;
+			letter-spacing: -0.02em;
+			line-height: 1.28;
+			text-transform: uppercase;
+			text-align: center;
+			color: $black;
+			margin: 0 auto 32px;
+
+			@include media700px {
+				font-size: 28px;
+			}
+		}
+
+		// Logos — dimensiones del Figma (amazon/vogue/colgate ≈ 33px, pantene ≈ 30px, garnier ≈ 16px)
+		.about__brands-logos {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 48px;
+			flex-wrap: wrap;
+			max-width: 991px;
+			margin: 0 auto;
+
+			@include media700px {
+				gap: 28px;
+			}
+
+			img {
+				height: 33px;
+				width: auto;
+				object-fit: contain;
+
+				@include media700px {
+					height: 24px;
+				}
+
+				&.about__brand-smaller {
+					height: 30px;
+
+					@include media700px {
+						height: 22px;
+					}
+				}
+
+				&.about__brand-garnier {
+					height: 16px;
+
+					@include media700px {
+						height: 12px;
+					}
+				}
+			}
+		}
+	}
+}

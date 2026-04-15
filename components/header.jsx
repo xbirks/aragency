@@ -9,7 +9,8 @@ import { useMediaQuery } from 'react-responsive';
 export default function Header() {
   const router = useRouter();
   const isIndex = router.pathname === '/';
-  const isSlug = router.asPath.includes('/modelos/') && router.asPath.split('/').length === 4;
+  const isAbout = router.pathname === '/about';
+  const isSlug = (router.asPath.includes('/modelos/') && router.asPath.split('/').length === 4) || isAbout;
 
 
   const [mounted, setMounted] = useState(false);
