@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import SeoHead from '@/components/seoHead';
 import ModelGrid from '@/components/feed/modelGrid';
+import ButtonArrow from '@/components/buttons/buttonArrow';
 import dataRaw from '@/data/models.json';
 
 
@@ -31,6 +32,10 @@ export default function Feed() {
         }}
       >
         <ModelGrid data={modelos} /* showOnlyUGC={showOnlyUGC} setShowOnlyUGC={setShowOnlyUGC} */ />
+
+        <div className="feed__cta">
+          <ButtonArrow href="/es/new_faces" texto="Ver new faces - UGC" />
+        </div>
       </div>
 
       <div className="model__textos">
