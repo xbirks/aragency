@@ -15,7 +15,6 @@
     "hair": "Castaño oscuro con reflejos",
     "eyes": "Marrón",
     "shoes": 37,
-    "url": "/es/modelos/alba-garcia-riera",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784245/portada_alba_mzorfm.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784133/1000277521_kswarn.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750784593/portada_digitales_gt8rfu.jpg",
@@ -147,121 +146,17 @@
       {
         "type": "video",
         "src": "/models/alba_garcia/ugc/alba_garcia_(4).mp4"
-      }
-    ]
-  },
-  {
-    "slug": "aneta-ivanov-garcia",
-    "name": "Aneta Ivanov",
-    "category": "model",
-    "description": "<strong>Aneta Ivanov García</strong> es una modelo clásica con una presencia elegante y atemporal que destaca por su refinamiento y porte natural frente a la cámara. Sus principales habilidades —danza, pilates, volleyball y pintura— le permiten proyectar control corporal, sensibilidad artística y una expresión sutil y sofisticada. <br><br> Su estilo encaja perfectamente en campañas editoriales, moda tradicional, comerciales y producciones donde se valora la estética pulida y el equilibrio visual. Aneta representa la esencia de la elegancia clásica, con un enfoque profesional y una actitud serena que conecta con marcas que priorizan la calidad y la autenticidad.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750751724/hover-aneta-ivanoc_srtnob.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099917/default-aneta-ivanoc_qi8sj8.jpg"
-    },
-    "height": 171,
-    "bust": 78,
-    "waist": 66,
-    "hips": 93,
-    "hair": "Castaño oscuro",
-    "eyes": "Marrón",
-    "shoes": 39,
-    "url": "/es/modelos/aneta-ivanoc-garcia",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786208/portada_aneta_qtdqdb.jpg",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786209/portfolio_aneta_va4rnh.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786210/digitales_aneta_ifedqz.jpg",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829909/ugc_aneta-ivanoc_jxik95.jpg",
-    "gallery": [
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100230/IMG_5428_ttgzht.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100231/IMG_5430_chqjke.jpg"
-        ],
-        "layout": "pair"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048213/IMG_9526_w2pjbs.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048212/IMG_9531_mutaxw.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/alba_garcia/ugc/alba_garcia_(5).mp4"
       },
       {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100222/IMG_5450_ia2lxy.jpg"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100224/IMG_5437_jvxj7i.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100226/IMG_8869-_1_fvvlet.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100220/IMG_3654---copia_irjc6r.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100281/STILL-LIFE_05_l3oucl.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100228/IMG_3656---copia_eddrbc.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100233/IMG_3655---copia_gjudh2.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/alba_garcia/ugc/alba_garcia_(6).mp4"
       }
     ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100125/image00008_nkdmby.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100120/image00007_wc51yu.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100122/image00006_f6bmq0.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100123/image00005_nnpfzy.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100048/image00003_elbkmg.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100050/image00002_kfgutn.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100047/image00001_kalwf5.jpg"
-      }
-    ],
-    "videoGallery": [],
-    "ugcGallery": [
-      {
-        "type": "video",
-        "src": "/models/aneta_ivanoc/aneta_(1).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/aneta_ivanoc/aneta_(2).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/aneta_ivanoc/aneta_(3).mp4"
-      }
-    ]
+    "url": "/es/modelos/alba-garcia-riera"
   },
   {
     "slug": "angelica-pons-marquez",
@@ -279,10 +174,11 @@
     "hair": "Castaño oscuro",
     "eyes": "Verde",
     "shoes": 40,
-    "url": "/es/modelos/angelica-pons-marquez",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786845/portada_angelica_jzrqaf.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786845/portfolio_angelica_ptraey.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786847/digitales_angelica_wx1rre.jpg",
+    "videoCover": "",
+    "ugcCover": "",
     "gallery": [
       {
         "type": "image",
@@ -327,116 +223,14 @@
         "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750264155/IMG_1208_yzpupk.jpg"
       }
     ],
-    "videoGallery": []
-  },
-  {
-    "slug": "arantxa-leon",
-    "name": "Arantxa León",
-    "category": "newface",
-    "description": "<strong>Arantxa León</strong> es una modelo con un estilo moderno, fresco y cercano, ideal para marcas que buscan campañas auténticas y reales. Su rostro versátil y expresivo conecta de forma genuina con el público, transmitiendo naturalidad en cada toma. Con experiencia en la creación de contenido UGC, aporta espontaneidad, confianza y fluidez en entornos digitales y redes sociales.<br></br>Un talento emergente perfecto para producciones que valoran la cercanía, la creatividad y la personalidad única.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265600/default-arantxa-leon_qmzlg5.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265598/hover-arantxa-leon_fbmnmc.jpg"
-    },
-    "height": 155,
-    "bust": 98,
-    "waist": 76,
-    "hips": 85,
-    "hair": "Balayage",
-    "eyes": "Marrón",
-    "shoes": 36,
-    "url": "/es/modelos/aranxta-leon",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787275/portada_arantxa_fefctd.jpg",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787273/portfolio_arantxa_nhhkrp.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787271/digitales_arantxa_wdijjl.jpg",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829872/ugc_arantxa-leon_gmrxjy.jpg",
-    "gallery": [
+    "videoGallery": [
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265503/IMG_0191_vnidy5.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265507/IMG_0194_di5pro.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265502/IMG_7518.JPEG_lkgeww.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265506/IMG_7521.JPEG_qxpzxo.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0474_xwygam.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0566_rqgvun.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0607_efhof6.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0659_rzdrbg.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265504/IMG_8099_qrtjlb.jpg"
+        "type": "video",
+        "src": "/models/alba_garcia/ugc/angelica-pons(1).mp4"
       }
     ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265497/Polas-medio-perfil_-pieri__jcewsy.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265496/Pola_weagqz.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265495/Pola-primer-plano_-pieri_gssofz.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265494/Perfil_-pieri__o2pqf6.jpg"
-      }
-    ],
-    "videoGallery": [],
-    "ugcGallery": [
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(1).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(2).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(3).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(4).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(5).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(6).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/arantxa_leon/ugc/arantxa_(7).mp4"
-      }
-    ]
+    "ugcGallery": [],
+    "url": "/es/modelos/angelica-pons-marquez"
   },
   {
     "slug": "barbara-valera",
@@ -453,10 +247,12 @@
     "hips": 94,
     "hair": "Castaño claro",
     "eyes": "Marron claro / verde",
-    "url": "/es/modelos/barbara-valera",
+    "shoes": "",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268587/portada-barbara-valera_qxsgtj.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787965/portfolio_barbara_zexpcq.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787964/digitales_barbara_m6dfs1.jpg",
+    "videoCover": "",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776361394/ugc_barbara-vale_ztngci.jpg",
     "gallery": [
       {
         "type": "image",
@@ -517,85 +313,58 @@
         "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268401/image00015_nphuhu.jpg"
       }
     ],
-    "videoGallery": []
-  },
-  {
-    "slug": "carin-garcés",
-    "name": "Carin Garcés",
-    "category": "newface",
-    "description": "<strong>Carin Garcés</strong> es una modelo con un estilo alternativo y una estética muy personal que no pasa desapercibida.<br><br>Su mirada intensa, gestualidad sutil y rasgos delicados aportan una fuerza visual ideal para proyectos editoriales, creativos y conceptuales.<br><br>Artista visual y apasionada por la pintura, su sensibilidad estética se refleja con naturalidad frente a la cámara, generando imágenes con profundidad y significado. Un rostro distintivo, perfecto para marcas y producciones que buscan autenticidad, carácter y una belleza poco convencional.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048670/default_carin-garces_zzhgex.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048666/hover_carin-garces_qm98mh.jpg"
-    },
-    "height": 160,
-    "bust": 88,
-    "waist": 65,
-    "hips": 94,
-    "hair": "Castaño oscuro",
-    "eyes": "Negros",
-    "shoes": 36,
-    "url": "/es/modelos/carin-garcés",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269333/portada-carin-garces_iwlqqn.jpg",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048667/portfolio_carin-garces_e8shsr.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048668/digitales_carin-garces_ravtff.jpg",
-    "gallery": [
+    "videoGallery": [],
+    "ugcGallery": [
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048612/Carin-009_b7ta9q.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048611/Carin-012_ujeif7.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(1).mp4"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048607/Carin-001_byciam.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048608/Carin-003_aemsmw.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(11).mp4"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048610/Carin-004_oxdtmd.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048607/Carin-006_aafs3x.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(12).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(13).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(14).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(15).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(16).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(17).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(18).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(19).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(20).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/barbara_valera/ugc/barbara-valera(21).mp4"
       }
     ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268995/Escaneado_-20250411-1305_boh6kg.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268992/Escaneado_-20250411-1306_1_ubwdry.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268990/Escaneado_-20250411-1308_fpavmr.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268985/Escaneado_-20250411-1307_1_wrcmpx.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268983/Escaneado_-20250411-1306_ift8az.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268941/Escaneado_-20250411-1307_wvy344.jpg"
-      }
-    ],
-    "videoGallery": []
+    "url": "/es/modelos/barbara-valera"
   },
   {
     "slug": "florisbel-oyer",
@@ -613,7 +382,6 @@
     "hair": "Castaño oscuro",
     "eyes": "Marron",
     "shoes": 35,
-    "url": "/es/modelos/florisbel-oyer",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751005834/portada_fabiana_f3u9i9.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751005835/portfolio_fabiana_wtk0pp.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751005832/digitales_fabiana_mvoafx.jpg",
@@ -680,205 +448,17 @@
       {
         "type": "video",
         "src": "/models/florisbel_oyer/ugc/florisbel_(3).mp4"
-      }
-    ]
-  },
-  {
-    "slug": "kelly-valencia-gallo",
-    "name": "Kelly Valencia",
-    "category": "model",
-    "description": "<strong>Kelly Valencia</strong> es una modelo con rasgos afro-latinos y una presencia vibrante, Kelly destaca por su autenticidad, fuerza visual y gran carisma ante la cámara.<br><br>Su pasión por la salsa, el baile urbano y la actuación le otorgan una expresividad única y un dominio escénico perfecto para campañas que buscan dinamismo, diversidad y conexión real. Kelly representa a una generación de modelos que combinan arte, disciplina y presencia, siendo ideal para marcas que apuestan por el talento multicultural y con propósito.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273179/default-kelly-valencia_wtmlke.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273185/hover-kelly-valencia_tecege.jpg"
-    },
-    "height": 160,
-    "bust": 79,
-    "waist": 67,
-    "hips": 94,
-    "hair": "Negro",
-    "eyes": "Marron oscuro",
-    "shoes": 38,
-    "url": "/es/modelos/kelly-valencia-gallo",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273182/portada-kelly-valencia_lq4sm1.jpg",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751006581/portfolio_kelly_tvwpcf.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751006580/digitales_kelly_kuqlvr.jpg",
-    "videoCover": "",
-    "gallery": [
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273157/IMG_0990_kzuz0o.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273175/IMG_0987_foiqtq.jpg"
-        ],
-        "layout": "pair"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273169/IMG_5395_vaynxg.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273163/IMG_5396_jouxge.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/florisbel_oyer/ugc/florisbel_(4).mp4"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273151/IMG_5520_vpepk5.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273154/IMG_5516_opn7k2.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273172/IMG_7329_lecp0v.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273166/IMG_7564_peppat.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273148/IMG_7941_cuibyd.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273160/IMG_1791_mrznou.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/florisbel_oyer/ugc/florisbel_(5).mp4"
       }
     ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273105/IMG_7513.JPEG_opmrng.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273087/IMG_7514.JPEG_hxx68l.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273084/IMG_7517.JPEG_qaije7.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273082/IMG_7515.JPEG_y94cxa.jpg"
-      }
-    ],
-    "videoGallery": []
-  },
-  {
-    "slug": "kim-ayala-useche",
-    "name": "Kim Ayala",
-    "category": "newface",
-    "description": "<strong>Kim</strong> combina su experiencia como modelo con su trabajo en contenido UGC, logrando conectar de forma directa con la audiencia actual.<br><br>Con una mirada serena y segura, transmite naturalidad y confianza en cada imagen.<br><br>Su presencia versátil le permite adaptarse con facilidad a distintos formatos visuales, desde campañas hasta colaboraciones digitales.<br><br>Ideal para marcas que buscan perfiles auténticos, creativos y con gran capacidad de conexión.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049241/default_kim-ayala_hj7l9n.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049244/hover_kim-ayala_opkslv.jpg"
-    },
-    "height": 159,
-    "bust": 106,
-    "waist": 90,
-    "hips": 117,
-    "hair": "Cataño",
-    "eyes": "Marron",
-    "shoes": 39,
-    "url": "/es/modelos/kim-ayala-useche",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049245/portada_kim-ayala_fplpgb.jpg",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049242/portfolio_kim-ayala_tejurb.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049247/digitales_kim-ayala_p0etlm.jpg",
-    "videoCover": "",
-    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829733/ugc_kim-ayala_nuphag.jpg",
-    "gallery": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049301/IMG_8320_hvrpeb.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049308/IMG_8885_j5xpad.jpg"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049310/IMG_8309_egrxov.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049299/IMG_8315_c8hhau.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049311/Book--Clase-Bemodel-01-02-2025--Cristina-Grajera.-Covers-Models-Academy-51_r3nxaj.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049297/IMG_8280_rthtqz.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049302/IMG_8528_u0uxyl.jpg"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049295/Foto_1_hywei1.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049304/Foto_4_bcfg79.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049306/IMG_8417_jcuwqt.jpg"
-      }
-    ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273877/IMG_4018_kydyq5.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273874/IMG_4025_ie0fix.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273870/IMG_4021_ydtjcy.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273867/IMG_4024_aa4aj7.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273864/IMG_4019_wpgsxk.jpg"
-      }
-    ],
-    "videoGallery": [],
-    "ugcGallery": [
-      {
-        "type": "video",
-        "src": "/models/kim_ayala/ugc/kim_(1).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/kim_ayala/ugc/kim_(2).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/kim_ayala/ugc/kim_(3).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/kim_ayala/ugc/kim_(4).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/kim_ayala/ugc/kim_(5).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/kim_ayala/ugc/kim_(6).mp4"
-      }
-    ]
+    "url": "/es/modelos/florisbel-oyer"
   },
   {
     "slug": "liseury-guzman",
@@ -984,118 +564,6 @@
     "videoGallery": []
   },
   {
-    "slug": "mafer-salinas",
-    "name": "Mafer Salinas",
-    "category": "model",
-    "description": "<strong>Mafer Salinas</strong> es una modelo reconocida por su energía, presencia escénica y estilo saludable. Con habilidades destacadas en entrenamiento funcional, yoga y ritmos latinos como salsa, bachata y merengue, aporta movimiento, naturalidad y dinamismo a cada proyecto.<br><br>Su imagen fitness y actitud vibrante la han convertido en una opción recurrente para campañas comerciales del sector deportivo y bienestar. Mafer representa a una mujer activa, auténtica y segura, ideal para marcas que buscan transmitir fuerza, vitalidad y conexión real con su audiencia.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275422/default-mafer_oax6n8.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275425/hover-mafer_lcba44.jpg"
-    },
-    "height": 165,
-    "bust": 85,
-    "waist": 60,
-    "hips": 95,
-    "hair": "Negro",
-    "eyes": "Hazel",
-    "shoes": 37,
-    "url": "/es/modelos/mafer-salinas",
-    "hero": "/models/mafer_salinas/videos/vid.mp4",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275429/portada-mafer_kagpen.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751022354/digitales_mafer_bgk18e.jpg",
-    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751472749/video_mafer_video_xjlir3.jpg",
-    "gallery": [
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275495/IMG_8314_evztsv.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275511/IMG_8317_zenzno.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275503/b2747252-b367-4aa2-a4b7-c27287187d75_ct8xqb.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275499/dd04a836-953f-43de-a702-cf70ad10582a_nwdbv6.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275507/IMG_5430_reyfkb.jpg"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275487/IMG_3922_rzdbix.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275468/FA529049-D298-42AB-B562-E814A50CB653_zuy1rl.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275476/4182f06f-ffe5-4d88-9099-efd3b5c35058_akrmsa.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275472/IMG_8413_bclxvr.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275483/IMG_2867_mcidpn.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275480/IMG_2875_yernka.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275464/IMG_5788_mmjtjd.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275515/IMG_5789_gltkym.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275461/IMG_4873_qqajlr.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275491/IMG_6390_jq7nyx.jpg"
-        ],
-        "layout": "pair"
-      }
-    ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275535/IMG_7533.JPEG_mllo6m.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275531/IMG_7529.JPEG_tjwhxd.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275527/IMG_7532.JPEG_y4ese4.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275523/IMG_7530.JPEG_oektew.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275520/IMG_7531.JPEG_ksskf4.jpg"
-      }
-    ],
-    "videoGallery": [
-      {
-        "type": "video",
-        "src": "/models/mafer_salinas/videos/vid.mp4"
-      }
-    ]
-  },
-  {
     "slug": "fabiana-gudino",
     "name": "Fabiana Gudiño",
     "category": "newface",
@@ -1111,7 +579,6 @@
     "hair": "Negro",
     "eyes": "Marrón",
     "shoes": 37,
-    "url": "/es/modelos/fabiana-gudino",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004588/portada_fabiana_mby86q.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004588/portfolio_fabiana_xnz77g.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751004587/digitales_fabiana_fuyp8f.jpg",
@@ -1199,8 +666,21 @@
       {
         "type": "video",
         "src": "/models/fabiana_gudino/ugc/fabiana_(3).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/fabiana_gudino/ugc/fabiana_(4).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/fabiana_gudino/ugc/fabiana_(5).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/fabiana_gudino/ugc/fabiana_(6).mp4"
       }
-    ]
+    ],
+    "url": "/es/modelos/fabiana-gudino"
   },
   {
     "slug": "madelyn-fabian-cabral",
@@ -1609,150 +1089,6 @@
     ]
   },
   {
-    "slug": "rocio-sciacca",
-    "name": "Rocio Sciacca",
-    "category": "model",
-    "description": "<strong>Rocio Sciacca</strong> es una modelo clásica con una presencia impecable y una versatilidad que la hace destacar en cualquier producción. Además de su experiencia como modelo, es creadora de contenido UGC, combinando estética, storytelling y conexión real con las marcas.<br><br>Apasionada por el canto, la guitarra y el entrenamiento físico, aporta energía, elegancia y carácter a cada sesión. Con una habilidad camaleónica para adaptarse a distintos estilos de posado, es experta en transmitir emociones y mantener una actitud profesional en todo momento. Rocío es sinónimo de compromiso, técnica y autenticidad.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024715/default_rociosciacca_n7tylr.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024712/hover_rociosciacca_s31vwr.jpg"
-    },
-    "height": 180,
-    "bust": 83,
-    "waist": 63,
-    "hips": 94,
-    "hair": "Marrón",
-    "eyes": "Verde-marrón",
-    "shoes": "40-41",
-    "url": "/es/modelos/rocio-sciacca",
-    "hero": "/models/rocio_sciacca/videos/Rocio_Cinemascope_4k.mp4",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024719/portfolio_rociosciacca_cxyndx.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024710/digitales_rociosciacca_xelj8m.jpg",
-    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024798/IMG-20250521-WA0034_yitufx.jpg",
-    "gallery": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024789/alexstaffa_7J6A2527_nvifkx.jpg"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024752/alexstaffa_7J6A7884_etmaxb.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024756/61f19a2e-0541-4ca0-9ef2-6ee325aa8b94_c6kevs.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024817/3ad15aa8-d15c-4bc6-b689-cd2bd9d626e5_fg2jzi.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024785/7a5908ce-ce8c-48dc-935a-a8f0c31f37e0_mmbdxe.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024792/37a4cb09-ad63-4e1a-8cf2-cf31c339421f_l5dljh.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024779/00dfdaaf-18e9-4e26-bf72-5ce98a787221_vrthbu.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024820/Roc%C3%ADo-Sciacca-_14_dkk8wn.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024814/Roc%C3%ADo-Sciacca-_11_bxvdq4.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024811/OLS_0501_qbz42l.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024773/OLS_0464_nmceig.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024798/IMG-20250521-WA0034_yitufx.jpg"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024802/OLS_0175_ov978k.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024808/OLS_0159_hvvxyb.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024765/JHR_4561_b2pead.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024805/JHR_4866_qeutci.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024758/49d3f38c-af53-4c4e-8f17-fdc4c890564b_ajmqlm.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024762/e688847c-e847-43d3-8d86-bfd70f92e8c8_e315vf.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024782/04effd07-8111-48ae-8eaa-ca280aa81bc5_kvu9eb.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024776/_U0A0524_f40awx.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024795/8b4f1fe2-96a3-4f95-8c57-e0a3c3f979c6_vez4ec.jpg"
-      }
-    ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024746/97759a84-2b3c-4724-bc0b-75c12bbd8102_jgg6yh.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024743/21769de0-349e-4f68-a5dc-defb470a41a8_pf2gok.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024739/a7aadee8-f568-49f3-992c-babb086fabe8_jhbci8.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024737/c52f2d7d-7bb1-4547-9032-567af6de0abf_pqe5nu.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024734/3928d662-d0ee-4b6b-953e-96ed7ea0a278_ve8ozy.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024730/4fc3c539-b714-4491-8908-caf307b23f9a_x3x5wb.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024727/17263ca0-6a10-4724-87d0-d2d4759e831e_dw8jmx.jpg"
-      }
-    ],
-    "videoGallery": [
-      {
-        "type": "video",
-        "src": "/models/rocio_sciacca/videos/Rocio_Cinemascope_4k.mp4"
-      }
-    ]
-  },
-  {
     "slug": "saray-salas",
     "name": "Saray Salas",
     "category": "newface",
@@ -1768,7 +1104,6 @@
     "hair": "Rubio",
     "eyes": "Marrón oscuro",
     "shoes": "38/39",
-    "url": "/es/modelos/saray-salas",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751025703/portada_saraysalas_jfchcp.jpg",
     "portfolioCover": "",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751025696/digitales_saraysalas_wrmcxp.jpg",
@@ -1830,132 +1165,25 @@
       {
         "type": "video",
         "src": "/models/saray_salas/ugc/saray_(3).mp4"
-      }
-    ]
-  },
-  {
-    "slug": "teresa-rodriguez-manotas",
-    "name": "Teresa Rodríguez",
-    "category": "model",
-    "description": "<strong>Teresa Rodríguez Manotas</strong> es una modelo con gran dominio escénico y experiencia en pasarela, demostrando que la altura es solo un número cuando hay actitud, técnica y presencia. Su mirada intensa y su actitud segura ante la cámara transmiten una confianza natural que cautiva en cada sesión.<br><br>Habla inglés C1, lo que le permite desenvolverse con soltura en proyectos internacionales, y posee habilidades artísticas como la interpretación del instrumento tradicional dobra. Apasionada por la moda y la expresión artística, Teresa se adapta con versatilidad a distintos estilos y conceptos, reflejando profesionalismo, elegancia y determinación en cada proyecto.",
-    "images": {
-      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026389/default_teresa_rvy4sh.jpg",
-      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026393/hover_teresa_y6fwxc.jpg"
-    },
-    "height": 165,
-    "bust": 85,
-    "waist": 61,
-    "hips": 92,
-    "hair": "Castaño oscuro",
-    "eyes": "Marrón",
-    "shoes": 37,
-    "url": "/es/modelos/teresa-rodriguez-manotas",
-    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026397/portada_teresa_zv3a6u.jpg",
-    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026401/portfolio_teresa_ytaomt.jpg",
-    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026386/digitales_teresa_sconsj.jpg",
-    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027740/IMG_6391_icvtwt.jpg",
-    "gallery": [
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027732/B08CFE11-9E13-4F84-9EE6-C7C3BB457D4F_1_105_c_pngozc.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027748/c03d515d-4976-416a-ad5c-652d5a4d445d_jrcf0b.jpg"
-        ],
-        "layout": "pair"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027775/IMG_9160_o0rha3.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027752/IMG_9155_nkxp5v.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/saray_salas/ugc/saray_(4).mp4"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027744/IMG_6707_g3firw.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027736/IMG_6705_xcnhih.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/saray_salas/ugc/saray_(5).mp4"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027756/IMG_1055_ka4jv8.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027764/IMG_1054_fvhdee.jpg"
-        ],
-        "layout": "pair"
+        "type": "video",
+        "src": "/models/saray_salas/ugc/saray_(6).mp4"
       },
       {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027740/IMG_6391_icvtwt.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027729/19833847-34AA-41D9-A99E-72340994D79E_zbolna.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027771/d7e04204-ae58-4203-92fb-e1c8e58af87c_s8uuak.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027760/119fb227-7f24-4b00-bb85-ccb4a86db657_oz9oxj.jpg"
-        ],
-        "layout": "pair"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027767/DSC01222_rdrcsf.jpg"
+        "type": "video",
+        "src": "/models/saray_salas/ugc/saray_(7).mp4"
       }
     ],
-    "digitales": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027800/IMG_1922_uhyiqh.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027796/IMG_1923_b4ysta.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027792/IMG_1921_jqhvyt.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027788/IMG_1924_qtrjld.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027784/IMG_1918_oxkpfw.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027780/IMG_1919_umxqvd.jpg"
-      }
-    ],
-    "videoGallery": [
-      {
-        "type": "video",
-        "src": "/models/teresa_rodriguez/videos/teresa(5).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/teresa_rodriguez/videos/teresa(2).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/teresa_rodriguez/videos/teresa(3).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/teresa_rodriguez/videos/teresa(4).mp4"
-      },
-      {
-        "type": "video",
-        "src": "/models/teresa_rodriguez/videos/teresa(1).mp4"
-      }
-    ]
+    "url": "/es/modelos/saray-salas"
   },
   {
     "slug": "andreea-dobrin",
@@ -2081,7 +1309,6 @@
     "hair": "Negro",
     "eyes": "Marrón",
     "shoes": 36,
-    "url": "/es/modelos/miriam-xiaoping-gienez-anderiz",
     "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/portfolio_xiaoping_gnm26n.jpg",
     "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/portada_xiaoping_mkzdot.jpg",
     "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1753722897/digitales_xiaoping_erpy0q.jpg",
@@ -2184,8 +1411,33 @@
       {
         "type": "video",
         "src": "/models/miriam_gimenez/ugc/miriam_(4).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/miriam_gimenez/ugc/miriam_(5).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/miriam_gimenez/ugc/miriam_(6).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/miriam_gimenez/ugc/miriam_(7).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/miriam_gimenez/ugc/miriam_(8).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/miriam_gimenez/ugc/miriam_(9).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/miriam_gimenez/ugc/miriam_(10).mp4"
       }
-    ]
+    ],
+    "url": "/es/modelos/miriam-xiaoping-gimenez-anderiz"
   },
   {
     "slug": "carol-valencia",
@@ -2476,5 +1728,1087 @@
       }
     ],
     "videoGallery": []
+  },
+  {
+    "slug": "aneta-ivanov-garcia",
+    "name": "Aneta Ivanov",
+    "category": "model",
+    "description": "<strong>Aneta Ivanov García</strong> es una modelo clásica con una presencia elegante y atemporal que destaca por su refinamiento y porte natural frente a la cámara. Sus principales habilidades —danza, pilates, volleyball y pintura— le permiten proyectar control corporal, sensibilidad artística y una expresión sutil y sofisticada. <br><br> Su estilo encaja perfectamente en campañas editoriales, moda tradicional, comerciales y producciones donde se valora la estética pulida y el equilibrio visual. Aneta representa la esencia de la elegancia clásica, con un enfoque profesional y una actitud serena que conecta con marcas que priorizan la calidad y la autenticidad.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750751724/hover-aneta-ivanoc_srtnob.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750099917/default-aneta-ivanoc_qi8sj8.jpg"
+    },
+    "height": 171,
+    "bust": 78,
+    "waist": 66,
+    "hips": 93,
+    "hair": "Castaño oscuro",
+    "eyes": "Marrón",
+    "shoes": 39,
+    "url": "/es/modelos/aneta-ivanoc-garcia",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786208/portada_aneta_qtdqdb.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786209/portfolio_aneta_va4rnh.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750786210/digitales_aneta_ifedqz.jpg",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829909/ugc_aneta-ivanoc_jxik95.jpg",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100230/IMG_5428_ttgzht.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100231/IMG_5430_chqjke.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048213/IMG_9526_w2pjbs.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048212/IMG_9531_mutaxw.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100222/IMG_5450_ia2lxy.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100224/IMG_5437_jvxj7i.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100226/IMG_8869-_1_fvvlet.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100220/IMG_3654---copia_irjc6r.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100281/STILL-LIFE_05_l3oucl.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100228/IMG_3656---copia_eddrbc.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100233/IMG_3655---copia_gjudh2.jpg"
+        ],
+        "layout": "pair"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100125/image00008_nkdmby.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100120/image00007_wc51yu.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100122/image00006_f6bmq0.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100123/image00005_nnpfzy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100048/image00003_elbkmg.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100050/image00002_kfgutn.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750100047/image00001_kalwf5.jpg"
+      }
+    ],
+    "videoGallery": [],
+    "ugcGallery": [
+      {
+        "type": "video",
+        "src": "/models/aneta_ivanoc/aneta_(1).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/aneta_ivanoc/aneta_(2).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/aneta_ivanoc/aneta_(3).mp4"
+      }
+    ]
+  },
+  {
+    "slug": "arantxa-leon",
+    "name": "Arantxa León",
+    "category": "newface",
+    "description": "<strong>Arantxa León</strong> es una modelo con un estilo moderno, fresco y cercano, ideal para marcas que buscan campañas auténticas y reales. Su rostro versátil y expresivo conecta de forma genuina con el público, transmitiendo naturalidad en cada toma. Con experiencia en la creación de contenido UGC, aporta espontaneidad, confianza y fluidez en entornos digitales y redes sociales.<br></br>Un talento emergente perfecto para producciones que valoran la cercanía, la creatividad y la personalidad única.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265600/default-arantxa-leon_qmzlg5.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265598/hover-arantxa-leon_fbmnmc.jpg"
+    },
+    "height": 155,
+    "bust": 98,
+    "waist": 76,
+    "hips": 85,
+    "hair": "Balayage",
+    "eyes": "Marrón",
+    "shoes": 36,
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787275/portada_arantxa_fefctd.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787273/portfolio_arantxa_nhhkrp.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750787271/digitales_arantxa_wdijjl.jpg",
+    "videoCover": "",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829872/ugc_arantxa-leon_gmrxjy.jpg",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265503/IMG_0191_vnidy5.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265507/IMG_0194_di5pro.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265502/IMG_7518.JPEG_lkgeww.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265506/IMG_7521.JPEG_qxpzxo.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0474_xwygam.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0566_rqgvun.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0607_efhof6.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751364056/_ARN0659_rzdrbg.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265504/IMG_8099_qrtjlb.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265497/Polas-medio-perfil_-pieri__jcewsy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265496/Pola_weagqz.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265495/Pola-primer-plano_-pieri_gssofz.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750265494/Perfil_-pieri__o2pqf6.jpg"
+      }
+    ],
+    "videoGallery": [],
+    "ugcGallery": [
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(1).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(2).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(3).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(4).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(5).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(6).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(7).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/arantxa_leon/ugc/arantxa_(8).mp4"
+      }
+    ],
+    "url": "/es/modelos/arantxa-leon"
+  },
+  {
+    "slug": "kim-ayala-useche",
+    "name": "Kim Ayala",
+    "category": "newface",
+    "description": "<strong>Kim</strong> combina su experiencia como modelo con su trabajo en contenido UGC, logrando conectar de forma directa con la audiencia actual.<br><br>Con una mirada serena y segura, transmite naturalidad y confianza en cada imagen.<br><br>Su presencia versátil le permite adaptarse con facilidad a distintos formatos visuales, desde campañas hasta colaboraciones digitales.<br><br>Ideal para marcas que buscan perfiles auténticos, creativos y con gran capacidad de conexión.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049241/default_kim-ayala_hj7l9n.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049244/hover_kim-ayala_opkslv.jpg"
+    },
+    "height": 159,
+    "bust": 106,
+    "waist": 90,
+    "hips": 117,
+    "hair": "Cataño",
+    "eyes": "Marron",
+    "shoes": 39,
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049245/portada_kim-ayala_fplpgb.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049242/portfolio_kim-ayala_tejurb.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049247/digitales_kim-ayala_p0etlm.jpg",
+    "videoCover": "",
+    "ugcCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1765829733/ugc_kim-ayala_nuphag.jpg",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049301/IMG_8320_hvrpeb.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049308/IMG_8885_j5xpad.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049310/IMG_8309_egrxov.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049299/IMG_8315_c8hhau.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049311/Book--Clase-Bemodel-01-02-2025--Cristina-Grajera.-Covers-Models-Academy-51_r3nxaj.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049297/IMG_8280_rthtqz.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049302/IMG_8528_u0uxyl.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049295/Foto_1_hywei1.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049304/Foto_4_bcfg79.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758049306/IMG_8417_jcuwqt.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273877/IMG_4018_kydyq5.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273874/IMG_4025_ie0fix.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273870/IMG_4021_ydtjcy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273867/IMG_4024_aa4aj7.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273864/IMG_4019_wpgsxk.jpg"
+      }
+    ],
+    "videoGallery": [],
+    "ugcGallery": [
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(1).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(2).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(3).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(4).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(5).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(6).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/kim_ayala/ugc/kim_(7).mp4"
+      }
+    ],
+    "url": "/es/modelos/kim-ayala-useche"
+  },
+  {
+    "slug": "kelly-valencia-gallo",
+    "name": "Kelly Valencia",
+    "category": "model",
+    "description": "<strong>Kelly Valencia</strong> es una modelo con rasgos afro-latinos y una presencia vibrante, Kelly destaca por su autenticidad, fuerza visual y gran carisma ante la cámara.<br><br>Su pasión por la salsa, el baile urbano y la actuación le otorgan una expresividad única y un dominio escénico perfecto para campañas que buscan dinamismo, diversidad y conexión real. Kelly representa a una generación de modelos que combinan arte, disciplina y presencia, siendo ideal para marcas que apuestan por el talento multicultural y con propósito.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273179/default-kelly-valencia_wtmlke.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273185/hover-kelly-valencia_tecege.jpg"
+    },
+    "height": 160,
+    "bust": 79,
+    "waist": 67,
+    "hips": 94,
+    "hair": "Negro",
+    "eyes": "Marron oscuro",
+    "shoes": 38,
+    "url": "/es/modelos/kelly-valencia-gallo",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273182/portada-kelly-valencia_lq4sm1.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751006581/portfolio_kelly_tvwpcf.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751006580/digitales_kelly_kuqlvr.jpg",
+    "videoCover": "",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273157/IMG_0990_kzuz0o.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273175/IMG_0987_foiqtq.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273169/IMG_5395_vaynxg.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273163/IMG_5396_jouxge.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273151/IMG_5520_vpepk5.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273154/IMG_5516_opn7k2.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273172/IMG_7329_lecp0v.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273166/IMG_7564_peppat.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273148/IMG_7941_cuibyd.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273160/IMG_1791_mrznou.jpg"
+        ],
+        "layout": "pair"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273105/IMG_7513.JPEG_opmrng.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273087/IMG_7514.JPEG_hxx68l.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273084/IMG_7517.JPEG_qaije7.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750273082/IMG_7515.JPEG_y94cxa.jpg"
+      }
+    ],
+    "videoGallery": []
+  },
+  {
+    "slug": "mafer-salinas",
+    "name": "Mafer Salinas",
+    "category": "model",
+    "description": "<strong>Mafer Salinas</strong> es una modelo reconocida por su energía, presencia escénica y estilo saludable. Con habilidades destacadas en entrenamiento funcional, yoga y ritmos latinos como salsa, bachata y merengue, aporta movimiento, naturalidad y dinamismo a cada proyecto.<br><br>Su imagen fitness y actitud vibrante la han convertido en una opción recurrente para campañas comerciales del sector deportivo y bienestar. Mafer representa a una mujer activa, auténtica y segura, ideal para marcas que buscan transmitir fuerza, vitalidad y conexión real con su audiencia.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275422/default-mafer_oax6n8.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275425/hover-mafer_lcba44.jpg"
+    },
+    "height": 165,
+    "bust": 85,
+    "waist": 60,
+    "hips": 95,
+    "hair": "Negro",
+    "eyes": "Hazel",
+    "shoes": 37,
+    "hero": "/models/mafer_salinas/videos/vid.mp4",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275429/portada-mafer_kagpen.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751022354/digitales_mafer_bgk18e.jpg",
+    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751472749/video_mafer_video_xjlir3.jpg",
+    "ugcCover": "",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275495/IMG_8314_evztsv.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275511/IMG_8317_zenzno.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275503/b2747252-b367-4aa2-a4b7-c27287187d75_ct8xqb.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275499/dd04a836-953f-43de-a702-cf70ad10582a_nwdbv6.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275507/IMG_5430_reyfkb.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275487/IMG_3922_rzdbix.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275468/FA529049-D298-42AB-B562-E814A50CB653_zuy1rl.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275476/4182f06f-ffe5-4d88-9099-efd3b5c35058_akrmsa.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275472/IMG_8413_bclxvr.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275483/IMG_2867_mcidpn.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275480/IMG_2875_yernka.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275464/IMG_5788_mmjtjd.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275515/IMG_5789_gltkym.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275461/IMG_4873_qqajlr.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275491/IMG_6390_jq7nyx.jpg"
+        ],
+        "layout": "pair"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275535/IMG_7533.JPEG_mllo6m.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275531/IMG_7529.JPEG_tjwhxd.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275527/IMG_7532.JPEG_y4ese4.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275523/IMG_7530.JPEG_oektew.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750275520/IMG_7531.JPEG_ksskf4.jpg"
+      }
+    ],
+    "videoGallery": [
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/videos/vid.mp4"
+      }
+    ],
+    "ugcGallery": [
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/ugc/mafer_salinas(1).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/ugc/mafer_salinas(2).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/ugc/mafer_salinas(3).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/ugc/mafer_salinas(4).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/ugc/mafer_salinas(5).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/mafer_salinas/ugc/mafer_salinas(6).mp4"
+      }
+    ],
+    "url": "/es/modelos/mafer-salinas"
+  },
+  {
+    "slug": "rocio-sciacca",
+    "name": "Rocio Sciacca",
+    "category": "model",
+    "description": "<strong>Rocio Sciacca</strong> es una modelo clásica con una presencia impecable y una versatilidad que la hace destacar en cualquier producción. Además de su experiencia como modelo, es creadora de contenido UGC, combinando estética, storytelling y conexión real con las marcas.<br><br>Apasionada por el canto, la guitarra y el entrenamiento físico, aporta energía, elegancia y carácter a cada sesión. Con una habilidad camaleónica para adaptarse a distintos estilos de posado, es experta en transmitir emociones y mantener una actitud profesional en todo momento. Rocío es sinónimo de compromiso, técnica y autenticidad.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024715/default_rociosciacca_n7tylr.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024712/hover_rociosciacca_s31vwr.jpg"
+    },
+    "height": 180,
+    "bust": 83,
+    "waist": 63,
+    "hips": 94,
+    "hair": "Marrón",
+    "eyes": "Verde-marrón",
+    "shoes": "40-41",
+    "url": "/es/modelos/rocio-sciacca",
+    "hero": "/models/rocio_sciacca/videos/Rocio_Cinemascope_4k.mp4",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024719/portfolio_rociosciacca_cxyndx.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024710/digitales_rociosciacca_xelj8m.jpg",
+    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024798/IMG-20250521-WA0034_yitufx.jpg",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024789/alexstaffa_7J6A2527_nvifkx.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024752/alexstaffa_7J6A7884_etmaxb.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024756/61f19a2e-0541-4ca0-9ef2-6ee325aa8b94_c6kevs.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024817/3ad15aa8-d15c-4bc6-b689-cd2bd9d626e5_fg2jzi.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024785/7a5908ce-ce8c-48dc-935a-a8f0c31f37e0_mmbdxe.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024792/37a4cb09-ad63-4e1a-8cf2-cf31c339421f_l5dljh.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024779/00dfdaaf-18e9-4e26-bf72-5ce98a787221_vrthbu.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024820/Roc%C3%ADo-Sciacca-_14_dkk8wn.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024814/Roc%C3%ADo-Sciacca-_11_bxvdq4.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024811/OLS_0501_qbz42l.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024773/OLS_0464_nmceig.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024798/IMG-20250521-WA0034_yitufx.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024802/OLS_0175_ov978k.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024808/OLS_0159_hvvxyb.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024765/JHR_4561_b2pead.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024805/JHR_4866_qeutci.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024758/49d3f38c-af53-4c4e-8f17-fdc4c890564b_ajmqlm.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024762/e688847c-e847-43d3-8d86-bfd70f92e8c8_e315vf.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024782/04effd07-8111-48ae-8eaa-ca280aa81bc5_kvu9eb.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024776/_U0A0524_f40awx.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024795/8b4f1fe2-96a3-4f95-8c57-e0a3c3f979c6_vez4ec.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024746/97759a84-2b3c-4724-bc0b-75c12bbd8102_jgg6yh.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024743/21769de0-349e-4f68-a5dc-defb470a41a8_pf2gok.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024739/a7aadee8-f568-49f3-992c-babb086fabe8_jhbci8.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024737/c52f2d7d-7bb1-4547-9032-567af6de0abf_pqe5nu.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024734/3928d662-d0ee-4b6b-953e-96ed7ea0a278_ve8ozy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024730/4fc3c539-b714-4491-8908-caf307b23f9a_x3x5wb.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751024727/17263ca0-6a10-4724-87d0-d2d4759e831e_dw8jmx.jpg"
+      }
+    ],
+    "videoGallery": [
+      {
+        "type": "video",
+        "src": "/models/rocio_sciacca/videos/Rocio_Cinemascope_4k.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "teresa-rodriguez-manotas",
+    "name": "Teresa Rodríguez",
+    "category": "model",
+    "description": "<strong>Teresa Rodríguez Manotas</strong> es una modelo con gran dominio escénico y experiencia en pasarela, demostrando que la altura es solo un número cuando hay actitud, técnica y presencia. Su mirada intensa y su actitud segura ante la cámara transmiten una confianza natural que cautiva en cada sesión.<br><br>Habla inglés C1, lo que le permite desenvolverse con soltura en proyectos internacionales, y posee habilidades artísticas como la interpretación del instrumento tradicional dobra. Apasionada por la moda y la expresión artística, Teresa se adapta con versatilidad a distintos estilos y conceptos, reflejando profesionalismo, elegancia y determinación en cada proyecto.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026389/default_teresa_rvy4sh.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026393/hover_teresa_y6fwxc.jpg"
+    },
+    "height": 165,
+    "bust": 85,
+    "waist": 61,
+    "hips": 92,
+    "hair": "Castaño oscuro",
+    "eyes": "Marrón",
+    "shoes": 37,
+    "url": "/es/modelos/teresa-rodriguez-manotas",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026397/portada_teresa_zv3a6u.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026401/portfolio_teresa_ytaomt.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751026386/digitales_teresa_sconsj.jpg",
+    "videoCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027740/IMG_6391_icvtwt.jpg",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027732/B08CFE11-9E13-4F84-9EE6-C7C3BB457D4F_1_105_c_pngozc.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027748/c03d515d-4976-416a-ad5c-652d5a4d445d_jrcf0b.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027775/IMG_9160_o0rha3.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027752/IMG_9155_nkxp5v.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027744/IMG_6707_g3firw.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027736/IMG_6705_xcnhih.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027756/IMG_1055_ka4jv8.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027764/IMG_1054_fvhdee.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027740/IMG_6391_icvtwt.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027729/19833847-34AA-41D9-A99E-72340994D79E_zbolna.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027771/d7e04204-ae58-4203-92fb-e1c8e58af87c_s8uuak.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027760/119fb227-7f24-4b00-bb85-ccb4a86db657_oz9oxj.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027767/DSC01222_rdrcsf.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027800/IMG_1922_uhyiqh.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027796/IMG_1923_b4ysta.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027792/IMG_1921_jqhvyt.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027788/IMG_1924_qtrjld.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027784/IMG_1918_oxkpfw.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1751027780/IMG_1919_umxqvd.jpg"
+      }
+    ],
+    "videoGallery": [
+      {
+        "type": "video",
+        "src": "/models/teresa_rodriguez/videos/teresa(5).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/teresa_rodriguez/videos/teresa(2).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/teresa_rodriguez/videos/teresa(3).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/teresa_rodriguez/videos/teresa(4).mp4"
+      },
+      {
+        "type": "video",
+        "src": "/models/teresa_rodriguez/videos/teresa(1).mp4"
+      }
+    ]
+  },
+  {
+    "slug": "cecilia-sanchez",
+    "name": "Cecilia Sánchez",
+    "category": "model",
+    "description": "Cecilia es modelo, maquilladora y creadora de contenido, lo que le permite entender y desenvolverse con naturalidad frente a cámara. Pelirroja, con una estética alternativa y muy versátil, destaca por su capacidad de adaptarse a diferentes estilos y conceptos sin dificultad. Es una modelo y creadora segura, extrovertida y atrevida, capaz de aportar fuerza a cualquier proyecto.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368658/default_cecilia-sanc_zsdzxf.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368658/hover_cecilia-sanc_w5rphf.jpg"
+    },
+    "height": 165,
+    "bust": 88,
+    "waist": 70,
+    "hips": 95,
+    "hair": "Pelirrojo",
+    "eyes": "Azules",
+    "shoes": 38,
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368658/portada_cecilia-sanc_y3njhm.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368657/portfolio_cecilia-sanc_yfsd8a.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368658/digitales_cecilia-sanc_a68qjr.jpg",
+    "videoCover": "",
+    "ugcCover": "",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368690/1000185535_gj2dxy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368690/1000178614_zcf5ua.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368689/IMG_2169_yzmvgb.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368688/IMG_1755_xmm4pi.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368687/IMG_1774_lb5a9l.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368686/IMG_2143_b7lefb.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368685/1000185529_ztxass.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368684/1000185524_qnwrpv.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368683/1000178048_wvn3v9.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368682/1000185517_mvqmhi.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368681/1000155816_cfew68.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368670/1000158289_etgo9l.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368671/1000158291_chmnr7.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368671/1000158290_uqlyyr.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368675/1000159659_h0o2dd.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368673/1000158292_jkdfrt.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368674/1000158293_bimxrl.jpg"
+      }
+    ],
+    "videoGallery": [],
+    "ugcGallery": [],
+    "url": "/es/modelos/cecilia-sanchez"
+  },
+  {
+    "slug": "alba-javaloyes-ibanez",
+    "name": "Alba Javaloyes",
+    "category": "newface",
+    "description": "Alba es creadora de contenido UGC y modelo con un perfil muy creativo y adaptable. Tiene la capacidad de interpretar distintos estilos y aparentar más o menos edad según las necesidades del proyecto. Transmite naturalidad frente a cámara lo que la convierte en un perfil muy genuino para las marcas.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369799/default_alba-javaloy_azrbct.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369800/hover_alba-javaloy_rfy0k5.jpg"
+    },
+    "height": 161,
+    "bust": 88,
+    "waist": 71,
+    "hips": 94,
+    "hair": "Castaño claro",
+    "eyes": "Ambar",
+    "shoes": 38,
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369802/portada_alba-javaloy_su2ydq.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369801/portfolio_alba-javaloy_hda8vs.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369800/digitales_alba-javaloy_vuztih.jpg",
+    "videoCover": "",
+    "ugcCover": "",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369835/IMG_0576PS_soit8f.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369834/IMG_0590PS_yvs8h6.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369828/0479---copia_k8nynm.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369830/IMG_0584PS_lm927o.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369833/IMG_0563PS_cxjkdv.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369830/Alba-_36_---copia_wx4nob.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369831/0637---copia-_2_ymw48z.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369836/Alba-_97_---copia_joyctl.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369814/IMG_0494PS_jzmaam.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369813/IMG_0497PS_w3yyjy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369812/IMG_0490PS_bpjnfb.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369811/IMG_0498PS_nhlxqx.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776369810/IMG_0501PS_qrsr8t.jpg"
+      }
+    ],
+    "videoGallery": [],
+    "ugcGallery": [],
+    "url": "/es/modelos/alba-javaloyes-ibanez"
+  },
+  {
+    "slug": "yorheily-angel-paz",
+    "name": "Yorheily Ángel Paz",
+    "category": "newface",
+    "description": "Yorheily es creadora de contenido y modelo con gran carisma y presencia frente a cámara. Habla inglés, practica natación, baile y transmite una energía natural y cercana que conecta fácilmente con la audiencia. Trabaja con marcas creando contenido auténtico y genuino, ideal para proyectos que buscan frescura y simpatia. ",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370298/default_yorheily-paz_vzlb1j.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370300/hover_yorheily-paz_tsthzk.jpg"
+    },
+    "height": 160,
+    "bust": 89,
+    "waist": 66,
+    "hips": 93,
+    "hair": "Castaño oscuro",
+    "eyes": "Marrón oscuro",
+    "shoes": 37,
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370301/portada_yorheily-paz_n6csip.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370303/portfolio_yorheily-paz_h8ifol.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370299/digitales_yorheily-paz_qgutyh.jpg",
+    "videoCover": "",
+    "ugcCover": "",
+    "gallery": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370328/0190053_zsqwuz.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370326/DSC_6117_ghm9vt.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370325/DSC_6202_bco6if.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370324/DSC_6065_lm2hq2.jpg"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370319/IMG_9038_lnkyte.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370318/IMG_9036_gqum5x.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370316/IMG_9035_hfvauo.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370315/IMG_9031_arv822.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370314/IMG_9032_a0k2pu.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776370312/IMG_9030_h9xolq.jpg"
+      }
+    ],
+    "videoGallery": [],
+    "ugcGallery": [],
+    "url": "/es/modelos/yorheily-angel-paz"
   }
 ]

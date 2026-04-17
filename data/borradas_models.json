@@ -1,57 +1,137 @@
-{
-  "slug": "dayanara-neri-ponce",
-  "name": "Dayanara Neri",
-  "category": "newface",
-  "description": "<strong>Dayanara</strong> proyecta una imagen vibrante y segura, transmitiendo energía y vitalidad en cada fotografía.<br><br>Su rostro versátil y su conexión natural con la cámara transmiten cercanía y autenticidad.<br><br>Un nuevo talento perfecto para campañas que buscan frescura y estilo activo.",
-  "images": {
-    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788814/default_dayanara_imtuha.jpg",
-    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788818/hover_dayanara_bcqwkm.jpg"
+[
+  {
+    "slug": "dayanara-neri-ponce",
+    "name": "Dayanara Neri",
+    "category": "newface",
+    "description": "<strong>Dayanara</strong> proyecta una imagen vibrante y segura, transmitiendo energía y vitalidad en cada fotografía.<br><br>Su rostro versátil y su conexión natural con la cámara transmiten cercanía y autenticidad.<br><br>Un nuevo talento perfecto para campañas que buscan frescura y estilo activo.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788814/default_dayanara_imtuha.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788818/hover_dayanara_bcqwkm.jpg"
+    },
+    "height": 153,
+    "bust": 85,
+    "waist": 70,
+    "hips": 94,
+    "hair": "Marron oscuro",
+    "eyes": "Marron oscuro",
+    "shoes": 37,
+    "url": "/es/modelos/dayanara-neri-ponce",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
+    "gallery": [],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788843/C0A1C7AE-0535-45A5-80FC-9FF4C4B36962_1_105_c.jpeg_apzbsr.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788840/58433B52-20D7-4E6B-870E-ABA3FDB6B85E_1_105_c.jpeg_sdcjsw.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788838/B521BAD8-5258-4B2C-81C7-497F2633822A_1_105_c.jpeg_f3soxd.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788836/ED376D81-6D31-40F2-BA84-628B20C65618_1_105_c.jpeg_wqddzi.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788833/B8D936EC-1461-44F4-A438-8E7A839BA6CA_1_105_c.jpeg_wi89dw.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788831/057BB101-64C4-4C9B-A660-D14E1D53343A_1_105_c.jpeg_gz37py.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788828/453EA9DE-ECBE-4744-B218-0835CB221331_1_105_c.jpeg_hg3xgf.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788826/7B6C77E5-10A9-48A3-9766-7F5362B1B3D2_1_105_c.jpeg_tivb7h.jpg"
+      }
+    ],
+    "videoGallery": []
   },
-  "height": 153,
-  "bust": 85,
-  "waist": 70,
-  "hips": 94,
-  "hair": "Marron oscuro",
-  "eyes": "Marron oscuro",
-  "shoes": 37,
-  "url": "/es/modelos/dayanara-neri-ponce",
-  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
-  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
-  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
-  "gallery": [],
-  "digitales": [
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788843/C0A1C7AE-0535-45A5-80FC-9FF4C4B36962_1_105_c.jpeg_apzbsr.jpg"
+  {
+    "slug": "carin-garcés",
+    "name": "Carin Garcés",
+    "category": "newface",
+    "description": "<strong>Carin Garcés</strong> es una modelo con un estilo alternativo y una estética muy personal que no pasa desapercibida.<br><br>Su mirada intensa, gestualidad sutil y rasgos delicados aportan una fuerza visual ideal para proyectos editoriales, creativos y conceptuales.<br><br>Artista visual y apasionada por la pintura, su sensibilidad estética se refleja con naturalidad frente a la cámara, generando imágenes con profundidad y significado. Un rostro distintivo, perfecto para marcas y producciones que buscan autenticidad, carácter y una belleza poco convencional.",
+    "images": {
+      "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048670/default_carin-garces_zzhgex.jpg",
+      "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048666/hover_carin-garces_qm98mh.jpg"
     },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788840/58433B52-20D7-4E6B-870E-ABA3FDB6B85E_1_105_c.jpeg_sdcjsw.jpg"
-    },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788838/B521BAD8-5258-4B2C-81C7-497F2633822A_1_105_c.jpeg_f3soxd.jpg"
-    },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788836/ED376D81-6D31-40F2-BA84-628B20C65618_1_105_c.jpeg_wqddzi.jpg"
-    },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788833/B8D936EC-1461-44F4-A438-8E7A839BA6CA_1_105_c.jpeg_wi89dw.jpg"
-    },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788831/057BB101-64C4-4C9B-A660-D14E1D53343A_1_105_c.jpeg_gz37py.jpg"
-    },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788828/453EA9DE-ECBE-4744-B218-0835CB221331_1_105_c.jpeg_hg3xgf.jpg"
-    },
-    {
-      "type": "image",
-      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788826/7B6C77E5-10A9-48A3-9766-7F5362B1B3D2_1_105_c.jpeg_tivb7h.jpg"
-    }
-  ],
-  "videoGallery": []
-},
+    "height": 160,
+    "bust": 88,
+    "waist": 65,
+    "hips": 94,
+    "hair": "Castaño oscuro",
+    "eyes": "Negros",
+    "shoes": 36,
+    "url": "/es/modelos/carin-garcés",
+    "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750269333/portada-carin-garces_iwlqqn.jpg",
+    "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048667/portfolio_carin-garces_e8shsr.jpg",
+    "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048668/digitales_carin-garces_ravtff.jpg",
+    "gallery": [
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048612/Carin-009_b7ta9q.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048611/Carin-012_ujeif7.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048607/Carin-001_byciam.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048608/Carin-003_aemsmw.jpg"
+        ],
+        "layout": "pair"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048610/Carin-004_oxdtmd.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/v1758048607/Carin-006_aafs3x.jpg"
+        ],
+        "layout": "pair"
+      }
+    ],
+    "digitales": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268995/Escaneado_-20250411-1305_boh6kg.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268992/Escaneado_-20250411-1306_1_ubwdry.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268990/Escaneado_-20250411-1308_fpavmr.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268987/Escaneado_-20250411-1308_1_uzfkju.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268985/Escaneado_-20250411-1307_1_wrcmpx.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268983/Escaneado_-20250411-1306_ift8az.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268941/Escaneado_-20250411-1307_wvy344.jpg"
+      }
+    ],
+    "videoGallery": []
+  }
+]
