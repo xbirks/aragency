@@ -1,0 +1,624 @@
+// ---------------------------------------------------------
+//  ADMIN PANEL — SCSS Module
+//  Estilos aislados del reset global (all: unset) gracias a
+//  la especificidad de las clases.
+//  Variables locales (no podemos @use variables.scss aquí
+//  porque contiene selectores puros no válidos en modules).
+// ---------------------------------------------------------
+
+$aktiv: "aktiv-grotesk", Arial, Helvetica, sans-serif;
+
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 56px 40px 120px;
+  background: #fafafa;
+  min-height: 100vh;
+  color: #111;
+  font-family: $aktiv;
+  -webkit-font-smoothing: antialiased;
+
+  *, *::before, *::after { box-sizing: border-box; }
+}
+
+.notFound {
+  padding: 80px 0;
+  text-align: center;
+  color: #999;
+  font-family: monospace;
+}
+
+// ─── Header ─────────────────────────────────────────────
+.hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 36px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  font-family: $aktiv;
+}
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #111;
+  font-family: $aktiv;
+}
+.hdActions {
+  display: flex;
+  gap: 8px;
+}
+
+// ─── Botones (inspirados en .button de la web pero proporcionados) ──
+.btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #111;
+  border: 1px solid #111;
+  padding: 10px 22px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: $aktiv;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: 0.25s ease-in-out;
+  text-align: center;
+  line-height: 1;
+  user-select: none;
+
+  &:hover {
+    background: #111;
+    color: #fff;
+  }
+  &:disabled { opacity: 0.4; cursor: not-allowed; }
+}
+.btnPrimary {
+  background: #111;
+  color: #fff;
+  &:hover { background: #000; color: #fff; }
+}
+.btnGhost {
+  border-color: #d4d4d4;
+  &:hover { background: #111; color: #fff; border-color: #111; }
+}
+.backBtn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  color: #111;
+  border: 1px solid #d4d4d4;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-family: $aktiv;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+  transition: 0.2s ease-in-out;
+
+  &:hover { border-color: #111; background: #111; color: #fff; }
+}
+
+// ─── Flash ─────────────────────────────────────────────
+.flash {
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  border: 1px solid;
+  font-family: $aktiv;
+
+  &.ok  { background: #f0f9f4; border-color: #c6e8d0; color: #1a5d35; }
+  &.err { background: #fdf2f2; border-color: #f5c2c2; color: #8a1c1c; }
+}
+
+// ─── Tabs + Buscador ──────────────────────────────────
+.tabsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #e5e5e5;
+  flex-wrap: wrap;
+}
+.tabs {
+  display: flex;
+
+  button {
+    all: unset;
+    cursor: pointer;
+    padding: 14px 18px;
+    font-size: 12px;
+    color: #6b6b6b;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-family: $aktiv;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    transition: color 0.15s ease;
+
+    &:first-child { padding-left: 0; }
+    &:hover { color: #111; }
+
+    span {
+      font-size: 10px;
+      background: #f0f0f0;
+      color: #6b6b6b;
+      padding: 2px 8px;
+      border-radius: 999px;
+      letter-spacing: 0.05em;
+    }
+
+    &.on {
+      color: #111;
+      border-bottom-color: #111;
+      span { background: #111; color: #fff; }
+    }
+  }
+}
+.search {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  padding: 10px 14px;
+  font-size: 12px;
+  width: 240px;
+  max-width: 100%;
+  margin-bottom: 8px;
+  font-family: $aktiv;
+  color: #111;
+  border-radius: 0;
+
+  &:focus { outline: none; border-color: #111; }
+  &::placeholder { color: #aaa; }
+}
+
+// ─── Grid + cards ──────────────────────────────────
+.state {
+  padding: 60px 0;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  font-family: $aktiv;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 28px 18px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s ease;
+
+  &:hover { border-color: #111; }
+}
+.cardImg {
+  position: relative;
+  aspect-ratio: 3/4;
+  background: #f0f0f0;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+.cardImgEmpty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #bbb;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: $aktiv;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #111;
+  font-size: 9px;
+  padding: 4px 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: $aktiv;
+  font-weight: 500;
+}
+.cardBody {
+  padding: 14px 14px 12px;
+  flex: 1;
+}
+.cardName {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: $aktiv;
+}
+.cardSlug {
+  margin: 4px 0 0;
+  font-size: 10px;
+  color: #999;
+  font-family: ui-monospace, "SF Mono", monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0;
+}
+.cardActions {
+  display: flex;
+  border-top: 1px solid #e5e5e5;
+
+  button, a {
+    all: unset;
+    cursor: pointer;
+    flex: 1;
+    padding: 11px 6px;
+    font-size: 10px;
+    font-family: $aktiv;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #111;
+    transition: 0.15s ease-in-out;
+    border-right: 1px solid #e5e5e5;
+
+    &:last-child { border-right: none; }
+    &:hover { background: #111; color: #fff; }
+    &:disabled { opacity: 0.3; cursor: not-allowed; }
+  }
+
+  .ghost { color: #6b6b6b; }
+  .danger:hover { background: #c44; color: #fff; }
+}
+
+// ─── Footer ──────────────────────────────────
+.ft {
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+  color: #999;
+  font-size: 11px;
+  font-family: $aktiv;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+  code {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    font-size: 10px;
+    color: #444;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: ui-monospace, "SF Mono", monospace;
+  }
+}
+
+// ─── FORM (ModelForm) ────────────────────────────────────
+.form {
+  color: #111;
+  font-family: $aktiv;
+}
+.formError {
+  background: #fdf2f2;
+  border: 1px solid #f5c2c2;
+  color: #8a1c1c;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.section {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 28px 32px;
+  margin-bottom: 18px;
+}
+.sectionTitle {
+  margin: 0 0 20px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b6b6b;
+  font-family: $aktiv;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.hint {
+  font-size: 11px;
+  color: #999;
+  margin: -10px 0 16px;
+  font-family: $aktiv;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.gridNarrow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px;
+}
+.full { display: block; }
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  span {
+    font-size: 10px;
+    color: #6b6b6b;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $aktiv;
+
+    small {
+      color: #b0b0b0;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: 0;
+      margin-left: 4px;
+    }
+  }
+
+  input,
+  textarea,
+  select {
+    background: #fff;
+    color: #111;
+    border: 1px solid #e0e0e0;
+    padding: 10px 12px;
+    font-size: 13px;
+    font-family: $aktiv;
+    transition: border-color 0.15s ease;
+    border-radius: 0;
+
+    &:focus { outline: none; border-color: #111; }
+    &:disabled { background: #f5f5f5; color: #888; cursor: not-allowed; }
+  }
+  textarea {
+    resize: vertical;
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  select { appearance: auto; }
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.thumb {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.thumbPreview {
+  aspect-ratio: 3/4;
+  background: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img { width: 100%; height: 100%; object-fit: cover; }
+  span {
+    color: #ccc;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: $aktiv;
+  }
+}
+
+.formActions {
+  position: sticky;
+  bottom: 0;
+  background: rgba(250, 250, 250, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 20px 0;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 24px;
+  z-index: 10;
+}
+
+// ─── GalleryEditor ────────────────────────────────
+.ge {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+}
+.geHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.geHeadLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  h3 {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: $aktiv;
+  }
+}
+.geToggle {
+  color: #999;
+  font-size: 10px;
+  width: 12px;
+}
+.geCount {
+  font-size: 10px;
+  color: #6b6b6b;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-family: $aktiv;
+  letter-spacing: 0.05em;
+}
+.geEmpty {
+  font-size: 11px;
+  color: #999;
+  margin: 16px 0 8px;
+  font-family: $aktiv;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.geRow {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 12px;
+  margin-top: 12px;
+}
+.geRowControls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+
+  select {
+    background: #fff;
+    color: #111;
+    border: 1px solid #e0e0e0;
+    padding: 6px 10px;
+    font-size: 11px;
+    flex: 1;
+    font-family: $aktiv;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-radius: 0;
+
+    &:focus { outline: none; border-color: #111; }
+  }
+}
+.geRowActions {
+  display: flex;
+  gap: 4px;
+
+  button {
+    all: unset;
+    cursor: pointer;
+    background: #fff;
+    color: #6b6b6b;
+    border: 1px solid #e0e0e0;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    font-family: $aktiv;
+    transition: 0.15s ease-in-out;
+
+    &:hover:not(:disabled) { border-color: #111; color: #111; }
+    &:disabled { opacity: 0.25; cursor: not-allowed; }
+    &.geDel:hover { border-color: #c44; color: #c44; }
+  }
+}
+.geRowBody {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.geRowInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+
+  input {
+    background: #fff;
+    color: #111;
+    border: 1px solid #e0e0e0;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-family: $aktiv;
+    border-radius: 0;
+
+    &:focus { outline: none; border-color: #111; }
+  }
+}
+.gePreview {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+
+  img {
+    height: 72px;
+    width: 54px;
+    object-fit: cover;
+    background: #f0f0f0;
+  }
+}
+.geAdd {
+  display: flex;
+  gap: 6px;
+  margin-top: 14px;
+
+  button {
+    all: unset;
+    cursor: pointer;
+    background: #fff;
+    color: #111;
+    border: 1px dashed #ccc;
+    padding: 8px 16px;
+    font-size: 10px;
+    font-family: $aktiv;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.15s ease-in-out;
+
+    &:hover { border-color: #111; border-style: solid; background: #111; color: #fff; }
+  }
+}

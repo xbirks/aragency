@@ -241,7 +241,7 @@
       "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268355/default-barbara-valera_ungrsx.jpg",
       "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750268356/hover-barbara-valera_erkc6r.jpg"
     },
-    "height": 172,
+    "height": 157,
     "bust": 84,
     "waist": 69,
     "hips": 94,
@@ -2588,47 +2588,39 @@
     "gallery": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368690/1000185535_gj2dxy.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368690/1000178614_zcf5ua.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368689/IMG_2169_yzmvgb.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368688/IMG_1755_xmm4pi.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368687/IMG_1774_lb5a9l.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368686/IMG_2143_b7lefb.jpg"
-      },
-      {
-        "type": "image",
         "src": [
-          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368685/1000185529_ztxass.jpg",
-          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368684/1000185524_qnwrpv.jpg"
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368684/1000185524_qnwrpv.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368690/1000185535_gj2dxy.jpg"
         ],
         "layout": "pair"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368683/1000178048_wvn3v9.jpg"
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368690/1000178614_zcf5ua.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368683/1000178048_wvn3v9.jpg"
+        ],
+        "layout": "pair"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368682/1000185517_mvqmhi.jpg"
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368689/IMG_2169_yzmvgb.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368686/IMG_2143_b7lefb.jpg"
+        ],
+        "layout": "pair"
       },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368681/1000155816_cfew68.jpg"
+      },
+      {
+        "type": "image",
+        "src": [
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368688/IMG_1755_xmm4pi.jpg",
+          "https://res.cloudinary.com/dpxilazgm/image/upload/q_auto/f_auto/v1776368687/IMG_1774_lb5a9l.jpg"
+        ],
+        "layout": "pair"
       }
     ],
     "digitales": [

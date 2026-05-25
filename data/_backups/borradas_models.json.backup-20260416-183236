@@ -1,0 +1,57 @@
+{
+  "slug": "dayanara-neri-ponce",
+  "name": "Dayanara Neri",
+  "category": "newface",
+  "description": "<strong>Dayanara</strong> proyecta una imagen vibrante y segura, transmitiendo energía y vitalidad en cada fotografía.<br><br>Su rostro versátil y su conexión natural con la cámara transmiten cercanía y autenticidad.<br><br>Un nuevo talento perfecto para campañas que buscan frescura y estilo activo.",
+  "images": {
+    "default": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788814/default_dayanara_imtuha.jpg",
+    "hover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788818/hover_dayanara_bcqwkm.jpg"
+  },
+  "height": 153,
+  "bust": 85,
+  "waist": 70,
+  "hips": 94,
+  "hair": "Marron oscuro",
+  "eyes": "Marron oscuro",
+  "shoes": 37,
+  "url": "/es/modelos/dayanara-neri-ponce",
+  "hero": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
+  "portfolioCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
+  "digitalesCover": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788816/portada_dayanara_s10k7d.jpg",
+  "gallery": [],
+  "digitales": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788843/C0A1C7AE-0535-45A5-80FC-9FF4C4B36962_1_105_c.jpeg_apzbsr.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788840/58433B52-20D7-4E6B-870E-ABA3FDB6B85E_1_105_c.jpeg_sdcjsw.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788838/B521BAD8-5258-4B2C-81C7-497F2633822A_1_105_c.jpeg_f3soxd.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788836/ED376D81-6D31-40F2-BA84-628B20C65618_1_105_c.jpeg_wqddzi.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788833/B8D936EC-1461-44F4-A438-8E7A839BA6CA_1_105_c.jpeg_wi89dw.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788831/057BB101-64C4-4C9B-A660-D14E1D53343A_1_105_c.jpeg_gz37py.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788828/453EA9DE-ECBE-4744-B218-0835CB221331_1_105_c.jpeg_hg3xgf.jpg"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/dpxilazgm/image/upload/v1750788826/7B6C77E5-10A9-48A3-9766-7F5362B1B3D2_1_105_c.jpeg_tivb7h.jpg"
+    }
+  ],
+  "videoGallery": []
+},

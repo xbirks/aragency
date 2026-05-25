@@ -23,12 +23,11 @@ export default function App({ Component, pageProps }) {
   };
 
   const isLanding = router.pathname === '/sistema';
-  const isStandalone = isLanding || router.pathname.startsWith('/admin');
 
   return (
     <>
-      {!isStandalone && <Header />}
-      {isStandalone ? (
+      {!isLanding && <Header />}
+      {isLanding ? (
         <Component {...pageProps} />
       ) : (
         <AnimatePresence mode="wait">
@@ -44,7 +43,7 @@ export default function App({ Component, pageProps }) {
           </motion.div>
         </AnimatePresence>
       )}
-      {!router.pathname.startsWith('/admin') && <Footer />}
+      <Footer />
     </>
   );
 }
